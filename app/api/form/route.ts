@@ -1,20 +1,36 @@
+import {NextApiRequest, NextApiResponse} from "next";
+import { StringDecoder } from "string_decoder";
+import {google} from "googleapis"
 
 
-function handler(req:any, res:any) {
-    res.json({message: "It works!"});
+type SheetForm = {
+    name: string 
+    email: string
+    phone: string
+    message: string 
+
 }
 
-export default handler;
+export default async function handler(
+    req: NextApiRequest,
+    res: NextApiResponse
+)   {
 
+    if (req.method != "POST") {
+        return res.status(statusCode: 405).send(body: {message: 'Only POST requests are allowed'})
+    }
 
-async function submitHandler (data) {
-	const response = await fetch("/api/sheet", {
-    		method: "POST",
-        	body: JSON.stringify(data),
-        	headers: {
-        		'Content-Type': 'application/json',
-      		},
-    	})
+    const body = req.body as SheetForm
+
+    try {
+		const auth = new google.auth.GoogleAuth(opts: {
+			credentials: {
+				client_email: process.env.GOOGLE_CLIENT_EMAIL,
+				private_key: process.env.GOOGLE_PRIVATE_KEY, 
+
+			}
+		})
+    }catch(e) {
+
+	}
 }
-
-

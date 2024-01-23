@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "traktech",
+  "private_key_id": "3cc5f6936255725f133e1a2f41c31dcfd4d4bac6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDRop2XTIiWulnE\nkxAQ3TsliJm4qWapqXb4V3kjUirBDnSOs6H65E81whf647ny88O3r0mKb+//Ug/p\nCRQgDAojNDlsmn1JcO8WTslH1lRxd7sTeOzCgLPYI/avj3Sf7+JtvJ/oF3VrYkTC\nJJLCJWj1cGazcHIPf7sjkOs2k69I2KN2baFx2RAL615zx0bW6no/0Mf4Pp5EpVZl\nDIDSqmWQFqJn1J2jGVsIJ8kMJ5H5rlR/XHrYpQNsANhnVqVGrw4dqee8Mu+5Ykdz\nmniFpHk9WV+/IM52/nTsVBl0wO8+7GgK5ffcUzPPCLZCYgJ77uET5Qpgd52C473W\nmukhR1z5AgMBAAECggEACg7z4cUNzrGdSgXGYRDEXD4sJgSWxPA5IZxM1ymDnKS9\nafVrgba/qDQqY2LW0rXof6E89ZP+X3FICyXg3dLGD79bO/9DoKj3B8p69OPvREx6\n4OnN7l0vg+Dh3rWS4nOnmR1STNgHTcI2y1vm4MLbwN8GRnjQODcoOwIijwlSATwx\neqwQtPqx5BmVnc5OleqI+o7mBJTzpP1Uob00VgHmfOTrdvpAsJZm0VWsFomBRELx\nWFqjAU8gPpF0zMvsJjQEH3X+9+h6xcWM+zrO0gwI9UXuEoTftF2Euy38XMODfG3d\nP3SerjwTWcHOQuXgzCWmjDhvIrBpZbQPNvUP+2lYAQKBgQD6yKVpfJdghBOehwAx\nwWoQz+lj1xR0Kynw3HlP+9VUY/VovCIjLySE9MbSV7/3HoDrr9/ODKb2JhiYMSGq\nTmF/8AQfUf+JsOB7b/hc7YjtrjEjacNsgUA4mxeIeA0a4of+kfFUGXBtHefjLO3K\nF1FKm2x+vaxzTVRzPrFTlVYi+QKBgQDV/t1lQpsgln+5yYhSkpTQamsmdilKjAfc\n9Y7pGRUZFgiw6CsocYGvyvavxx80dXoM1NyW+5uUZrMuUjw6/X/2rCby4QabdbHk\nDHFg7aSFOYVXxgCtSYnhPeydygiZi5+Vh/I6GbDdGAUvBaYRuGSK9hdPgMzeFGNL\nfNIFNI+KAQKBgQDUUpgpLUEEiA4MQ4QYnAZu4XhZ/Tjl+b1ynVdgLni5EEAwQkgs\nvbcPkiXa5Ew0rvC7mpXDX9bjw/FCuSYliGLn7I+w7L2LF+OW3n/KPZmWkcosj1jT\nPsLeqgBMnEeMIYq+L1XAvCEBYTZ4kgto9EDxB5Hd5DxjCm+betKrT140EQKBgCHH\ndlkql2QgfY7tIgiuvLDda4aJtmDfE8qsNF/VJsBr+vk53L4olKkUJ7Z9fw5/0ME/\nxIZMtzVItNYGAx3osA9XA1rpbGqTvH3b/PWo7YReHQ9K4QZ5ijs01CngH1Vldc5b\nxD+pmIJ97SuL/7fiXHSW/fz9vtj7bOUYkepibpoBAoGAaKe4kTNApEyvbcvI79oF\nWeqv8xICwX+hZwpbnUrt7LRRmqtqhKZUExU6cjtuopJyI25aPthXDi7vUnRAzixF\nvjmTTJkRg5AEtiLWkx6/JmodBZvO+sD6BUb5V6Il7QYDXuw2rSMY/j56lfSLUMcP\nC8pQ+1hoAJ5WMQlgNjVbXzg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "traktechform@traktech.iam.gserviceaccount.com",
+  "client_id": "105620023194617012353",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/traktechform%40traktech.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

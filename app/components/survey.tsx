@@ -35,9 +35,22 @@ export default function survey() {
     setCurrentQuestion(currentQuestion - 1); 
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async (e: FormEvent<HtmlFormElement>) => {
+    e.preventDefault();
+
+
+    const form = {
+      first_name,
+      last_name,
+      email, 
+      phoneNumber, 
+      
+
+    }
     // Implement submission logic
     // For now, let's just log the entered values
+    console.log(form) 
+    console.log(`First Name: ${first_name}`, `Last Name: ${last_name}`)
     console.log(`Email: ${email}, Phone Number: ${phoneNumber}`);
     // You can add logic to send the data to the server or perform other actions
 
@@ -203,7 +216,7 @@ export default function survey() {
             </div>
           </div>
           <button
-            type="button"
+            type="submit"
             onClick={handleSubmit}
             className="mt-4 bg-blue-500 text-white py-2 px-4 rounded"
           >
