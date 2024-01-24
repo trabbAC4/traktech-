@@ -61,7 +61,7 @@ export default function survey() {
 
 
     return(
-    <div>
+    <div className = "mt-64">
       {currentQuestion === 1 && (
         <>
           <h2 className="text-2xl font-bold mb-4">Question 1: Select Fields</h2>

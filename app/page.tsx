@@ -30,46 +30,79 @@ export default function Home() {
       <Navbar />
 
       <div className="relative">
-        <video
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+      <video
+        className="w-full h-full object-cover z-0"
         autoPlay
         muted
         loop
       >
-      <source src="/wallpaper_main.mp4" type="video/mp4" />
-      {/* Add additional source elements for different video formats if needed */}
-      Your browser does not support the video tag.
-      </video>
-
-
+        <source src="/wallpaper_main.mp4" type="video/mp4" />
+        {/* Add additional source elements for different video formats if needed */}
+        Your browser does not support the video tag.
+        </video>
 
         {/* Content overlay */}
         <div className="text-white text-center relative z-10">
-          <h1 className="text-4xl font-extrabold">TrakTech</h1>
-          <h1 className="text-4xl font-extrabold mt-8">Made entirely in America</h1>
-          <button className="bg-white text-black py-2 px-4 rounded mx-auto block mt-8">See our prices</button>
-        </div>
+        <h1 className="text-4xl font-extrabold">TrakTech</h1>
+        <h1 className="text-4xl font-extrabold mt-8">Made entirely in America</h1>
+        <button className="bg-white text-black py-2 px-4 rounded mx-auto block mt-8">See our prices</button>
       </div>
-
-      <div className="mt-8">
-        <h1 className="text-4xl font-extrabold text-center mt-8"> What we do </h1>
       </div>
 
 
 
-      <div className="mt-8">
-        <h1 className="text-4xl font-extrabold text-center mt-8"> Features </h1>
-        <div className="flex justify-center items-center mt-4">
-        <p className="inline-block">ELD Logging </p>
-        <span className="mx-2">|</span>
-        <p className="inline-block">IFTA Mileage Tracking</p>
-        <span className="mx-2">|</span>
-        <p className="inline-block">Real-Time GPS Tracking</p>
-        <span className="mx-2">|</span>
-        <p className="inline-block">Route Optimization</p>
-      </div>
 
-      </div>
+      <div className="mt-8 mx-auto max-w-screen-xl">
+  <h1 className="text-4xl font-extrabold text-left">Features</h1>
+  <div className="flex flex-wrap justify-center items-center mt-4">
+    <div className="flex items-center mb-4">
+      <p className="inline-block mr-4">ELD Logging</p>
+      <span className="mx-2">|</span>
+      <Image
+        className="w-full md:w-auto md:h-auto md:mr-4"
+        src="/Login.png"
+        width={500}
+        height={500}
+        alt="Random"
+      />
+    </div>
+    <div className="flex items-center mb-4">
+      <p className="inline-block mr-4">IFTA Mileage Tracking</p>
+      <span className="mx-2">|</span>
+      <Image
+        className="w-full md:w-auto md:h-auto md:mr-4"
+        src="/Login.png"
+        width={500}
+        height={500}
+        alt="Random"
+      />
+    </div>
+    <div className="flex items-center mb-4">
+      <p className="inline-block mr-4">Real-Time GPS Tracking</p>
+      <span className="mx-2">|</span>
+      <Image
+        className="w-full md:w-auto md:h-auto md:mr-4"
+        src="/Login.png"
+        width={500}
+        height={500}
+        alt="Random"
+      />
+    </div>
+    <div className="flex items-center mb-4">
+      <p className="inline-block mr-4">Route Optimization</p>
+      <span className="mx-2">|</span>
+      <Image
+        className="w-full md:w-auto md:h-auto md:mr-4"
+        src="/Login.png"
+        width={500}
+        height={500}
+        alt="Random"
+      />
+    </div>
+  </div>
+</div>
+
+
 
       <div className="mt-8 text-center">
       <h1 className="text-4xl font-extrabold mb-8">Our Pricing</h1>
@@ -79,7 +112,13 @@ export default function Home() {
         <div className="w-full md:w-1/2 lg:w-1/4 p-4">
           <div className="border rounded p-6">
             <h2 className="text-xl font-bold mb-4">Integration</h2>
-            <p className="text-gray-600">Description of Product 1.</p>
+            <Image
+            className="w-full md:w-auto md:h-auto md:mr-4"
+            src="/Login.png"
+            width={500}
+            height={500}
+            alt="Random"
+            />
             <p className="text-2xl font-bold mt-4">$10/month </p>
             <button className="bg-blue-500 text-white py-2 px-4 mt-4 rounded">Select</button>
           </div>
@@ -89,9 +128,16 @@ export default function Home() {
         <div className="w-full md:w-1/2 lg:w-1/4 p-4">
           <div className="border rounded p-6">
             <h2 className="text-xl font-bold mb-4">GPS Tracking</h2>
-            <p className="text-gray-600">Description of Product 2.</p>
+            <Image
+            className="w-full md:w-auto md:h-auto md:mr-4"
+            src="/Login.png"
+            width={500}
+            height={500}
+            alt="Random"
+            />
             <p className="text-2xl font-bold mt-4">$20/month</p>
             <button className="bg-blue-500 text-white py-2 px-4 mt-4 rounded">Select</button>
+            
           </div>
         </div>
 
@@ -99,7 +145,13 @@ export default function Home() {
         <div className="w-full md:w-1/2 lg:w-1/4 p-4">
           <div className="border rounded p-6">
             <h2 className="text-xl font-bold mb-4">Full Package</h2>
-            <p className="text-gray-600">Description of Product 3.</p>
+            <Image
+            className="w-full md:w-auto md:h-auto md:mr-4"
+            src="/Login.png"
+            width={500}
+            height={500}
+            alt="Random"
+            />
             <p className="text-2xl font-bold mt-4">$30/month</p>
             <button className="bg-blue-500 text-white py-2 px-4 mt-4 rounded">Select</button>
           </div>
@@ -109,7 +161,13 @@ export default function Home() {
         <div className="w-full md:w-1/2 lg:w-1/4 p-4">
           <div className="border rounded p-6">
             <h2 className="text-xl font-bold mb-4">Custom Package</h2>
-            <p className="text-gray-600">Description of Product 4.</p>
+            <Image
+            className="w-full md:w-auto md:h-auto md:mr-4"
+            src="/Login.png"
+            width={500}
+            height={500}
+            alt="Random"
+            />
             <p className="text-2xl font-bold mt-4">$40/month</p>
             <button className="bg-blue-500 text-white py-2 px-4 mt-4 rounded">Select</button>
           </div>
