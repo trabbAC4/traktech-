@@ -22,13 +22,15 @@ export default function Navbar() {
         {/* Left Section (Logo) */}
         <div className="flex items-center">
           <img src="logo.png" alt="Logo" className="h-8 w-8 mr-2" />
+          <Link href = "/"> 
           <span className="text-white font-bold text-lg">Your Logo</span>
+          </Link>
         </div>
       
         {/* Middle Section (Navigation Links) */}
         <div className="flex space-x-4">
-          <a href="#" className="text-white hover:text-gray-300">About Us</a>
-          <a href="#" className="text-white hover:text-gray-300">Details</a>
+          <Link href = "/More_Info" className="text-white hover:text-gray-300">About Us</Link>
+          <Link href = "/checkout" className="text-white hover:text-gray-300">Details </Link> 
           {/* Add more navigation links as needed */}
         </div>
       
