@@ -49,6 +49,7 @@ export default function survey() {
 
     return(
     <div>
+      
       {currentQuestion === 1 && (
         <>
           <h2 className="text-2xl font-bold mb-4">Question 1: Select Fields</h2>

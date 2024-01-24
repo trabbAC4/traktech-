@@ -11,7 +11,7 @@ export default function Footer() {
       
           {/* Middle Section (Company Name) */}
           <div className="flex items-center justify-center">
-            <span className="text-lg font-bold">Your Company Name</span>
+            <span className="text-lg font-bold"> Traktech </span>
           </div>
       
           {/* Right Section (Social Media Options) */}
