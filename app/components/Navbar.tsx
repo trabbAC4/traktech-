@@ -22,7 +22,7 @@ export default function Navbar() {
         {/* Left Section (Logo) */}
         <div className="flex items-center">
           <img src="logo.png" alt="Logo" className="h-8 w-8 mr-2" />
-          <span className="text-white font-bold text-lg">Your Logo</span>
+          <span className="text-white font-bold text-lg">TrakTech</span>
         </div>
       
         {/* Middle Section (Navigation Links) */}

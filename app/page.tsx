@@ -29,18 +29,19 @@ export default function Home() {
 
       <Navbar />
 
-      <div className="mt-8 relative">
-        {/* Video background */}
+      <div className="relative">
         <video
-          className="absolute top-0 left-0 w-full h-1/2 object-cover z-0"
-          autoPlay
-          muted
-          loop
-        >
-          <source src="/wallpaper_main.mp4" type="video/mp4" />
-          {/* Add additional source elements for different video formats if needed */}
-          Your browser does not support the video tag.
-        </video>
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        autoPlay
+        muted
+        loop
+      >
+      <source src="/wallpaper_main.mp4" type="video/mp4" />
+      {/* Add additional source elements for different video formats if needed */}
+      Your browser does not support the video tag.
+      </video>
+
+
 
         {/* Content overlay */}
         <div className="text-white text-center relative z-10">
@@ -54,29 +55,6 @@ export default function Home() {
         <h1 className="text-4xl font-extrabold text-center mt-8"> What we do </h1>
       </div>
 
- ELD Logging 📊
-- IFTA Mileage Tracking 🛣️
-- Real-Time GPS Tracking 📍
-- Route Optimization 🗺️-
-
-📱 *Mobile App:*
-- Manage on the go!
-- Create sub-accounts for drivers 🚗
-
-💡 *Monthly Packages:*
-1. Integration: $10/month
-2. GPS Tracking: $20/month
-3. Full Package: $30/month
-4. Custom Package: $40/month
-
-🌐 *Why Trak Tech?*
-- USA-Made Robust Hardware 🇺🇸
-- Advanced Software Features 🚀
-- Affordable Monthly Plans 💰
-
-📞 *Contact us now to elevate your tracking game with Trak Tech!*
-
-Note: Hardware priced at $110. Prices subject to change.
 
 
       <div className="mt-8">
@@ -139,10 +117,10 @@ Note: Hardware priced at $110. Prices subject to change.
       </div>
     </div>
 
-      <div className="mt-8 text-center">
+      <div className="mt-24 text-center">
       <h1 className="text-4xl font-extrabold">What we do</h1>
 
-      <div className="flex justify-center items-center mt-4">
+      <div className="flex justify-center items-center mt-8">
         {/* Border 1 */}
         <div className="border p-4 mx-2">
           <h2 className="text-xl font-bold mb-2">USA-Made Robust Hardware 🇺🇸</h2>
