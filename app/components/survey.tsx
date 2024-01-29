@@ -2,7 +2,7 @@
 
 import React from 'react';
 import {useState, useEffect} from "react"; 
-import Navbar from '../components/Navbar';
+import Navbar from './Nav';
 
 
 export default function survey() {
@@ -24,6 +24,7 @@ export default function survey() {
       ? selectedFields.filter((selectedField) => selectedField !== field)
       : [...selectedFields, field];
     setSelectedFields(updatedFields);
+  
   };
 
   const handleNextQuestion = () => {
@@ -48,8 +49,15 @@ export default function survey() {
 
 
     return(
-    <div>
-      
+
+    <> 
+    
+    <div className = "border border-gray-300 p-4">
+    <h2 className="text-3xl font-bold border-b-2 border-gray-300 mb-4 pb-2">
+        Answer the following questionnaire
+    </h2>
+    
+
       {currentQuestion === 1 && (
         <>
           <h2 className="text-2xl font-bold mb-4">Question 1: Select Fields</h2>
@@ -217,6 +225,7 @@ export default function survey() {
       
 
     </div>
+    </>
 
 
     );

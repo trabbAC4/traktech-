@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Survey from './components/survey';
 //import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "next-ui-org/react";
 import Footer from './components/Footer'
-import Navbar from './components/Navbar'
+import Navbar from './components/Nav'
 import {VStack, Text, Input} from "@chakra-ui/react"
 import {useForm} from 'react-hook-form';
 
@@ -12,92 +12,62 @@ import {useForm} from 'react-hook-form';
 
 
 export default function Home() {
+  // const {
+  //   register,
+  //   handleSubmit
+  // } = useForm(); 
 
-  const {
-    register,
-    handleSubmit
-  } = useForm(); 
+  // function submitHandler(data) {
+  //   console.log(data); 
+  // }
 
-  function submitHandler(data) {
-    console.log(data); 
-  }
-  return (
+  return(
   <> 
-     (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 relative">
       {/* Include head element for video and styles */}
-
       <Navbar />
-
-      <div className="relative">
+      <header className= "relative flex items-center justify-center h-screen mb-12 overflow-hidden"> 
+      <div className = "relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
+        <h1 className="text-4xl font-extrabold">TrakTech</h1>
+        <h1 className="text-4xl font-extrabold mt-8">Made entirely in America</h1>
+        <button className="bg-white text-black py-2 px-4 rounded mx-auto block mt-8">See our prices</button>
+      </div>
       <video
-        className="w-full h-full object-cover z-0"
+        className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
         autoPlay
         muted
         loop
       >
+        
         <source src="/wallpaper_main.mp4" type="video/mp4" />
         {/* Add additional source elements for different video formats if needed */}
         Your browser does not support the video tag.
         </video>
 
         {/* Content overlay */}
-        <div className="text-white text-center relative z-10">
-        <h1 className="text-4xl font-extrabold">TrakTech</h1>
-        <h1 className="text-4xl font-extrabold mt-8">Made entirely in America</h1>
-        <button className="bg-white text-black py-2 px-4 rounded mx-auto block mt-8">See our prices</button>
-      </div>
-      </div>
+      </header> 
 
 
 
+  <div className="mt-8 mx-auto max-w-screen-xl">
+  <h1 className="text-4xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3">
+  Features  </h1>
 
-      <div className="mt-8 mx-auto max-w-screen-xl">
-  <h1 className="text-4xl font-extrabold text-left">Features</h1>
   <div className="flex flex-wrap justify-center items-center mt-4">
     <div className="flex items-center mb-4">
       <p className="inline-block mr-4">ELD Logging</p>
       <span className="mx-2">|</span>
-      <Image
-        className="w-full md:w-auto md:h-auto md:mr-4"
-        src="/Login.png"
-        width={500}
-        height={500}
-        alt="Random"
-      />
     </div>
     <div className="flex items-center mb-4">
       <p className="inline-block mr-4">IFTA Mileage Tracking</p>
       <span className="mx-2">|</span>
-      <Image
-        className="w-full md:w-auto md:h-auto md:mr-4"
-        src="/Login.png"
-        width={500}
-        height={500}
-        alt="Random"
-      />
     </div>
     <div className="flex items-center mb-4">
       <p className="inline-block mr-4">Real-Time GPS Tracking</p>
       <span className="mx-2">|</span>
-      <Image
-        className="w-full md:w-auto md:h-auto md:mr-4"
-        src="/Login.png"
-        width={500}
-        height={500}
-        alt="Random"
-      />
     </div>
     <div className="flex items-center mb-4">
       <p className="inline-block mr-4">Route Optimization</p>
       <span className="mx-2">|</span>
-      <Image
-        className="w-full md:w-auto md:h-auto md:mr-4"
-        src="/Login.png"
-        width={500}
-        height={500}
-        alt="Random"
-      />
     </div>
   </div>
 </div>
@@ -199,21 +169,7 @@ export default function Home() {
       </div>
     </div>
 
-    
-
-
-
-
-
-    <Survey />
-    
-    <form onSubmit = {handleSubmit(submitHandler)}>
-      <Input placeholder = "Enter Name" {...register('name')} />
-      <button> Submit! </button>
-    </form>
-
-    </main>
     <Footer /> 
     </>
-  )
+  );
 }

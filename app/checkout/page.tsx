@@ -1,6 +1,6 @@
 'use client'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Nav'
 import React , {useState} from 'react';
 
 
