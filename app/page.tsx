@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Navbar from './components/Nav'
 import {VStack, Text, Input} from "@chakra-ui/react"
 import {useForm} from 'react-hook-form';
+import { Link } from "@nextui-org/link";
 
 
 
@@ -24,33 +25,50 @@ export default function Home() {
   return(
   <> 
       {/* Include head element for video and styles */}
+      <div className = "relative">
       <Navbar />
-      <header className= "relative flex items-center justify-center h-screen mb-12 overflow-hidden"> 
-      <div className = "relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
-        <h1 className="text-4xl font-extrabold">TrakTech</h1>
-        <h1 className="text-4xl font-extrabold mt-8">Made entirely in America</h1>
-        <button className="bg-white text-black py-2 px-4 rounded mx-auto block mt-8">See our prices</button>
-      </div>
-      <video
-        className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
-        autoPlay
-        muted
-        loop
-      >
-        
-        <source src="/wallpaper_main.mp4" type="video/mp4" />
-        {/* Add additional source elements for different video formats if needed */}
-        Your browser does not support the video tag.
+      </div> 
+
+       <header className="relative h-screen mb-12 overflow-hidden">
+       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-30 rounded-xl">
+          <h1 className="text-4xl font-extrabold text-center">TrakTech</h1>
+          <h1 className="text-4xl font-extrabold mt-8">Made entirely in America</h1>
+        <Link href="/More_Info">
+      <button className="bg-white text-black py-2 px-4 rounded mx-auto block mt-8">See our prices</button>
+        </Link>
+        </div>
+
+        <video
+          className="absolute inset-0 w-full h-full object-cover z-10"
+          autoPlay
+          muted
+          loop
+        >
+          <source src="/wallpaper_main.mp4" type="video/mp4" />
+          {/* Add additional source elements for different video formats if needed */}
+          Your browser does not support the video tag.
         </video>
 
         {/* Content overlay */}
-      </header> 
+      </header>
 
 
 
   <div className="mt-8 mx-auto max-w-screen-xl">
-  <h1 className="text-4xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3">
-  Features  </h1>
+
+  <h1 className="text-4xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3"> An emerging leader in integral devices </h1> 
+  <div className="flex justify-center items-center">
+  <Image
+    src="/sampleimage1.svg"
+    alt="SVG Image"
+    width={150} // Adjust the width according to your needs
+    height={150} // Adjust the height according to your needs
+    className="mt-4"
+  />
+</div>
+  
+  <h1 className="p-16 text-4xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3">
+    Our Features  </h1>
 
   <div className="flex flex-wrap justify-center items-center mt-4">
     <div className="flex items-center mb-4">
