@@ -28,12 +28,17 @@ return (
         <div className="flex space-x-4">
           <Link href = "/More_Info" className="text-white hover:text-gray-300">About Us</Link>
           <Link href = "/checkout" className="text-white hover:text-gray-300">Details </Link> 
+          <Link href=  "/contact" className="text-white hover:text-gray-300">Contact </Link> 
           {/* Add more navigation links as needed */}
         </div>
       
         {/* Right Section (Buttons) */}
         <div className="flex items-center space-x-4">
-          <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Contact Us</button>
+          <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">
+            <Link href= "/contact"> 
+              Contact Us
+            </Link>
+          </button>
           <button className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-700">Check Prices</button>
         </div>
       </div>
