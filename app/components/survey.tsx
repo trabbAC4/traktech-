@@ -90,7 +90,7 @@ export default function survey() {
       {/* Example: Second Question */}
       {currentQuestion === 2 && (
         <>
-         <h2 className="text-2xl font-bold mb-4">Question 2: Estimated how many</h2>
+         <h2 className="text-2xl font-bold mb-4">Question 2: Estimated how many products you expect to buy</h2>
           <div className="space-y-2">
             {fields_2.map((field) => (
               <div key={field} className="flex items-center">

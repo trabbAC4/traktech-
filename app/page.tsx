@@ -142,27 +142,57 @@ export default function Home() {
 
 
 
-
-  <div className="mt-8 mx-auto max-w-screen-xl">
+<div className="mt-8 mx-auto max-w-screen-xl">
   <h1 className="text-4xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3">
     Our Features
   </h1>
 
-  <div className="flex flex-wrap justify-center items-center mt-4">
-    <div className="flex items-center mb-8 sm:mb-0 sm:mr-4 border-white border-2 rounded-lg p-6">
-      <p className="inline-block mr-4 text-lg sm:text-xl md:text-2xl">ELD Logging</p>
+  <div className="flex flex-col sm:flex-row justify-center items-center mt-4">
+  <div className="flex flex-col sm:flex-row items-center mb-8 sm:mb-0 sm:mr-4 p-6">
+  <p className="inline-block mb-4 text-lg sm:text-xl md:text-2xl sm:order-1">ELD Logging</p>
+  <Image
+    src="/sampleimage2.svg" // Path to the SVG in the public directory
+    alt="Description of the SVG"
+    width={400} // Set the width of the SVG
+    height={200} // Set the height of the SVG
+    className="mx-auto sm:order-2"
+  />
+</div>
+
+<div className="flex flex-col sm:flex-row items-center mb-8 sm:mb-0 sm:ml-4 p-6">
+  <Image
+    src="/sampleimage2.svg" // Path to the SVG in the public directory
+    alt="Description of the SVG"
+    width={400} // Set the width of the SVG
+    height={200} // Set the height of the SVG
+    className="mx-auto sm:order-2"
+  />
+  <p className="inline-block mb-4 text-lg sm:text-xl md:text-2xl sm:order-1">IFTA Mileage Tracking</p>
+</div>
+
+    <div className="flex flex-col items-center mb-8 sm:mb-0 sm:mr-4 p-6">
+      <p className="inline-block mb-4 text-lg sm:text-xl md:text-2xl">Real-Time GPS Tracking</p>
+      <Image
+        src="/sampleimage2.svg" // Path to the SVG in the public directory
+        alt="Description of the SVG"
+        width={400} // Set the width of the SVG
+        height={200} // Set the height of the SVG
+        className="mx-auto"
+      />
     </div>
-    <div className="flex items-center mb-8 sm:mb-0 sm:mr-4 border-white border-2 rounded-lg p-6">
-      <p className="inline-block mr-4 text-lg sm:text-xl md:text-2xl">IFTA Mileage Tracking</p>
-    </div>
-    <div className="flex items-center mb-8 sm:mb-0 sm:mr-4 border-white border-2 rounded-lg p-6">
-      <p className="inline-block mr-4 text-lg sm:text-xl md:text-2xl">Real-Time GPS Tracking</p>
-    </div>
-    <div className="flex items-center mb-8 sm:mb-0 border-white border-2 rounded-lg p-6">
-      <p className="inline-block mr-4 text-lg sm:text-xl md:text-2xl">Route Optimization</p>
+    <div className="flex flex-col items-center mb-8 sm:mb-0 sm:ml-4 p-6">
+      <p className="inline-block mb-4 text-lg sm:text-xl md:text-2xl">Route Optimization</p>
+      <Image
+        src="/sampleimage2.svg" // Path to the SVG in the public directory
+        alt="Description of the SVG"
+        width={400} // Set the width of the SVG
+        height={200} // Set the height of the SVG
+        className="mx-auto"
+      />
     </div>
   </div>
-  </div>
+</div>
+
 
 
       <div className="flex justify-center items-center h-screen">

@@ -19,8 +19,7 @@ export default function More_Info() {
             <Navbar />
             <div className="flex items-center justify-center h-screen">
                  <Survey />
-
-                 <button onClick = {makeApiCall}> make call </button>      
+                   
             </div>
             <Footer />
         </main>
