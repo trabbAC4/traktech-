@@ -5,7 +5,8 @@ export default function contact(){
     return(
         <> 
         <Navbar />
-        <h1> Contact us for any questions! </h1>
+        <h1> Contact us for any questions! </h1> 
+        
         <Footer />
         </>
     )

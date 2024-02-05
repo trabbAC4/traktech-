@@ -24,7 +24,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 
 export default function Home() {
-  // const {
+  // const 
   //   register,
   //   handleSubmit
   // } = useForm(); 
@@ -65,54 +65,19 @@ export default function Home() {
       </header> 
 
       <div className="mt-8 mx-auto max-w-screen-xl flex flex-col items-center">
-      <h1 className="text-4xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3 p-4">
-        The future for innovation
+      <h1 className="text-4xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3 p-4 tracking-wide">
+        We are the world leaders in tracking technology
       </h1>
 
-      <h3 className="text-4xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3">
-        Check your rate today
+      <h3 className="text-xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3">
+          Check your rate today
       </h3>
+
 
       <button className="bg-white text-black py-2 px-4 rounded mx-auto block mt-8">
         <Link href="/More_Info">See our prices</Link>
       </button>
-
-      <div className="mt-8 w-full sm:w-2/3 lg:w-1/2 xl:w-1/3">
-        <Image
-          src="/sampleimage2.svg" // Path to the SVG in the public directory
-          alt="Description of the SVG"
-          width={400} // Set the width of the SVG
-          height={200} // Set the height of the SVG
-          className="mx-auto"
-        />
-      </div>
     </div>
-
-
-
-  <div className="flex justify-center items-center h-screen">
-  <Carousel className="w-full max-w-sm max-w-lg">
-    <CarouselContent className="-ml-1">
-      {Array.from({ length: 5 }).map((_, index) => (
-        <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
-          <div className="p-1">
-            <Card>
-              <CardContent className="flex aspect-square items-center justify-center p-6">
-                <span className="text-2xl font-semibold">{index + 1}</span>
-              </CardContent>
-            </Card>
-          </div>
-        </CarouselItem>
-      ))}
-    </CarouselContent>
-    <CarouselPrevious />
-    <CarouselNext />
-  </Carousel>
-  </div>
-
-
-      
-
 
   <section className="w-full h-screen flex items-center justify-center py-12 md:py-24 lg:py-32">
   <div className="container px-4 md:px-6 flex flex-col items-center">
@@ -140,58 +105,73 @@ export default function Home() {
   </div>
 </section>
 
+<section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+          <div className="container px-4 md:px-6">
+            <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
+              <img
+                alt="Image"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+                height="310"
+                src="/sample.png"
+                width="550"
+              />
+              <div className="flex flex-col justify-center space-y-4">
+                <div className="space-y-2">
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">The leaders in Tracking Device Technology</h2>
+                  <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                    Our product offers the best technologies for your needs. A free consultation is simply a click away
+                  </p>
+                  <button className="bg-white text-black py-4 px-8 rounded mx-auto block mt-8">
+                  <Link href="/More_Info">See more</Link>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-
-<div className="mt-8 mx-auto max-w-screen-xl">
-  <h1 className="text-4xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3">
+<section className="w-full h-screen flex flex-col items-center justify-start py-12 md:py-24 lg:py-32 text-black bg-white">
+  <h1 className="text-6xl font-extrabold text-center sm:w-2/3 lg:w-1/2 xl:w-1/3 mb-8">
     Our Features
   </h1>
 
-  <div className="flex flex-col sm:flex-row justify-center items-center mt-4">
-  <div className="flex flex-col sm:flex-row items-center mb-8 sm:mb-0 sm:mr-4 p-6">
-  <p className="inline-block mb-4 text-lg sm:text-xl md:text-2xl sm:order-1">ELD Logging</p>
-  <Image
-    src="/sampleimage2.svg" // Path to the SVG in the public directory
-    alt="Description of the SVG"
-    width={400} // Set the width of the SVG
-    height={200} // Set the height of the SVG
-    className="mx-auto sm:order-2"
-  />
-</div>
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-full sm:w-2/3 lg:w-1/2 xl:w-1/2">
+  
+  <div className="bg-gray-300 rounded-md p-8">
+    <h1 className="text-2xl font-bold">EDL Logging</h1>
+    <p> Our groundbreaking technology offers ACCURATE details with logging</p>
+    <Image
+      src="/sample.png"
+      width={500}
+      height={500}
+      alt="Picture of the author"
+    />
 
-<div className="flex flex-col sm:flex-row items-center mb-8 sm:mb-0 sm:ml-4 p-6">
-  <Image
-    src="/sampleimage2.svg" // Path to the SVG in the public directory
-    alt="Description of the SVG"
-    width={400} // Set the width of the SVG
-    height={200} // Set the height of the SVG
-    className="mx-auto sm:order-2"
-  />
-  <p className="inline-block mb-4 text-lg sm:text-xl md:text-2xl sm:order-1">IFTA Mileage Tracking</p>
-</div>
+    
+  </div>
 
-    <div className="flex flex-col items-center mb-8 sm:mb-0 sm:mr-4 p-6">
-      <p className="inline-block mb-4 text-lg sm:text-xl md:text-2xl">Real-Time GPS Tracking</p>
-      <Image
-        src="/sampleimage2.svg" // Path to the SVG in the public directory
-        alt="Description of the SVG"
-        width={400} // Set the width of the SVG
-        height={200} // Set the height of the SVG
-        className="mx-auto"
-      />
+
+    {/* Rounded Div 2 */}
+    <div className="bg-gray-300 rounded-md p-8">
+      {/* Content goes here */}
     </div>
-    <div className="flex flex-col items-center mb-8 sm:mb-0 sm:ml-4 p-6">
-      <p className="inline-block mb-4 text-lg sm:text-xl md:text-2xl">Route Optimization</p>
-      <Image
-        src="/sampleimage2.svg" // Path to the SVG in the public directory
-        alt="Description of the SVG"
-        width={400} // Set the width of the SVG
-        height={200} // Set the height of the SVG
-        className="mx-auto"
-      />
+
+    {/* Rounded Div 3 */}
+    <div className="bg-gray-300 rounded-md p-8">
+      {/* Content goes here */}
+    </div>
+
+    {/* Rounded Div 4 */}
+    <div className="bg-gray-300 rounded-md p-8">
+      {/* Content goes here */}
     </div>
   </div>
-</div>
+</section>
+
+
+
+
+
 
 
 
