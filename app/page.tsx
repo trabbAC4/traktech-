@@ -93,16 +93,19 @@ export default function Home() {
     </h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
       <div className="flex flex-col items-center text-center">
+        <img src="https://cdn.hugeicons.com/icons/mentor-stroke-rounded.svg" alt="mentor" width="48" height="48" />
         <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">USA-MADE Robust Hardware</h3>
         <p className="mt-2 text-gray-500 dark:text-gray-400">Made primarily in America as the top leaders in hardware</p>
       </div>
       <div className="flex flex-col items-center text-center">
+        <img src="https://cdn.hugeicons.com/icons/software-license-stroke-rounded.svg" alt="software-license" width="48" height="48" />
         <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Advanced Software Features</h3>
         <p className="mt-2 text-gray-500 dark:text-gray-400">
           Emerging groundbreaking technology. We strive to meet your needs
         </p>
       </div>
       <div className="flex flex-col items-center text-center">
+        <img src="https://cdn.hugeicons.com/icons/map-pinpoint-02-stroke-rounded.svg" alt="map-pinpoint-02" width="48" height="48" />
         <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Real-Time GPS Tracking</h3>
         <p className="mt-2 text-gray-500 dark:text-gray-400">
           We offer round-the-clock support for our customers.

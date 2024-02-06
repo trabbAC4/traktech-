@@ -45,6 +45,16 @@ export default function survey() {
 
   const handlePreviousQuestion = () => {
     setCurrentQuestion(currentQuestion - 1); 
+    if (currentQuestion === 1) {
+      setProgress(0); // Update progress to 0% when moving to the first question
+    } else if (currentQuestion === 2) {
+      setProgress(30); // Update progress to 30% when moving to the previous question
+    } else if (currentQuestion === 3) {
+      setProgress(60); // Update progress to 60% when moving to the previous question
+    } else if (currentQuestion === 4) {
+      setProgress(90); // Update progress to 90% when moving to the previous question
+    }
+
   };
 
   const handleSubmit = () => {
@@ -198,7 +208,6 @@ export default function survey() {
        {currentQuestion === 4 && (
         <>
           <h2 className="text-2xl font-bold mb-4"> Enter your Email and Phone Number and we will contact you shortly!</h2>
-          
           <div className="space-y-4">
             <div>
               <label htmlFor="first_name" className="block text-sm font-medium text-black-700">

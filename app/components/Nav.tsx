@@ -34,12 +34,12 @@ return (
       
         {/* Right Section (Buttons) */}
         <div className="flex items-center space-x-4">
-          <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">
+          <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-white-300">
             <Link href= "/contact"> 
               Contact Us
             </Link>
           </button>
-          <button className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-700">Book a call!</button>
+          <button className="bg-gray-500 text-white py-2 px-4 rounded hover:bg-black-700">Book a call!</button>
         </div>
       </div>
  )
