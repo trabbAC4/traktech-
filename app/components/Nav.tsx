@@ -39,7 +39,7 @@ return (
               Contact Us
             </Link>
           </button>
-          <button className="bg-gray-500 text-white py-2 px-4 rounded hover:bg-black-700">Book a call!</button>
+          <button className="bg-green-500 text-white py-2 px-4 rounded hover:bg-darkgreen-700">Book a call!</button>
         </div>
       </div>
  )

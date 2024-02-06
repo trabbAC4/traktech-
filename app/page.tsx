@@ -38,10 +38,10 @@ export default function Home() {
         <Navbar />
       </div>
       <header className= "relative flex items-center justify-center h-screen mb-12 overflow-hidden"> 
-      <div className = "relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
+      <div className = "relative z-30 p-5 text-2xl text-white bg-black-300 bg-opacity-50 rounded-xl">
         <h1 className="text-4xl font-extrabold">Waypoint Technologies</h1>
         <h1 className="text-4xl font-extrabold mt-8">
-         Made <span style = {{color: "blue"}}> entirely </span> in <span style={{color: "red"}}>America</span>
+         Made  entirely  in America
         </h1>
 
         <button className="bg-white text-black py-2 px-4 rounded mx-auto block mt-8">See our prices</button>
@@ -105,7 +105,7 @@ export default function Home() {
         </p>
       </div>
       <div className="flex flex-col items-center text-center">
-        <img src="https://cdn.hugeicons.com/icons/map-pinpoint-02-stroke-rounded.svg" alt="map-pinpoint-02" width="48" height="48" />
+        <img src="https://cdn.hugeicons.com/icons/location-01-bulk-rounded.svg" alt="location-01" width="48" height="48" />
         <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Real-Time GPS Tracking</h3>
         <p className="mt-2 text-gray-500 dark:text-gray-400">
           We offer round-the-clock support for our customers.
@@ -158,6 +158,7 @@ export default function Home() {
           width={500}
         />
         <div className="animate-pulse p-4">
+
           <h3 className="font-bold text-lg">Real Time GPS Tracking</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             This is a description of the third product. It's the best product of them all.
