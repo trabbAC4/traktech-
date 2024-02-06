@@ -20,7 +20,7 @@ return (
           <div className="flex items-center">
           <img src="logo.png" alt="Logo" className="h-8 w-8 mr-2" />
           <Link href = "/"> 
-          <span className="text-white font-bold text-lg">TrakTech</span>
+          <span className="text-white font-bold text-lg">Waypo!nt Technologies</span>
           </Link>
         </div>
       

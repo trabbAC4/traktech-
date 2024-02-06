@@ -9,6 +9,8 @@ import {VStack, Text, Input} from "@chakra-ui/react"
 import {useForm} from 'react-hook-form';
 import { Link } from "@nextui-org/link";
 
+
+
 import {
   Carousel,
   CarouselContent,
@@ -36,10 +38,10 @@ export default function Home() {
   return(
   <> 
       {/* Include head element for video and styles */}
-
-      <main className = "bg-gray-800 p-4 flex items-center justify-between fixed w-full top-0 z-50">
+      <main className = "scroll-smooth">
+      <div className = "bg-gray-800 p-4 flex items-center justify-between fixed w-full top-0 z-50">
         <Navbar />
-      </main>
+      </div>
       <header className= "relative flex items-center justify-center h-screen mb-12 overflow-hidden"> 
       <div className = "relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
         <h1 className="text-4xl font-extrabold">Waypoint Technologies</h1>
@@ -64,20 +66,30 @@ export default function Home() {
         {/* Content overlay */}
       </header> 
 
-      <div className="mt-8 mx-auto max-w-screen-xl flex flex-col items-center">
-      <h1 className="text-4xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3 p-4 tracking-wide">
-        We are the world leaders in tracking technology
-      </h1>
-
-      <h3 className="text-xl font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3">
-          Check your rate today
-      </h3>
-
-
-      <button className="bg-white text-black py-2 px-4 rounded mx-auto block mt-8">
-        <Link href="/More_Info">See our prices</Link>
-      </button>
-    </div>
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+          <div className="container px-4 md:px-6">
+            <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
+              <img
+                alt="Image"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+                height="310"
+                src="/sample.png"
+                width="550"
+              />
+              <div className="flex flex-col justify-center space-y-4">
+                <div className="space-y-2">
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">The leaders in Tracking Device Technology</h2>
+                  <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                    Our product offers the best technologies for your needs. A free consultation is simply a click away
+                  </p>
+                  <button className="bg-white text-black py-4 px-8 rounded mx-auto block mt-8">
+                  <Link href="/More_Info">See more</Link>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
   <section className="w-full h-screen flex items-center justify-center py-12 md:py-24 lg:py-32">
   <div className="container px-4 md:px-6 flex flex-col items-center">
@@ -105,91 +117,113 @@ export default function Home() {
   </div>
 </section>
 
-<section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-          <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
-              <img
-                alt="Image"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-                height="310"
-                src="/sample.png"
-                width="550"
-              />
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">The leaders in Tracking Device Technology</h2>
-                  <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                    Our product offers the best technologies for your needs. A free consultation is simply a click away
-                  </p>
-                  <button className="bg-white text-black py-4 px-8 rounded mx-auto block mt-8">
-                  <Link href="/More_Info">See more</Link>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-<section className="w-full h-screen flex flex-col items-center justify-start py-12 md:py-24 lg:py-32 text-black bg-white">
-  <h1 className="text-6xl font-extrabold text-center sm:w-2/3 lg:w-1/2 xl:w-1/3 mb-8">
-    Our Features
-  </h1>
-
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-full sm:w-2/3 lg:w-1/2 xl:w-1/2">
-  
-  <div className="bg-gray-300 rounded-md p-8">
-    <h1 className="text-2xl font-bold">EDL Logging</h1>
-    <p> Our groundbreaking technology offers ACCURATE details with logging</p>
-    <Image
-      src="/sample.png"
-      width={500}
-      height={500}
-      alt="Picture of the author"
-    />
-
-    
-  </div>
-
-
-    {/* Rounded Div 2 */}
-    <div className="bg-gray-300 rounded-md p-8">
-      {/* Content goes here */}
-    </div>
-
-    {/* Rounded Div 3 */}
-    <div className="bg-gray-300 rounded-md p-8">
-      {/* Content goes here */}
-    </div>
-
-    {/* Rounded Div 4 */}
-    <div className="bg-gray-300 rounded-md p-8">
-      {/* Content goes here */}
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-      <div className="flex justify-center items-center h-screen">
-        <div className="border border-black p-4">
-        <h1 className="text-black font-bold text-lg">Contact us now to elevate your tracking game with TrakTech</h1>
+    <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
+      What we offer 
+    </h2>
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-6">
+      <div className="border border-gray-200 rounded-lg overflow-hidden dark:border-gray-800">
+        <img
+          alt="Product Image"
+          className="aspect-square object-cover w-full"
+          height={500}
+          src="/logging.jpg"
+          width={500}
+        />
+        <div className="animate-pulse p-4">
+          <h3 className="font-bold text-lg">ELD Logging</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+            This is a description of the first product. It's a great product.
+          </p>
         </div>
       </div>
-      <div className="h-screen bg-black"> 
-        <h1 className="text-4xl text-white font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3">
-            We strive to accomodate your requests and we plan to deliver the next groundbreaking technology
-        </h1>
+      <div className="border border-gray-200 rounded-lg overflow-hidden dark:border-gray-800">
+        <img
+          alt="Product Image"
+          className="aspect-square object-cover w-full"
+          height={500}
+          src="/IFTA.jpg"
+          width={500}
+        />
+        <div className="animate-pulse p-4">
+          <h3 className="font-bold text-lg">IFTA Mileage Tracking</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+            This is a description of the second product. It's an even better product.
+          </p>
+        </div>
       </div>
+      <div className="border border-gray-200 rounded-lg overflow-hidden dark:border-gray-800">
+        <Image
+          alt="Product Image"
+          className="aspect-square object-cover w-full"
+          height={500}
+          src="/sampleimage4.svg"
+          width={500}
+        />
+        <div className="animate-pulse p-4">
+          <h3 className="font-bold text-lg">Real Time GPS Tracking</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+            This is a description of the third product. It's the best product of them all.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section className="w-full py-12 md:py-24 lg:py-32">
+      <div className="container px-4 md:px-6">
+        <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
+          <div className="flex flex-col justify-center space-y-4">
+            <div className="space-y-2">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Contact us for a free consultation</h2>
+              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                Navigation has and will Always be an important tool 
+              </p>
+              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                So why not invest in the product that will take you there safely 
+              </p>
+              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                Contact us now to elevate your tracking game with WayPoint Technologies!
+              </p>
+              <button className="bg-white text-black py-4 px-8 rounded mx-auto block mt-8">
+                  <Link href="/More_Info">See more</Link>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="w-full py-12 md:py-24 lg:py-32">
+      <div className="container px-4 md:px-6">
+    <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
+      <div className="hidden lg:flex lg:justify-end"> {/* Add this div for the right-side spacing */}
+        {/* You can add some spacing or content here if needed */}
+      </div>
+      <div className="flex flex-col justify-center space-y-4">
+        <div className="space-y-2">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">We are here to assist</h2>
+          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            We strive to deliver the best possible information to you 
+          </p>
+          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            Feel free to contact us 
+          </p>
+          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            Contact us now to elevate your tracking game with WayPoint Technologies!
+          </p>
+          <button className="bg-white text-black py-4 px-8 rounded mx-auto block mt-8">
+            <Link href="/More_Info">See more</Link>
+          </button>
+        </div>
+      </div>
+      <div className="lg:hidden"> {/* Add this div for mobile responsiveness */}
+        {/* You can add some spacing or content here if needed */}
+      </div>
+      </div>
+      </div>
+    </section>
 
-      <h1 className="text-4xl text-black font-extrabold text-center mx-auto w-full sm:w-2/3 lg:w-1/2 xl:w-1/3">
-        Note: Hardware priced at $110. Prices subject to change 
-      </h1>
-      <Footer />
+    
+
+
+    </main>
     </>
   );
 }
