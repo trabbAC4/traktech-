@@ -10,6 +10,7 @@ export default function survey() {
     const [currentQuestion, setCurrentQuestion] = useState<number>(1);
     const [first_name, setfirst_name] = useState<string>('');
     const [last_name, setlast_name] = useState<string>('');
+    const [submitted, setSubmitted] = useState(false);
 
     const [email, setEmail] = useState<string>('');
     const [phoneNumber, setPhoneNumber] = useState<string>('');
@@ -52,7 +53,7 @@ export default function survey() {
 
     <> 
     
-    <div className = "border border-gray-300 p-4">
+    <div className = "border border-gray-300 p-4 w-auto h-auto">
     <h2 className="text-3xl font-bold border-b-2 border-gray-300 mb-4 pb-2">
         Answer the following questionnaire
     </h2>
@@ -60,21 +61,24 @@ export default function survey() {
 
       {currentQuestion === 1 && (
         <>
-          <h2 className="text-2xl font-bold mb-4">Question 1: Select Fields</h2>
+          <h2 className="text-2xl font-bold mb-4">Question 1: Select your vehicle</h2>
           <div className="space-y-2">
             {fields.map((field) => (
-              <div key={field} className="flex items-center">
-                <input
-                  type="checkbox"
-                  id={field}
-                  checked={selectedFields.includes(field)}
-                  onChange={() => handleFieldChange(field)}
-                  className="mr-2"
-                />
-                <label htmlFor={field}>{field}</label>
-              </div>
-            ))}
+          <div key={field} className="border border-gray-300 rounded-md p-4 flex items-center">
+            {/* You can add an image here if needed */}
+            <input
+              type="checkbox"
+              id={field}
+              checked={selectedFields.includes(field)}
+              onChange={() => handleFieldChange(field)}
+              className="mr-2"
+            />
+            {/* Add label text */}
+            <label htmlFor={field}>{field}</label>
           </div>
+          ))}
+        </div>
+
           <button
             type="button"
             onClick={handleNextQuestion}
@@ -218,6 +222,11 @@ export default function survey() {
           >
             Submit
           </button>
+          {submitted && (
+            <div className="mt-4 bg-green-200 text-green-800 py-2 px-4 rounded">
+            Thank you for submitting!
+            </div>
+          )}
 
         </>
       )}

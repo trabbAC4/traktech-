@@ -8,6 +8,8 @@ import Navbar from './components/Nav'
 import {VStack, Text, Input} from "@chakra-ui/react"
 import {useForm} from 'react-hook-form';
 import { Link } from "@nextui-org/link";
+import CanvasJSReact from '@canvasjs/charts';
+
 
 
 
@@ -26,14 +28,6 @@ import { Card, CardContent } from "@/components/ui/card"
 
 
 export default function Home() {
-  // const 
-  //   register,
-  //   handleSubmit
-  // } = useForm(); 
-
-  // function submitHandler(data) {
-  //   console.log(data); 
-  // }
 
   return(
   <> 
@@ -72,8 +66,8 @@ export default function Home() {
               <img
                 alt="Image"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-                height="310"
-                src="/sample.png"
+                height="650"
+                src="/trackingdevice.jpg"
                 width="550"
               />
               <div className="flex flex-col justify-center space-y-4">
@@ -156,7 +150,7 @@ export default function Home() {
           alt="Product Image"
           className="aspect-square object-cover w-full"
           height={500}
-          src="/sampleimage4.svg"
+          src="/gps.jpg"
           width={500}
         />
         <div className="animate-pulse p-4">
@@ -187,6 +181,15 @@ export default function Home() {
               </button>
             </div>
           </div>
+          <div className="flex justify-center items-center"> {/* Center the image */}
+          <Image
+          alt="Product Image"
+          className="aspect-square object-cover w-full"
+          height={500}
+          src="/customerservice.jpg"
+          width={600}
+          />
+          </div>
         </div>
       </div>
     </section>
@@ -194,7 +197,13 @@ export default function Home() {
       <div className="container px-4 md:px-6">
     <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
       <div className="hidden lg:flex lg:justify-end"> {/* Add this div for the right-side spacing */}
-        {/* You can add some spacing or content here if needed */}
+      <Image
+          alt="Product Image"
+          className="aspect-square object-cover w-full"
+          height={500}
+          src="/customerservice.jpg"
+          width={600}
+        />
       </div>
       <div className="flex flex-col justify-center space-y-4">
         <div className="space-y-2">
@@ -219,6 +228,11 @@ export default function Home() {
       </div>
       </div>
     </section>
+    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-6">
+      <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
+          Get started today 
+        </h2>
+    </section> 
 
     
 
