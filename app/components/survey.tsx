@@ -11,6 +11,7 @@ export default function survey() {
     const [first_name, setfirst_name] = useState<string>('');
     const [last_name, setlast_name] = useState<string>('');
     const [submitted, setSubmitted] = useState(false);
+    const [progress, setProgress] = useState(0);
 
     const [email, setEmail] = useState<string>('');
     const [phoneNumber, setPhoneNumber] = useState<string>('');
@@ -31,6 +32,15 @@ export default function survey() {
   const handleNextQuestion = () => {
     setCurrentQuestion(currentQuestion + 1);
     // Add logic to handle other questions
+    if (currentQuestion === 1) {
+      setProgress(30); // Update progress to 30% when moving to the next question
+    } else if (currentQuestion === 2) {
+      setProgress(60); // Update progress to 60% when moving to the next question
+    } else if (currentQuestion === 3) {
+      setProgress(90); // Update progress to 90% when moving to the next question
+    } else if (currentQuestion === 4) {
+      setProgress(100); // Update progress to 100% when moving to the next question
+    }
   };
 
   const handlePreviousQuestion = () => {
@@ -47,6 +57,11 @@ export default function survey() {
     setCurrentQuestion(0); // Reset to the beginning
   };
 
+  const updateProgress = (newProgress: React.SetStateAction<number>) => {
+    setProgress(newProgress);
+  };
+
+
 
 
     return(
@@ -54,35 +69,48 @@ export default function survey() {
     <> 
     
     <div className = "border border-gray-300 p-4 w-auto h-auto">
+
+    {submitted && (
+            <div className="mt-4 bg-green-200 text-green-800 py-2 px-4 rounded">
+              <h1>  Thank you for submitting! </h1>
+            </div>
+          )}
+
     <h2 className="text-3xl font-bold border-b-2 border-gray-300 mb-4 pb-2">
-        Answer the following questionnaire
+       Please place your responses to the following questions so that we can assist you further
     </h2>
+
+    <div className="mb-8 w-full bg-gray-200 rounded-full dark:bg-gray-700">
+      <div className="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style= {{width: `${progress}%`}}> {`${progress}%`} </div>
+    </div>
     
 
       {currentQuestion === 1 && (
         <>
-          <h2 className="text-2xl font-bold mb-4">Question 1: Select your vehicle</h2>
-          <div className="space-y-2">
-            {fields.map((field) => (
-          <div key={field} className="border border-gray-300 rounded-md p-4 flex items-center">
-            {/* You can add an image here if needed */}
+          <h2 className="text-center text-2xl font-bold mb-4">Select your vehicle</h2>
+          <div className="grid grid-cols-2 gap-4">
+          {fields.map((field) => (
+          <div key={field} className={`border border-gray-300 rounded-md p-4 flex items-center cursor-pointer ${
+            selectedFields.includes(field) ? 'bg-white text-black' : ''
+          }`}
+          onClick = {() => handleFieldChange(field)} >
             <input
-              type="checkbox"
-              id={field}
-              checked={selectedFields.includes(field)}
-              onChange={() => handleFieldChange(field)}
-              className="mr-2"
+             type="checkbox"
+             id={field}
+            checked={selectedFields.includes(field)}
+            onChange={() => handleFieldChange(field)}
+            className="mr-2"
             />
-            {/* Add label text */}
-            <label htmlFor={field}>{field}</label>
-          </div>
-          ))}
-        </div>
+          <label htmlFor={field}>{field}</label>
+            </div>
+        ))}
+      </div>
+
 
           <button
             type="button"
             onClick={handleNextQuestion}
-            className="mt-4 bg-blue-500 text-white py-2 px-4 rounded"
+            className="mt-4 bg-blue-500 text-white py-2 px-4 rounded float-right"
           >
             Next
           </button>
@@ -94,10 +122,14 @@ export default function survey() {
       {/* Example: Second Question */}
       {currentQuestion === 2 && (
         <>
-         <h2 className="text-2xl font-bold mb-4">Question 2: Estimated how many products you expect to buy</h2>
-          <div className="space-y-2">
+         <h2 className="text-center text-2xl font-bold mb-4">Question 2: Estimated how many products you expect to buy</h2>
+          <div className="grid grid-cols-2 gap-4">
             {fields_2.map((field) => (
-              <div key={field} className="flex items-center">
+              <div key={field} className={`border border-gray-300 rounded-md p-4 flex items-center cursor-pointer ${
+                selectedFields.includes(field) ? 'bg-white text-black' : ''
+              }`}
+              onClick = {() => handleFieldChange(field)} >
+
                 <input
                   type="checkbox"
                   id={field}
@@ -112,14 +144,14 @@ export default function survey() {
           <button
             type="button"
             onClick={handleNextQuestion}
-            className="mt-4 bg-blue-500 text-white py-2 px-4 rounded"
+            className="mt-4 bg-blue-500 text-white py-2 px-4 rounded float-right"
           >
             Next
           </button>
           <button
               type="button"
               onClick={handlePreviousQuestion}
-              className="mr-4 bg-gray-500 text-white py-2 px-4 rounded"
+              className="mt-4 bg-gray-500 text-white py-2 px-4 rounded float-left"
             >
               Back
           </button>
@@ -127,10 +159,13 @@ export default function survey() {
       )}
       {currentQuestion === 3 && (
         <>
-        <h2 className="text-2xl font-bold mb-4">Question 3: What equipment do you want </h2>
-         <div className="space-y-2">
+        <h2 className="text-center text-2xl font-bold mb-4">Question 3: What equipment are you looking for </h2>
+         <div className="grid grid-cols-2 gap-4">
            {fields_3.map((field) => (
-             <div key={field} className="flex items-center">
+             <div key={field} className={`border border-gray-300 rounded-md p-4 flex items-center cursor-pointer ${
+              selectedFields.includes(field) ? 'bg-white text-black' : ''
+            }`}
+            onClick = {() => handleFieldChange(field)} >
                <input
                  type="checkbox"
                  id={field}
@@ -145,14 +180,14 @@ export default function survey() {
          <button
            type="button"
            onClick={handleNextQuestion}
-           className="mt-4 bg-blue-500 text-white py-2 px-4 rounded"
+           className="mt-4 bg-blue-500 text-white py-2 px-4 rounded float-right"
          >
            Next
          </button>
          <button
               type="button"
               onClick={handlePreviousQuestion}
-              className="mr-4 bg-gray-500 text-white py-2 px-4 rounded"
+              className="mt-4 bg-gray-500 text-white py-2 px-4 rounded float-left"
             >
               Back
           </button>
@@ -162,7 +197,7 @@ export default function survey() {
       )}
        {currentQuestion === 4 && (
         <>
-          <h2 className="text-2xl font-bold mb-4"> Enter Email and Phone Number</h2>
+          <h2 className="text-2xl font-bold mb-4"> Enter your Email and Phone Number and we will contact you shortly!</h2>
           
           <div className="space-y-4">
             <div>
@@ -224,7 +259,7 @@ export default function survey() {
           </button>
           {submitted && (
             <div className="mt-4 bg-green-200 text-green-800 py-2 px-4 rounded">
-            Thank you for submitting!
+              <h1>  Thank you for submitting! </h1>
             </div>
           )}
 

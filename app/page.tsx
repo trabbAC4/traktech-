@@ -8,7 +8,8 @@ import Navbar from './components/Nav'
 import {VStack, Text, Input} from "@chakra-ui/react"
 import {useForm} from 'react-hook-form';
 import { Link } from "@nextui-org/link";
-import CanvasJSReact from '@canvasjs/charts';
+
+
 
 
 
@@ -228,11 +229,12 @@ export default function Home() {
       </div>
       </div>
     </section>
-    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-6">
-      <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
-          Get started today 
-        </h2>
-    </section> 
+
+    <section>
+      <h2 className= "text-center  text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100"> Get started today </h2>
+    </section>
+
+
 
     
 
