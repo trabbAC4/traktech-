@@ -9,6 +9,8 @@ import {VStack, Text, Input} from "@chakra-ui/react"
 import {useForm} from 'react-hook-form';
 import { Link } from "@nextui-org/link";
 import SlideShow from './components/slideshow';
+import AnimatedChart from './components/Graphs';
+
 
 
 
@@ -87,30 +89,115 @@ export default function Home() {
           We offer round-the-clock support for our customers.
         </p>
       </div>
-      <div className="flex flex-col items-center text-center">
-        <img src="https://cdn.hugeicons.com/icons/location-01-bulk-rounded.svg" alt="location-01" width="48" height="48" />
-        <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Geofencing</h3>
-        <p className="mt-2 text-gray-500 dark:text-gray-400">
-          We offer round-the-clock support for our customers.
-        </p>
-      </div>
-      <div className="flex flex-col items-center text-center">
-        <img src="https://cdn.hugeicons.com/icons/location-01-bulk-rounded.svg" alt="location-01" width="48" height="48" />
-        <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Customizable Reports</h3>
-        <p className="mt-2 text-gray-500 dark:text-gray-400">
-          We offer round-the-clock support for our customers.
-        </p>
-      </div>
-      <div className="flex flex-col items-center text-center">
-        <img src="https://cdn.hugeicons.com/icons/location-01-bulk-rounded.svg" alt="location-01" width="48" height="48" />
-        <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Efficient Route Planning</h3>
-        <p className="mt-2 text-gray-500 dark:text-gray-400">
-          We offer round-the-clock support for our customers.
-        </p>
-      </div>
     </div>
   </div>
 </section>
+
+<div className="flex flex-wrap justify-center">
+  <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
+    <h2 className="text-lg font-bold mb-2">Title 1</h2>
+    <div className="text-center">
+      Content 1
+    </div>
+  </div>
+  <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
+    <h2 className="text-lg font-bold mb-2">Title 2</h2>
+    <div className="text-center">
+      Content 2
+    </div>
+  </div>
+  <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
+    <h2 className="text-lg font-bold mb-2">Title 3</h2>
+    <div className="text-center">
+      Content 3
+    </div>
+  </div>
+  <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
+    <h2 className="text-lg font-bold mb-2">Title 4</h2>
+    <div className="text-center">
+      Content 4
+    </div>
+  </div>
+</div>
+
+
+<section className = "text-gray600 body-font"> 
+  <div className = "container px-5 pt-32 mx-auto flex flex-wrap"> 
+          <img
+                alt="Image"
+                height="650"
+                src="/trackingdevice.jpg"
+                width="600"
+              />
+    <div className = "flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+      <div className= "flex flex-col mb-10 lg:items-start items-center">
+        <div className = "flex-grow">
+          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Testing </h2>
+          <p className = "leading-relaxed text-lg"> Nice </p>
+        </div>
+      </div>
+      <div className= "flex flex-col mb-10 lg:items-start items-center">
+        <div className = "flex-grow">
+          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Testing </h2>
+          <p className = "leading-relaxed text-lg"> Nice </p>
+        </div>
+      </div>
+      <div className= "flex flex-col mb-10 lg:items-start items-center">
+        <div className = "flex-grow">
+          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Testing </h2>
+          <p className = "leading-relaxed text-lg"> Nice </p>
+        </div>
+      </div>
+      <div className= "flex flex-col mb-10 lg:items-start items-center">
+        <div className = "flex-grow">
+          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Testing </h2>
+          <p className = "leading-relaxed text-lg"> Nice </p>
+        </div>
+      </div>
+      <div className= "flex flex-col mb-10 lg:items-start items-center">
+        <div className = "flex-grow">
+          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Testing </h2>
+          <p className = "leading-relaxed text-lg"> Nice </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section> 
+
+
+<section className="w-full h-screen flex flex-col items-center justify-start py-12 md:py-24 lg:py-32 text-white bg-black">
+  <h1 className="text-6xl font-extrabold text-center sm:w-2/3 lg:w-1/2 xl:w-1/3 mb-8">
+    Our Features
+  </h1>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 w-full sm:w-2/3 lg:w-1/2 xl:w-2/3">
+    {/* Box 1 */}
+    <div className="bg-black rounded-md p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">100%</p>
+      <p className="text-lg text-white">All of our products are manufactured in the United States</p>
+    </div>
+
+    {/* Box 2 */}
+    <div className="bg-black rounded-md p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">95%</p>
+      <p className="text-lg text-white">success rate with device</p>
+    </div>
+
+    {/* Box 3 */}
+    <div className="bg-black rounded-md p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">92K</p>
+      <p className="text-lg text-white">Additional info</p>
+    </div>
+
+    {/* Box 4 */}
+    <div className="bg-black rounded-md p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">#407072</p>
+      <p className="text-lg text-white">Additional info</p>
+    </div>
+  </div>
+</section>
+
 
     <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
       What we offer 
@@ -231,6 +318,14 @@ export default function Home() {
       </div>
       </div>
     </section>
+
+    <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
+      Our Testimonials 
+    </h2>
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-6">
+
+      </section>
+
 
     <section>
       <h2 className= "text-center  text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100"> Get started today </h2>
