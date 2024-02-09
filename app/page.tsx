@@ -62,10 +62,10 @@ export default function Home() {
           </div>
         </section>
 
-  <section className="w-full h-screen flex items-center justify-center py-12 md:py-24 lg:py-32">
-  <div className="container px-4 md:px-6 flex flex-col items-center">
+  <section className="w-full h-screen flex items-center justify-center py-4 md:py-24 lg:py-32">
+  <div className="container p-4 md:px-6 flex flex-col items-center">
     <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
-      What we do 
+      Integrated Technology Solutions
     </h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
       <div className="flex flex-col items-center text-center">
@@ -83,6 +83,27 @@ export default function Home() {
       <div className="flex flex-col items-center text-center">
         <img src="https://cdn.hugeicons.com/icons/location-01-bulk-rounded.svg" alt="location-01" width="48" height="48" />
         <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Real-Time GPS Tracking</h3>
+        <p className="mt-2 text-gray-500 dark:text-gray-400">
+          We offer round-the-clock support for our customers.
+        </p>
+      </div>
+      <div className="flex flex-col items-center text-center">
+        <img src="https://cdn.hugeicons.com/icons/location-01-bulk-rounded.svg" alt="location-01" width="48" height="48" />
+        <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Geofencing</h3>
+        <p className="mt-2 text-gray-500 dark:text-gray-400">
+          We offer round-the-clock support for our customers.
+        </p>
+      </div>
+      <div className="flex flex-col items-center text-center">
+        <img src="https://cdn.hugeicons.com/icons/location-01-bulk-rounded.svg" alt="location-01" width="48" height="48" />
+        <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Customizable Reports</h3>
+        <p className="mt-2 text-gray-500 dark:text-gray-400">
+          We offer round-the-clock support for our customers.
+        </p>
+      </div>
+      <div className="flex flex-col items-center text-center">
+        <img src="https://cdn.hugeicons.com/icons/location-01-bulk-rounded.svg" alt="location-01" width="48" height="48" />
+        <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Efficient Route Planning</h3>
         <p className="mt-2 text-gray-500 dark:text-gray-400">
           We offer round-the-clock support for our customers.
         </p>
@@ -141,6 +162,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+
     </section>
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">

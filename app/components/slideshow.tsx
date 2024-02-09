@@ -18,8 +18,8 @@ export default function SlideShow() {
 	const differentheadings = [
 		{
 			title: "Revolutionize Fleet Management with [Techologies]",
-			description: "Book a free consultation today"
-		},
+			description: "Empowering your Business with Innovative Hardware and Software Solutions"
+		}, 
 		{
 		title: "The Leaders in Tracking Technology",
 		description: "Book a free consultation today"
