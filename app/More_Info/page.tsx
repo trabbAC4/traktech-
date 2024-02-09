@@ -16,7 +16,6 @@ export default function More_Info() {
     }
     return (
         <main>
-            <Navbar />
             <div className="flex items-center justify-center h-screen">
                  <Survey />
                    
