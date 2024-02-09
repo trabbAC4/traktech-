@@ -8,6 +8,8 @@ import Navbar from './components/Nav'
 import {VStack, Text, Input} from "@chakra-ui/react"
 import {useForm} from 'react-hook-form';
 import { Link } from "@nextui-org/link";
+import SlideShow from './components/slideshow';
+
 
 
 
@@ -31,36 +33,10 @@ import { Card, CardContent } from "@/components/ui/card"
 export default function Home() {
 
   return(
-  <> 
+  <>  
+      <SlideShow />
       {/* Include head element for video and styles */}
       <main className = "scroll-smooth">
-      <div className = "bg-gray-800 p-4 flex items-center justify-between fixed w-full top-0 z-50">
-        <Navbar />
-      </div>
-      <header className= "relative flex items-center justify-center h-screen mb-12 overflow-hidden"> 
-      <div className = "relative z-30 p-5 text-2xl text-white bg-black-300 bg-opacity-50 rounded-xl">
-        <h1 className="text-4xl font-extrabold">Waypoint Technologies</h1>
-        <h1 className="text-4xl font-extrabold mt-8">
-         Made  entirely  in America
-        </h1>
-
-        <button className="bg-white text-black py-2 px-4 rounded mx-auto block mt-8">See our prices</button>
-      </div>
-      <video
-        className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
-        autoPlay
-        muted
-        loop
-      >
-        
-        <source src="/wallpaper_main.mp4" type="video/mp4" />
-        {/* Add additional source elements for different video formats if needed */}
-        Your browser does not support the video tag.
-        </video>
-
-        {/* Content overlay */}
-      </header> 
-
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
