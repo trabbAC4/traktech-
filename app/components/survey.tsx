@@ -85,10 +85,10 @@ export default function survey() {
               <h1>  Thank you for submitting! </h1>
             </div>
           )}
-
-    <h2 className="text-3xl font-bold border-b-2 border-gray-300 mb-4 pb-2">
+      <h2 className="text-3xl font-bold border-b-2 border-gray-300 mb-4 pb-2">
        Please place your responses to the following questions so that we can assist you further
     </h2>
+
 
     <div className="mb-8 w-full bg-gray-200 rounded-full dark:bg-gray-700">
       <div className="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style= {{width: `${progress}%`}}> {`${progress}%`} </div>

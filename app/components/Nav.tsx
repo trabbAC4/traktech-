@@ -44,6 +44,10 @@ export default function Nav() {
                 className = "text-white hover:bg-white hover:text-black rounded-lg p-2">
                   Contact us  
               </Link>
+              <Link href= "/contact"
+                className = "text-white hover:bg-white hover:text-black rounded-lg p-2">
+                 Book an Appointment
+              </Link>
             </div>
           </div>
           <div className = "md:hidden flex items-center">
@@ -93,7 +97,11 @@ export default function Nav() {
               <Link href= "/contact"
                 className = "text-white hover:bg-white hover:text-black rounded-lg p-2">
                   Contact us  
-          </Link>
+              </Link>
+              <Link href= "/contact"
+                className = "text-white hover:bg-white hover:text-black rounded-lg p-2">
+                  Book an Appointment
+              </Link>
         </div>
       </div>
     )}
