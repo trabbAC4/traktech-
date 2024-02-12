@@ -1,4 +1,6 @@
 import {AreaChart} from '@tremor/react';
+import {DonutChart, Legend} from "@tremor/react";
+
 
 
 
@@ -65,10 +67,38 @@ export default function Graphs() {
           'The Pragmatic Engineer': 3736,
         },
       ];
+    const companies = [
+        {
+            name: 'WayPoint Technologies',
+            sales: 980,
+          },
+          {
+            name: 'Samsara',
+            sales: 456,
+          },
+          {
+            name: 'Hong Kong',
+            sales: 390,
+          },
+          {
+            name: 'San Francisco',
+            sales: 240,
+          },
+          {
+            name: 'Singapore',
+            sales: 190,
+          },
+        
+    ]
+
       
       const dataFormatter = (number: number | bigint) =>
         `$${Intl.NumberFormat('us').format(number).toString()}`;
+      const valueFormatter = (number: number) =>
+        `$ ${Intl.NumberFormat('us').format(number).toString()}`;
+      
         return (
+        <>
             <AreaChart
               className="h-80"
               data={chartdata}
@@ -79,6 +109,24 @@ export default function Graphs() {
               yAxisWidth={60}
               onValueChange={(v) => console.log(v)}
             />
+            <div className="flex items-center justify-center space-x-6">
+                <DonutChart
+                data={companies}
+                category="sales"
+                index="name"
+                valueFormatter={valueFormatter}
+                colors={['blue', 'green', 'purple', 'violet', 'fuchsia']}
+                className="w-40"
+                />
+            <Legend
+            categories={['New York', 'London', 'Hong Kong', 'San Francisco', 'Singapore']}
+            colors={['blue', 'cyan', 'indigo', 'violet', 'fuchsia']}
+            className="max-w-xs"
+            />
+            </div>
+        </>
+
+
         );
 
           
