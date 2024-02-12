@@ -110,6 +110,7 @@ export default function survey() {
             checked={selectedFields.includes(field)}
             onChange={() => handleFieldChange(field)}
             className="mr-2"
+            required
             />
           <label htmlFor={field}>{field}</label>
             </div>

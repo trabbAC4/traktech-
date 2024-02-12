@@ -44,7 +44,7 @@ export default function Nav() {
                 className = "text-white hover:bg-white hover:text-black rounded-lg p-2">
                   Contact us  
               </Link>
-              <Link href= "/contact"
+              <Link href= "/BookNow"
                 className = "text-white hover:bg-white hover:text-black rounded-lg p-2">
                  Book an Appointment
               </Link>
@@ -98,7 +98,7 @@ export default function Nav() {
                 className = "text-white hover:bg-white hover:text-black rounded-lg p-2">
                   Contact us  
               </Link>
-              <Link href= "/contact"
+              <Link href= "/BookNow"
                 className = "text-white hover:bg-white hover:text-black rounded-lg p-2">
                   Book an Appointment
               </Link>
