@@ -155,6 +155,10 @@ export default function Home() {
   </div>
 </div>
 
+<section className = "text-gray600 body-font">
+  <AnimatedChart />
+</section> 
+
 
 <section className = "text-gray600 body-font"> 
   <div className = "container px-5 pt-32 mx-auto flex flex-wrap"> 
@@ -365,6 +369,8 @@ export default function Home() {
     <section>
       <h2 className= "text-center  text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100"> Get started today </h2>
     </section>
+
+    <Footer /> 
 
 
 
