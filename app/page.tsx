@@ -362,19 +362,23 @@ export default function Home() {
       </div>
     </section>
 
-    <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
-      Our Testimonials 
-    </h2>
-      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-6">
+      <section className="w-full h-screen flex flex-col items-center justify-center py-4 md:py-24 lg:py-32">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8">Connect with us</h2>
+        <div className="w-full flex justify-center">
+        <div className="w-1/2 h-full bg-black flex flex-col items-center justify-center">
+        <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">Take our questionnaire for more details</h2>
+        <button className="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-300">See More</button>
+        </div>
+        <div className="w-1/2 h-full bg-white flex flex-col items-center justify-center">
+          <h2 className="text-black text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">Book a call today</h2>
+          <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800">Button 2</button>
+        </div>
+    </div>
+</section>
 
-      </section>
 
 
-    <section>
-      <h2 className= "text-center  text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100"> Get started today </h2>
-    </section>
 
-    <Footer /> 
 
 
 
