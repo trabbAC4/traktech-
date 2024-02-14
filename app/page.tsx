@@ -256,7 +256,7 @@ export default function Home() {
         <div className="animate-pulse p-4">
           <h3 className="font-bold text-lg">ELD Logging</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            This is a description of the first product. It's a great product.
+            This is a description of the first product. It&apos;s a great product.
           </p>
         </div>
       </div>
@@ -271,7 +271,7 @@ export default function Home() {
         <div className="animate-pulse p-4">
           <h3 className="font-bold text-lg">IFTA Mileage Tracking</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            This is a description of the second product. It's an even better product.
+            This is a description of the second product. It&apos;s an even better product.
           </p>
         </div>
       </div>
@@ -287,7 +287,7 @@ export default function Home() {
 
           <h3 className="font-bold text-lg">Real Time GPS Tracking</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            This is a description of the third product. It's the best product of them all.
+            This is a description of the third product. It&apos;s the best product of them all.
           </p>
         </div>
       </div>
