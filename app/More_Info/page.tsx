@@ -9,11 +9,6 @@ import Survey from '../components/survey'
 
 
 export default function More_Info() {
-    const makeApiCall = async() => {
-        await fetch('/api/hello', {
-            method: 'POST',
-        })
-    }
     return (
         <main>
             <div className="flex items-center justify-center h-screen">

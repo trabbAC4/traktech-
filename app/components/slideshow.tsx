@@ -10,14 +10,14 @@ export default function SlideShow() {
     const images = [
 		"/customerservice.jpg",
 		"/IFTA.jpg",
-		"/customerservice.jpg",
+		"/logging.jpg",
 		"/customerservice.jpg",
 		
 	];
 	
 	const differentheadings = [
 		{
-			title: "Revolutionize Fleet Management with [Techologies]",
+			title: "Revolutionize Fleet Management with WayPoint Technologies",
 			description: "Empowering your Business with Innovative Hardware and Software Solutions"
 		}, 
 		{
@@ -27,6 +27,10 @@ export default function SlideShow() {
 		{
 			title: "We present you the finest new age in technology",
 			description: "Book with us and join the new age in tracking devices"
+		},
+		{
+			title: "We offer abundant technologies ",
+			description: "Join us now"
 		},
 
 	];

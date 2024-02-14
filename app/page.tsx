@@ -60,8 +60,8 @@ export default function Home() {
           </div>
         </section>
 
-  <section className="w-full h-screen flex items-center justify-center py-4 md:py-24 lg:py-32">
-  <div className="container p-4 md:px-6 flex flex-col items-center">
+        <section className="w-full min-h-screen flex items-center justify-center py-4 md:py-24 lg:py-32">
+    <div className="container mx-auto px-4 md:px-6 flex flex-col items-center">
     <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
       Integrated Technology Solutions
     </h2>
@@ -88,8 +88,12 @@ export default function Home() {
     </div>
   </div>
 </section>
+
+
   <section>
-  <h2 className="text-lg font-bold mb-2 text-center">Why us </h2>
+  <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
+      Why us 
+  </h2>
   <div className = "mt-20 flex flex-wrap items-center"> 
   <div className =  "w-full sm:w-1/2 text-center sm:px-6"> 
     <h3 className = "text-3xl text-gray-900 font-semibold"> Testing </h3>
@@ -155,11 +159,6 @@ export default function Home() {
   </div>
 </div>
 
-<section className = "text-gray600 body-font">
-  <AnimatedChart />
-</section> 
-
-
 <section className = "text-gray600 body-font"> 
   <div className = "container px-5 pt-32 mx-auto flex flex-wrap"> 
           <img
@@ -171,32 +170,32 @@ export default function Home() {
     <div className = "flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
       <div className= "flex flex-col mb-10 lg:items-start items-center">
         <div className = "flex-grow">
-          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Testing </h2>
-          <p className = "leading-relaxed text-lg"> Nice </p>
+          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Enhanced Visibility </h2>
+          <p className = "leading-relaxed text-lg"> Eye Icon and Center  </p>
         </div>
       </div>
       <div className= "flex flex-col mb-10 lg:items-start items-center">
         <div className = "flex-grow">
-          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Testing </h2>
-          <p className = "leading-relaxed text-lg"> Nice </p>
+          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Improved Efficiency  </h2>
+          <p className = "leading-relaxed text-lg"> Stats icon or arrow up icon  </p>
         </div>
       </div>
       <div className= "flex flex-col mb-10 lg:items-start items-center">
         <div className = "flex-grow">
-          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Testing </h2>
-          <p className = "leading-relaxed text-lg"> Nice </p>
+          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Cost Savings </h2>
+          <p className = "leading-relaxed text-lg"> Money Icon </p>
         </div>
       </div>
       <div className= "flex flex-col mb-10 lg:items-start items-center">
         <div className = "flex-grow">
-          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Testing </h2>
-          <p className = "leading-relaxed text-lg"> Nice </p>
+          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Increased Productivity </h2>
+          <p className = "leading-relaxed text-lg"> Teamwork icon </p>
         </div>
       </div>
       <div className= "flex flex-col mb-10 lg:items-start items-center">
         <div className = "flex-grow">
-          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Testing </h2>
-          <p className = "leading-relaxed text-lg"> Nice </p>
+          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Data Driven Decision Making</h2>
+          <p className = "leading-relaxed text-lg"> Notebook Icon or checkmark icon </p>
         </div>
       </div>
     </div>
