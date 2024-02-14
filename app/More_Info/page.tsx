@@ -13,9 +13,7 @@ export default function More_Info() {
         <main>
             <div className="flex items-center justify-center h-screen">
                  <Survey />
-                   
             </div>
-            <Footer />
         </main>
     )
 }

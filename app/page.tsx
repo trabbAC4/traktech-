@@ -33,7 +33,6 @@ export default function Home() {
   return(
   <>  
       <SlideShow />
-      {/* Include head element for video and styles */}
       <main className = "scroll-smooth">
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container px-4 md:px-6">
