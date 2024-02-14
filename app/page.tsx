@@ -132,32 +132,37 @@ export default function Home() {
 
 </section>
 
+<section> 
+  <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
+      Key Features
+  </h2>
 <div className="flex flex-wrap justify-center">
   <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
-    <h2 className="text-lg font-bold mb-2">Title 1</h2>
+    <h2 className="text-lg font-bold mb-2 text-center">Cutting Edge Technology</h2>
     <div className="text-center">
-      Content 1
+      Picture or content and later emb it to a newsletter 
     </div>
   </div>
   <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
-    <h2 className="text-lg font-bold mb-2">Title 2</h2>
+    <h2 className="text-lg font-bold mb-2 text-center">User-friendly Software</h2>
     <div className="text-center">
-      Content 2
+    Picture or content and later emb it to a newsletter 
     </div>
   </div>
   <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
-    <h2 className="text-lg font-bold mb-2">Title 3</h2>
+    <h2 className="text-lg font-bold mb-2 text-center">Real-time Updates</h2>
     <div className="text-center">
-      Content 3
+    Picture or content and later emb it to a newsletter 
     </div>
   </div>
   <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
-    <h2 className="text-lg font-bold mb-2">Title 4</h2>
+    <h2 className="text-lg font-bold mb-2 text-center">Seamless Integration</h2>
     <div className="text-center">
-      Content 4
+    Picture or content and later emb it to a newsletter 
     </div>
   </div>
 </div>
+</section> 
 
 <section className = "text-gray600 body-font"> 
   <div className = "container px-5 pt-32 mx-auto flex flex-wrap"> 
@@ -224,14 +229,14 @@ export default function Home() {
 
     {/* Box 3 */}
     <div className="bg-black rounded-md p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">92K</p>
-      <p className="text-lg text-white">Additional info</p>
+      <p className="text-4xl font-bold text-green-900 mb-4">100000+</p>
+      <p className="text-lg text-white">Clientale messaging us</p>
     </div>
 
     {/* Box 4 */}
     <div className="bg-black rounded-md p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">#407072</p>
-      <p className="text-lg text-white">Additional info</p>
+      <p className="text-4xl font-bold text-green-900 mb-4">98%</p>
+      <p className="text-lg text-white">Improved longevity for our hardware devices</p>
     </div>
   </div>
 </section>
