@@ -5,7 +5,7 @@ import {useState, useEffect} from "react";
 import Navbar from './Nav';
 
 
-export default function survey() {
+export default function Survey() {
     const [selectedFields, setSelectedFields] = useState<string[]>([]);
     const [currentQuestion, setCurrentQuestion] = useState<number>(1);
     const [first_name, setfirst_name] = useState<string>('');

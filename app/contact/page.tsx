@@ -6,42 +6,9 @@ import Navbar from '../components/Nav'
 import { useState } from "react";
  
 export default function contact() {
-  const [loading, setLoading] = useState(false);
- 
-  async function handleSubmit(event: any) {
-    event.preventDefault();
-    setLoading(true);
- 
-    const data = {
-      name: String(event.target.name.value),
-      email: String(event.target.email.value),
-      message: String(event.target.message.value),
-    };
- 
-    const response = await fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
- 
-    if (response.ok) {
-      console.log("Message sent successfully");
-      setLoading(false);
-      // reset the form
-      event.target.name.value = "";
-      event.target.email.value = "";
-      event.target.message.value = "";
-    }
-    if (!response.ok) {
-      console.log("Error sending message");
-      setLoading(false);
-    }
-  }
   return (
     <>
-    <form onSubmit={handleSubmit}>
+    <form>
       <div className="w-full flex flex-col my-4">
         <label
           className="font-bold text-gray-800"
@@ -94,7 +61,6 @@ export default function contact() {
       </div>
       <button
         type="submit"
-        disabled={loading}
         className="px-4 py-2 w-40 bg-gray-700 disabled:bg-gray-400 disabled:text-gray-100 text-white font-medium mt-4"
       >
         Send Message

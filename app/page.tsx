@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import Survey from './components/survey';
+import Survey from './components/Survey';
 //import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "next-ui-org/react";
 import Footer from './components/Footer'
 import Navbar from './components/Nav'
