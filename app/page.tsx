@@ -40,8 +40,8 @@ export default function Home() {
               <img
                 alt="Image"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-                height="650"
-                src="/trackingdevice.jpg"
+                height="900"
+                src="/waypoint.jpg"
                 width="550"
               />
               <div className="flex flex-col justify-center space-y-4">
@@ -71,7 +71,7 @@ export default function Home() {
         <p className="mt-2 text-gray-500 dark:text-gray-400">Made primarily in America as the top leaders in hardware</p>
       </div>
       <div className="flex flex-col items-center text-center">
-        <img src="https://cdn.hugeicons.com/icons/software-license-stroke-rounded.svg" alt="software-license" width="48" height="48" />
+      <img src="https://cdn.hugeicons.com/icons/software-license-stroke-rounded.svg" alt="software-license" width="48" height="48" />
         <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Advanced Software Features</h3>
         <p className="mt-2 text-gray-500 dark:text-gray-400">
           Emerging groundbreaking technology. We strive to meet your needs
@@ -91,7 +91,7 @@ export default function Home() {
 
   <section>
   <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
-      Why us 
+      The most reliable transportation service for your products
   </h2>
   <div className = "mt-20 flex flex-wrap items-center"> 
   <div className =  "w-full sm:w-1/2 text-center sm:px-6"> 
@@ -105,7 +105,7 @@ export default function Home() {
           alt="Product Image"
           className="aspect-square object-cover w-full"
           height={300}
-          src="/customerservice.jpg"
+          src="/trucks.jpg"
           width={300}
         />
   </div>
