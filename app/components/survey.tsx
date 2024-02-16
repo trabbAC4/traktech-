@@ -85,37 +85,34 @@ export default function Survey() {
               <h1>  Thank you for submitting! </h1>
             </div>
           )}
-      <h2 className="text-3xl font-bold border-b-2 border-gray-300 mb-4 pb-2">
-       Please place your responses to the following questions so that we can assist you further
-    </h2>
-
 
     <div className="mb-8 w-full bg-gray-200 rounded-full dark:bg-gray-700">
       <div className="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style= {{width: `${progress}%`}}> {`${progress}%`} </div>
     </div>
     
 
-      {currentQuestion === 1 && (
-        <>
-          <h2 className="text-center text-2xl font-bold mb-4">Select your vehicle</h2>
-          <div className="grid grid-cols-2 gap-4">
-          {fields.map((field) => (
-          <div key={field} className={`border border-gray-300 rounded-md p-4 flex items-center cursor-pointer ${
-            selectedFields.includes(field) ? 'bg-white text-black' : ''
-          }`}
-          onClick = {() => handleFieldChange(field)} >
-            <input
-             type="checkbox"
-             id={field}
-            checked={selectedFields.includes(field)}
-            onChange={() => handleFieldChange(field)}
-            className="mr-2"
-            required
-            />
-          <label htmlFor={field}>{field}</label>
-            </div>
-        ))}
-      </div>
+    {currentQuestion === 1 && (
+    <>
+        <h2 className="text-center text-2xl font-bold mb-4">Select your vehicle</h2>
+        <div className="grid grid-cols-2 gap-4">
+            {fields.map((field) => (
+                <div key={field} className={`border border-gray-300 rounded-md p-4 flex items-center cursor-pointer ${
+                    selectedFields.includes(field) ? 'bg-white text-black' : ''
+                    }`}
+                     onClick={() => handleFieldChange(field)}>
+                    <input
+                        type="checkbox"
+                        id={field}
+                        checked={selectedFields.includes(field)}
+                        onChange={() => handleFieldChange(field)}
+                        className="mr-2 appearance-none"
+                        style={{ width: "1.5em", height: "1.5em", border: "2px solid #4A5568", borderRadius: "4px", marginRight: "0.5em" }}
+                        required
+                    />
+                    <label htmlFor={field}>{field}</label>
+                </div>
+            ))}
+        </div>
 
 
           <button
