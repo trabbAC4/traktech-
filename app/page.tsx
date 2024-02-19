@@ -58,78 +58,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
 
-        <section className="w-full min-h-screen flex items-center justify-center py-4 md:py-24 lg:py-32">
-    <div className="container mx-auto px-4 md:px-6 flex flex-col items-center">
-    <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
-      Integrated Technology Solutions
-    </h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-      <div className="flex flex-col items-center text-center">
-        <img src="https://cdn.hugeicons.com/icons/mentor-stroke-rounded.svg" alt="mentor" width="48" height="48" />
-        <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">USA-MADE Robust Hardware</h3>
-        <p className="mt-2 text-gray-500 dark:text-gray-400">Made primarily in America as the top leaders in hardware</p>
-      </div>
-      <div className="flex flex-col items-center text-center">
-      <img src="https://cdn.hugeicons.com/icons/software-license-stroke-rounded.svg" alt="software-license" width="48" height="48" />
-        <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Advanced Software Features</h3>
-        <p className="mt-2 text-gray-500 dark:text-gray-400">
-          Emerging groundbreaking technology. We strive to meet your needs
-        </p>
-      </div>
-      <div className="flex flex-col items-center text-center">
-        <img src="https://cdn.hugeicons.com/icons/location-01-bulk-rounded.svg" alt="location-01" width="48" height="48" />
-        <h3 className="mt-4 text-xl font-semibold text-gray-900 dark:text-gray-100">Real-Time GPS Tracking</h3>
-        <p className="mt-2 text-gray-500 dark:text-gray-400">
-          We offer round-the-clock support for our customers.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-  <section>
-  <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
-      The most reliable transportation service for your products
-  </h2>
-  <div className = "mt-20 flex flex-wrap items-center"> 
-  <div className =  "w-full sm:w-1/2 text-center sm:px-6"> 
-    <h3 className = "text-3xl text-gray-900 font-semibold"> Testing </h3>
-    <div className = "mt-6 text-xl leading-9">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.
-    </div> 
-  </div>
-  <div className = "w-full sm:w-1/2 p-6">
-  <Image
-          alt="Product Image"
-          className="aspect-square object-cover w-full"
-          height={300}
-          src="/trucks.jpg"
-          width={300}
-        />
-  </div>
-  </div>
-  <div className = "mt-20 flex flex-wrap items-center flex-row-reverse"> 
-  <div className =  "w-full sm:w-1/2 text-center sm:px-6"> 
-    <h3 className = "text-3xl text-gray-900 font-semibold"> Testing </h3>
-    <div className = "mt-6 text-xl leading-9">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.
-    </div> 
-  </div>
-  <div className = "w-full sm:w-1/2 p-6">
-  <Image
-          alt="Product Image"
-          className="aspect-square object-cover w-full"
-          height={300}
-          src="/customerservice.jpg"
-          width={300}
-        />
-  </div>
-  </div>
-
-
-</section>
 
 <section> 
   <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
@@ -364,18 +294,6 @@ export default function Home() {
       <section className="w-full h-screen flex flex-col items-center justify-center py-4 md:py-24 lg:py-32">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8">Connect with us</h2>
         <div className="w-full flex justify-center">
-        <div className="w-1/2 h-full bg-black flex flex-col items-center justify-center">
-        <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">Take our questionnaire for more details</h2>
-        <button className="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-300">
-            <Link href= "/More_Info"> 
-             See More  </Link>  </button> 
-        </div>
-        <div className="w-1/2 h-full bg-white flex flex-col items-center justify-center">
-        <h2 className="text-black text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-center">Book a call today</h2>
-          <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800">
-            <Link href= "/BookNow"> 
-            Book a call </Link> </button>
-        </div>
     </div>
     </section>
 

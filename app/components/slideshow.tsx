@@ -54,26 +54,29 @@ export default function SlideShow() {
 	};
 	return (
 		<div className="w-full h-screen">
-			<Zoom {...zoomInProperties}>
-				{images.map((each, index) => (
-					<div key={index} className="flex justify-center md:items-center items-start w-screen h-screen relative">
-						<Image
-							src={each}
-							alt= {`Image $(index+1)`}
-							layout = "fill"
-							objectFit = "cover"
-							quality= {100}
-						/>
-                         {differentheadings[index] && (
-          					<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 text-white">
-            				<h1 className="text-blacktext-4xl md:text-6xl font-bold">{differentheadings[index].title}</h1>
-            				<p className="text-xl md:text-2xl font-bold mt-4">{differentheadings[index].description}</p>
-          					</div>
-  						)}
-					</div>
-				))}
-			</Zoom>
-		</div>
+  <Zoom {...zoomInProperties}>
+    {images.map((each, index) => (
+      <div key={index} className="flex justify-center md:items-center items-start w-screen h-screen relative">
+        <Image
+          src={each}
+          alt={`Image ${index + 1}`}
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
+        {differentheadings[index] && (
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left text-white">
+            {/* Adjust the top-1/2, left-1/2, and transform classes for vertical and horizontal centering */}
+            <h1 className="text-4xl md:text-6xl font-bold">{differentheadings[index].title}</h1>
+            <p className="text-xl md:text-2xl font-bold mt-4">{differentheadings[index].description}</p>
+          </div>
+        )}
+      </div>
+    ))}
+  </Zoom>
+</div>
+
+
 	);
 };
 
