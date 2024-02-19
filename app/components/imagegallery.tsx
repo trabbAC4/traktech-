@@ -54,7 +54,7 @@ export default function imagegallery() {
               return (
                 <>
                   <article
-                    key={x.comment}
+                    key={x.comment} 
                     className="p-6 mb-6  transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer"
                   >
                     <Link
@@ -75,7 +75,7 @@ export default function imagegallery() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Visite Website
+                        See More
                       </Link>
                     </div>
                     <h3 className="font-medium text-xl leading-8">
