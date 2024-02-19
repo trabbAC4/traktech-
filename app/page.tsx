@@ -10,6 +10,7 @@ import {useForm} from 'react-hook-form';
 import { Link } from "@nextui-org/link";
 import SlideShow from './components/slideshow';
 import AnimatedChart from './components/Graphs';
+import ImageGallery from './components/imagegallery'
 
 
 
@@ -57,6 +58,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </section>
+        <section>
+          <ImageGallery /> 
+
         </section>
         
 
