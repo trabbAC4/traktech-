@@ -6,6 +6,8 @@ import 'react-slideshow-image/dist/styles.css'
 import Image from 'next/image'
 
 
+
+
 export default function SlideShow() {
     const images = [
 		"/customerservice.jpg",
@@ -38,7 +40,7 @@ export default function SlideShow() {
 	//These are custom properties for zoom effect while slide-show
 	const zoomInProperties = {
 		scale: 1,
-		duration: 5000,
+		duration: 2000,
 		transitionDuration: 300,
 		infinite: true,
 		prevArrow: (
