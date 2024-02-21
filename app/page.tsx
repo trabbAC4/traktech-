@@ -35,40 +35,14 @@ export default function Home() {
   <>  
       <SlideShow />
       <main className = "scroll-smooth">
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-          <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
-              <img
-                alt="Image"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-                height="900"
-                src="/waypoint.jpg"
-                width="550"
-              />
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">The leaders in Tracking Device Technology</h2>
-                  <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                    Our product offers the best technologies for your needs. A free consultation is simply a click away
-                  </p>
-                  <button className="bg-white text-black py-4 px-8 rounded mx-auto block mt-8">
-                  <Link href="/More_Info">See more</Link>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <ImageGallery /> 
+      <section className="bg-white rounded-lg p-6 shadow-md text-center my-8">
+      <h1 className="text-black text-4xl md:text-center text-4xl sm:text-left text-2xl font-bold px-4">
+          Track your company's vehicles and reduce your fleet management costs with WayPoint Technologies
+      </h1>
 
-        </section>
-        
-
-
-<section> 
-  <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-gray-900 dark:text-gray-100">
-      Key Features
+      <h3 className = "text-black text-xl my-8 "> Webfleet is Europe's leading cloud software for professional vehicle tracking and fleet management and made <span className = "font-bold"> primarily </span> in America </h3>
+      <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-black-900 dark:text-black-100 my-8">
+       Our Key Features
   </h2>
 <div className="flex flex-wrap justify-center">
   <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
@@ -96,51 +70,12 @@ export default function Home() {
     </div>
   </div>
 </div>
-</section> 
+</section>
+<section>
+    <ImageGallery /> 
 
-<section className = "text-gray600 body-font"> 
-  <div className = "container px-5 pt-32 mx-auto flex flex-wrap"> 
-          <img
-                alt="Image"
-                height="650"
-                src="/trackingdevice.jpg"
-                width="600"
-              />
-    <div className = "flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-      <div className= "flex flex-col mb-10 lg:items-start items-center">
-        <div className = "flex-grow">
-          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Enhanced Visibility </h2>
-          <p className = "leading-relaxed text-lg"> Eye Icon and Center  </p>
-        </div>
-      </div>
-      <div className= "flex flex-col mb-10 lg:items-start items-center">
-        <div className = "flex-grow">
-          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Improved Efficiency  </h2>
-          <p className = "leading-relaxed text-lg"> Stats icon or arrow up icon  </p>
-        </div>
-      </div>
-      <div className= "flex flex-col mb-10 lg:items-start items-center">
-        <div className = "flex-grow">
-          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Cost Savings </h2>
-          <p className = "leading-relaxed text-lg"> Money Icon </p>
-        </div>
-      </div>
-      <div className= "flex flex-col mb-10 lg:items-start items-center">
-        <div className = "flex-grow">
-          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Increased Productivity </h2>
-          <p className = "leading-relaxed text-lg"> Teamwork icon </p>
-        </div>
-      </div>
-      <div className= "flex flex-col mb-10 lg:items-start items-center">
-        <div className = "flex-grow">
-          <h2 className = "text-white text-2xl title-font font-medium mb-3"> Data Driven Decision Making</h2>
-          <p className = "leading-relaxed text-lg"> Notebook Icon or checkmark icon </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</section> 
+</section>
+        
 
 
 <section className="w-full h-screen flex flex-col items-center justify-start py-12 md:py-24 lg:py-32 text-white bg-black">
@@ -173,6 +108,34 @@ export default function Home() {
       <p className="text-lg text-white">Improved longevity for our hardware devices</p>
     </div>
   </div>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 w-full sm:w-2/3 lg:w-1/2 xl:w-2/3">
+    {/* Box 1 */}
+    <div className="bg-black rounded-md p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">100%</p>
+      <p className="text-lg text-white">All of our products are manufactured in the United States</p>
+    </div>
+
+    {/* Box 2 */}
+    <div className="bg-black rounded-md p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">95%</p>
+      <p className="text-lg text-white">success rate with device</p>
+    </div>
+
+    {/* Box 3 */}
+    <div className="bg-black rounded-md p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">100000+</p>
+      <p className="text-lg text-white">Clientale messaging us</p>
+    </div>
+
+    {/* Box 4 */}
+    <div className="bg-black rounded-md p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">98%</p>
+      <p className="text-lg text-white">Improved longevity for our hardware devices</p>
+    </div>
+  </div>
+
+  
 </section>
 
 

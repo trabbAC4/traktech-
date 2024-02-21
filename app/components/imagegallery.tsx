@@ -23,31 +23,13 @@ export default function imagegallery() {
         "/customerservice.jpg",
       comment: `Real time tracking`,
     },
-    {
-      link: "/More_Info",
-      image:
-        "/customerservice.jpg",
-      comment: `Sustainable models`,
-    },
-    {
-      link: "/More_Info",
-      image:
-        "/customerservice.jpg",
-      comment: `Authentic manufactured`,
-    },
-    {
-      link: "/More_Info",
-      image:
-        "/customerservice.jpg",
-      comment: `Ready made`,
-    },
   ];
   return (
     <>
       <div className="">
         <div className="p-6 container mx-auto">
           <div className="py-2">
-            <h1 className="text-center text-4xl">Our Features</h1>
+            <h1 className="text-center text-4xl">Our Services</h1>
           </div>
           <div className="md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-3 mb-12">
             {data.map((x) => {
