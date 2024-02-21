@@ -150,9 +150,9 @@ export default function Home() {
   </div>
 
   
+
+  
 </section>
-
-
     <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-black-900 dark:text-black-100 py-12">
       What we offer 
     </h2>
@@ -205,6 +205,48 @@ export default function Home() {
       </div>
 
     </section>
+    <section className = "bg-white border-b py-8">
+      <div className = "container max-w-5xl mx-auto m-8">
+        <h1 className = "w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"> Leader in transitional technology</h1>
+      </div>
+      <div className = "flex flex-wrap">
+        <div className = "w-5/6 sm:w-1/2 p-6"> 
+        <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
+          Achieve ultimate excellence 
+        </h3> 
+        <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+       </div> 
+       <div className = "w-full sm:w-1/2 p-6"> 
+        <Image
+          alt="Product Image"
+          className="w-full sm:h-64 mx-auto"
+          height={300}
+          src="/gps.jpg"
+          width={300}
+        />
+       </div> 
+      </div>
+
+      <div className = "flex flex-wrap flex-col-reverse sm:flex-row"> 
+        <div className = "w-full sm:w-1/2 p-6 mt-6">
+        <Image
+          alt="Product Image"
+          className="w-full sm:h-64 mx-auto"
+          height={300}
+          src="/gps.jpg"
+          width={300}
+        />
+        </div>
+        <div className = "w-full sm:w-1/2 p-6 mt-6"> 
+          <div className = "align-middle"> 
+          <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> Placeholder text </h3> 
+          <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+          </div>
+        </div>
+      </div>
+
+    </section>
+
 
 
     
@@ -214,6 +256,38 @@ export default function Home() {
         <div className="w-full flex justify-center">
     </div>
     </section>
+
+    <section
+      className="bg-cover"
+      style={{ backgroundImage: `./gps.jpg`, height: '400px' }}
+    >
+    </section>
+
+
+    <section> 
+
+    <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+  <div className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
+  </div>
+  <div className="p-6">
+    <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+     Tailwind card
+    </h5>
+    <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis ligula. 
+    </p>
+  </div>
+  <div className="p-6 pt-0">
+    <button data-ripple-light="true" type="button" className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+      Read More
+    </button>
+  </div>
+</div>
+
+
+  
+  </section> 
+
 
 
 
