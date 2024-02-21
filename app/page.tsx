@@ -15,6 +15,7 @@ import ImageGallery from './components/imagegallery'
 
 
 
+
 import {
   Carousel,
   CarouselContent,
@@ -204,74 +205,10 @@ export default function Home() {
       </div>
 
     </section>
-    <section className="w-full py-12 md:py-24 lg:py-32">
-      <div className="container px-4 md:px-6">
-        <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
-          <div className="flex flex-col justify-center space-y-4">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Contact us for a free consultation</h2>
-              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Navigation has and will Always be an important tool 
-              </p>
-              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                So why not invest in the product that will take you there safely 
-              </p>
-              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Contact us now to elevate your tracking game with WayPoint Technologies!
-              </p>
-              <button className="bg-white text-black py-4 px-8 rounded mx-auto block mt-8">
-                  <Link href="/More_Info">See more</Link>
-              </button>
-            </div>
-          </div>
-          <div className="flex justify-center items-center"> {/* Center the image */}
-          <Image
-          alt="Product Image"
-          className="aspect-square object-cover w-full"
-          height={500}
-          src="/customerservice.jpg"
-          width={600}
-          />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section className="w-full py-12 md:py-24 lg:py-32">
-      <div className="container px-4 md:px-6">
-    <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
-      <div className="hidden lg:flex lg:justify-end"> {/* Add this div for the right-side spacing */}
-      <Image
-          alt="Product Image"
-          className="aspect-square object-cover w-full"
-          height={500}
-          src="/customerservice.jpg"
-          width={600}
-        />
-      </div>
-      <div className="flex flex-col justify-center space-y-4">
-        <div className="space-y-2">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">We are here to assist</h2>
-          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            We strive to deliver the best possible information to you 
-          </p>
-          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            Feel free to contact us 
-          </p>
-          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            Contact us now to elevate your tracking game with WayPoint Technologies!
-          </p>
-          <button className="bg-white text-black py-4 px-8 rounded mx-auto block mt-8">
-            <Link href="/More_Info">See more</Link>
-          </button>
-        </div>
-      </div>
-      <div className="lg:hidden"> {/* Add this div for mobile responsiveness */}
-        {/* You can add some spacing or content here if needed */}
-      </div>
-      </div>
-      </div>
-    </section>
 
+
+    
+    
       <section className="w-full h-screen flex flex-col items-center justify-center py-4 md:py-24 lg:py-32">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8">Connect with us</h2>
         <div className="w-full flex justify-center">

@@ -8,19 +8,19 @@ export default function imagegallery() {
     {
       link: "/More_Info",
       image:
-        "/customerservice.jpg",
+        "/trucks.jpg",
       comment: `Full Scalable modeling`,
     },
     {
       link: "/More_Info",
       image:
-         "/customerservice.jpg",
+         "/gps.jpg",
       comment: `Efficient energy`,
     },
     {
       link: "/More_Info",
       image:
-        "/customerservice.jpg",
+        "/IFTA.jpg",
       comment: `Real time tracking`,
     },
   ];
