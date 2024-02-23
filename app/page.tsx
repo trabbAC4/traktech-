@@ -286,7 +286,9 @@ export default function Home() {
     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Achieve the new face of technology today</h1>
     <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-200 leading-relaxed mb-8">Speak with our team and see which plan would be the best for you</h2>
     <div className="flex justify-center space-x-4">
+      <Link href= "/More_Info"> 
       <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md">Request a demo</button>
+      </Link> 
       <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md">Contact us</button>
     </div>
   </div>
