@@ -12,6 +12,8 @@ import SlideShow from './components/slideshow';
 import AnimatedChart from './components/Graphs';
 import ImageGallery from './components/imagegallery'
 import ImageDisplay from './components/ImageDisplay'
+import ActiveSlider from './components/ActiveSlider'
+
 
 
 
@@ -248,6 +250,14 @@ export default function Home() {
       </div>
 
     </section>
+
+
+    <section>
+    <h1 className=  "text-3xl md: text-4xl lg:text-5xl font-bold  text-center" > Our App Flow </h1> 
+      <ActiveSlider />
+    </section>
+
+
     <section> 
       <h1 className=  "text-3xl md: text-4xl lg:text-5xl font-bold mb-8 text-center p-4" > Contact us for a free consultation </h1> 
       <h2 className = "text-xl md: text-xl lg:text-xl font-bold mb-8 text-center p-4"> We would love to speak with you and for you to understand our product </h2>
