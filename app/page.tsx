@@ -157,6 +157,7 @@ export default function Home() {
 
   
 </section>
+
     <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-black-900 dark:text-black-100 py-12">
       What we offer 
     </h2>
@@ -250,6 +251,9 @@ export default function Home() {
       </div>
 
     </section>
+
+    <section className = "bg-white border-b py-8">
+    </section> 
 
 
     <section>
