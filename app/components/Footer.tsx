@@ -23,9 +23,29 @@ export default function Footer() {
       <Link href = "/Technology"> 
       <p className="text-green-800 font-bold text-2xl pb-4">Product</p>
       </Link> 
+
       <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-        Our App 
+        <Link href= "/Technology"> 
+         Our App 
+         </Link>
       </li>
+
+      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+        <Link href= "/Technology/Products">
+          GPS Tracking
+        </Link>  
+      </li>
+      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+        <Link href = "/Technology/Products"> 
+          ELD Logging
+        </Link>   
+      </li>
+      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+        <Link href= "https://netfleet.us/track/index.php">
+          Login Portal
+        </Link> 
+      </li>
+
     </ul>
   </div>
   <div className="p-5">
@@ -37,7 +57,9 @@ export default function Footer() {
       </li>
       </Link> 
       <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+      <Link href= "/Technology/Products"> 
         Products
+      </Link>
       </li>
     </ul>
   </div>
@@ -45,11 +67,20 @@ export default function Footer() {
     <ul>
       <p className="text-green-800 font-bold text-2xl pb-4">Support</p>
       <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+        <Link href= "/Contact"> 
         Contact
+        </Link>
       </li>
       <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-        Support Portals
+        <Link href= "/Technology/Products"> 
+        Technical Support 
+        </Link>
       </li>
+      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+        Free Demo 
+      </li>
+
+
     </ul>
   </div>
 </div>
