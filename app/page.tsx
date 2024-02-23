@@ -11,6 +11,7 @@ import { Link } from "@nextui-org/link";
 import SlideShow from './components/slideshow';
 import AnimatedChart from './components/Graphs';
 import ImageGallery from './components/imagegallery'
+import 
 
 
 
