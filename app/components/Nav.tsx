@@ -10,7 +10,7 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Button} from "@nextui-or
 
 export default function Nav() {
     const [showDropdown, setShowDropdown] = useState(false);
-    return(
+    return( 
     <> 
       <nav className="bg-white p-4 flex items-center justify-between">
       {/* Logo */}
@@ -45,7 +45,10 @@ export default function Nav() {
             </div>
           )}
         </div>
+        <Link href= "/More_Info"> 
         <button className="bg-green-500 text-white px-4 py-2 rounded-md lg:hidden">Free Demo</button>
+        </Link> 
+        
       </div>
     </nav>
 </>
