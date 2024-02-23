@@ -14,7 +14,7 @@ export default function More_Info() {
         <>
          <div className = "gap-8 columns-2">
             <div className = "col-span-1"> Testing </div>
-
+            
             <div className = "col-span-4 w-full h-full"> 
                 <Image 
                     src= "/trucking.jpg"
