@@ -2,7 +2,9 @@
 import Footer from '../components/Footer'
 import Navbar from '../components/Nav'
 import Survey from '../components/Survey'
+import ImageDisplay from '../components/ImageDisplay'
 import Image from 'next/image'
+
 
 
 

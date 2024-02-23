@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 
-export default function imagedisplay() {
+export default function ImageDisplay() {
     return(
      <section className="bg-gray-200 py-12">
       <div className="container mx-auto grid grid-cols-2 md:grid-cols-3 gap-8">

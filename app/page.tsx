@@ -11,7 +11,8 @@ import { Link } from "@nextui-org/link";
 import SlideShow from './components/slideshow';
 import AnimatedChart from './components/Graphs';
 import ImageGallery from './components/imagegallery'
-import 
+import ImageDisplay from './components/ImageDisplay'
+
 
 
 
@@ -266,7 +267,7 @@ export default function Home() {
 
     
     
-      <section className="w-full h-screen flex flex-col items-center justify-center">
+    <section className="w-full h-screen flex flex-col items-center justify-center">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8">Revolutionizing tracking technology with mobile</h2>
 
         <div className="w-full flex justify-center">
@@ -276,11 +277,12 @@ export default function Home() {
     <section>
       <div className = "flex flex-wrap">
         <div className = "w-5/6 sm: 1/2 p-6">
-          <h3 className = "text-3xl text-white-800 font-bold leading-none mb-3"> Achieve ultimate excellence </h3> 
-          <p className = "text-white-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+          <h3 className = "text-3xl text-black-800 font-bold leading-none mb-3"> Achieve ultimate excellence </h3> 
+          <p className = "text-black-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
         </div>
       </div> 
     </section>
+
 
     <section className="bg-gray-500 px-4 py-8 md:py-16 lg:py-24">
     <div className="max-w-4xl mx-auto text-center">
@@ -294,6 +296,36 @@ export default function Home() {
     </div>
   </div>
   </section>
+  
+  <section className="bg-gray-200 py-12">
+      <div className="container mx-auto grid grid-cols-2 md:grid-cols-3 gap-8">
+        {/* Square div 1 */}
+        <div className="relative overflow-hidden group">
+          <div className="bg-cover bg-center w-full h-0 pb-full filter blur opacity-70 transition-opacity duration-300 group-hover:opacity-100" style={{backgroundImage: 'url("image1.jpg")'}}></div>
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            <h2 className="text-2xl font-bold mb-2">Title 1</h2>
+            <p className="text-sm text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus, turpis nec dignissim interdum, turpis nisi fermentum neque.</p>
+            <a href="#" className="underline mt-2">See more</a>
+          </div>
+        </div>
+        
+        {/* Square div 2 */}
+        <div className="relative overflow-hidden group">
+          <div className="bg-cover bg-center w-full h-0 pb-full filter blur opacity-70 transition-opacity duration-300 group-hover:opacity-100" style={{backgroundImage: 'url("image2.jpg")'}}></div>
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            <h2 className="text-2xl font-bold mb-2">Title 2</h2>
+            <p className="text-sm text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus, turpis nec dignissim interdum, turpis nisi fermentum neque.</p>
+            <a href="#" className="underline mt-2">See more</a>
+          </div>
+        </div>
+        
+        {/* Repeat similar structure for the remaining divs */}
+        {/* Square div 3 */}
+        {/* Square div 4 */}
+        {/* Square div 5 */}
+        {/* Square div 6 */}
+      </div>
+    </section>
 
 
 
