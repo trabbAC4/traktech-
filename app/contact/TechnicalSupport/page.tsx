@@ -17,14 +17,14 @@ export default function Contact() {
     <div className="grid grid-cols-2 gap-8">
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-3xl font-bold dark:text-gray-50 mb-4 text-center">
-        Contact Us
+        Our Technical Support 
       </h1>
-      <p className="text-gray-500 font-light dark:text-gray-50 text-center">
+      <p className="text-gray-500 font-light dark:text-black-50 text-center">
         Feel free to contact us for any inquiries. We would love to assist you.
       </p>
     </div>
     <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-green-500">
-      <h2 className="text-2xl font-bold dark:text-gray-50">
+      <h2 className="text-2xl font-bold dark:text-black-50">
         Feel free to contact us for any inquiries. We would love to assist you 
       </h2>
 

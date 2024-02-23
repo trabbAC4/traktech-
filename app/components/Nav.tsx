@@ -23,13 +23,15 @@ export default function Nav() {
       {/* Menu items */}
       <div className="hidden lg:flex flex-grow justify-center">
         <Link href= "/More_Info" className="text-black text-lg mx-4 hover:text-gray-700">About</Link>
-        <a href="#" className="text-black text-lg mx-4 hover:text-gray-700">Contact</a>
-        <a href="#" className="text-black text-lg mx-4 hover:text-gray-700">Technology</a>
+        <Link href="/Contact" className="text-black text-lg mx-4 hover:text-gray-700">Contact</Link>
+        <Link href="/Contact/TechnicalSupport" className="text-black text-lg mx-4 hover:text-gray-700">Technology</Link>
       </div>
 
       {/* Free Demo Button and Dropdown */}
       <div className="flex lg:flex items-center">
+        <Link href= "/More_Info">
         <button className="bg-green-500 text-white px-4 py-2 rounded-md hidden lg:block">Free Demo</button>
+        </Link>
         {/* Dropdown */}
         <div className="relative lg:hidden">
           <button className="text-black px-4 py-2" onClick={() => setShowDropdown(!showDropdown)}>
@@ -39,9 +41,9 @@ export default function Nav() {
           </button>
           {showDropdown && (
             <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg">
-              <a href="#" className="block px-4 py-2 text-black hover:bg-gray-100">About</a>
-              <a href="#" className="block px-4 py-2 text-black hover:bg-gray-100">Contact</a>
-              <a href="#" className="block px-4 py-2 text-black hover:bg-gray-100">Technology</a>
+              <Link href= "/About" className="block px-4 py-2 text-black hover:bg-gray-100">About</Link>
+              <Link href="/Contact" className="block px-4 py-2 text-black hover:bg-gray-100">Contact</Link>
+              <Link href="/Technology" className="block px-4 py-2 text-black hover:bg-gray-100">Technology</Link>
             </div>
           )}
         </div>

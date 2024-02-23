@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from "@nextui-org/link";
+import { Link } from "@nextui-org/link";
 
 
 export default function About() {
