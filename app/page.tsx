@@ -255,6 +255,8 @@ export default function Home() {
        </div> 
       </div>
 
+
+
       <div className = "flex flex-wrap flex-col-reverse sm:flex-row"> 
         <div className = "w-full sm:w-1/2 p-6 mt-6">
         <Image
@@ -319,12 +321,17 @@ export default function Home() {
 
     
     
-    <section className="w-full h-screen flex flex-col items-center justify-center">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8">Revolutionizing tracking technology with mobile</h2>
-
-        <div className="w-full flex justify-center">
-    </div>
-    </section>
+    <section className="relative">
+      {/* Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/WaypointBanner.jpeg"
+          alt="Image"
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
+    </section> 
 
     <section>
       <div className = "flex flex-wrap">
