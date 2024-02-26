@@ -251,8 +251,22 @@ export default function Home() {
       </div>
 
     </section>
+    <section> 
 
-    <section className = "bg-white border-b py-8">
+    <div className="flex flex-wrap justify-center lg:justify-between max-w-xl mx-auto">
+      <div className="border p-4 lg:w-1/3 w-full mb-4 lg:mb-0">
+        <h2 className="text-xl font-bold mb-2 text-center">Title 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div className="border p-4 lg:w-1/3 w-full mb-4 lg:mb-0">
+        <h2 className="text-xl font-bold mb-2 text-center">Title 2</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div className="border p-4 lg:w-1/3 w-full">
+        <h2 className="text-xl font-bold mb-2 text-center">Title 3</h2>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+    </div>
     </section> 
 
 
