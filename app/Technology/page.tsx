@@ -3,24 +3,22 @@ import Image from 'next/image'
 export default function Technology() {
     return(
         <>
-         <h1 className="text-6xl font-extrabold text-center sm:w-2/3 lg:w-1/2 xl:w-1/3 mb-8">
-            With a simple click our technology will take care of your needs
-         </h1>
-
-        <section className="flex justify-center items-center h-screen">
-          <div className="relative">
-              <Image
-                src="/PhoneDemonstration.png"
-                alt="Image"
-                width={300} // Adjust width as per your requirement
-                height={300} // Adjust height as per your requirement
-                 layout="responsive"
-                objectFit="contain" // You can adjust objectFit based on your image's aspect ratio
-              />
-      </div>
-
-
-        </section> 
+        <section className="flex flex-col justify-center items-center h-screen bg-white-300">
+          <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold"> Our Technology </h1>
+          <p></p>
+          </div>
+          <div className="relative w-1/2">
+            <Image
+              src="/PhoneDemonstration.png"
+              alt="Image"
+              width={200} // Adjust width as per your requirement
+              height={300} // Adjust height as per your requirement
+              layout="responsive"
+              objectFit="contain" // You can adjust objectFit based on your image's aspect ratio
+            />
+          </div>
+        </section>
 
         <section className = "bg-gray-800 text-white mb-4">
 
@@ -100,16 +98,16 @@ export default function Technology() {
         </div>
       </div>
 
-      <section className= "bg-gray-800 mb-4">
+      <section>
           <h1> GPS Tracking </h1> 
       </section>
 
-      <section className= "bg-gray-800 mb-4">
+      <section>
           <h1> GPS Tracking </h1> 
       </section>
 
 
-      <section className = "bg-gray-800 mb-4"> 
+      <section> 
         <h1> Put in like a question and answer portal </h1> 
       </section>
 

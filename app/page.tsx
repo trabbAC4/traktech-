@@ -116,7 +116,7 @@ export default function Home() {
         
 
 
-<section className="w-full h-screen flex flex-col items-center justify-start py-12 md:py-24 lg:py-32 text-white bg-black">
+<section className="w-full min-h-screen flex flex-col items-center justify-start py-8 md:py-16 lg:py-20 text-white bg-black">
   <h1 className="text-6xl font-extrabold text-center sm:w-2/3 lg:w-1/2 xl:w-1/3 mb-8">
     Our Features
   </h1>
@@ -280,15 +280,15 @@ export default function Home() {
 
     <div className="flex flex-wrap justify-center lg:justify-between max-w-xl mx-auto">
       <div className="border p-4 lg:w-1/3 w-full mb-4 lg:mb-0">
-        <h2 className="text-xl font-bold mb-2 text-center">Title 1</h2>
+        <h2 className="text-xl font-bold mb-2 text-center">Emerging Technology </h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div className="border p-4 lg:w-1/3 w-full mb-4 lg:mb-0">
-        <h2 className="text-xl font-bold mb-2 text-center">Title 2</h2>
+        <h2 className="text-xl font-bold mb-2 text-center">Active location GPS</h2>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
       <div className="border p-4 lg:w-1/3 w-full">
-        <h2 className="text-xl font-bold mb-2 text-center">Title 3</h2>
+        <h2 className="text-xl font-bold mb-2 text-center">Well founded Application </h2>
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
     </div>
