@@ -21,6 +21,7 @@
     "@radix-ui/react-slot": "^1.0.2",
     "@tremor/react": "^3.14.0",
     "@types/nodemailer": "^6.4.14",
+    "aos": "^2.3.4",
     "chart.js": "^4.4.1",
     "class-variance-authority": "^0.7.0",
     "embla-carousel-react": "^8.0.0-rc22",

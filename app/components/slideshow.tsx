@@ -69,9 +69,13 @@ export default function SlideShow() {
         {differentheadings[index] && (
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left text-white">
             {/* Adjust the top-1/2, left-1/2, and transform classes for vertical and horizontal centering */}
-            <h1 className="text-4xl md:text-6xl font-bold">{differentheadings[index].title}</h1>
-            <p className="text-xl md:text-2xl font-bold mt-4">{differentheadings[index].description}</p>
-          </div>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">{differentheadings[index].title}</h1>
+            <p className="text-xl md:text-2xl font-bold mb-4">{differentheadings[index].description}</p>
+			<div className="flex space-x-4">
+				<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Book Now</button>
+    			<button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Schedule a Demo</button>
+ 			</div>
+		  </div>
         )}
       </div>
     ))}

@@ -6,6 +6,7 @@ import Survey from './components/Survey';
 import Footer from './components/Footer'
 import Navbar from './components/Nav'
 import {VStack, Text, Input} from "@chakra-ui/react"
+import {useEffect, useState} from 'react';
 import {useForm} from 'react-hook-form';
 import { Link } from "@nextui-org/link";
 import SlideShow from './components/slideshow';
@@ -35,16 +36,32 @@ import { Card, CardContent } from "@/components/ui/card"
 
 
 export default function Home() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return(
   <>  
       <SlideShow />
       <main className = "scroll-smooth">
       <section className="bg-white rounded-lg p-6 shadow-md text-center my-8">
+      <div className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
       <h1 className="text-black text-4xl md:text-center text-4xl sm:text-left text-2xl font-bold px-4">
           Track your company's vehicles and reduce your fleet management costs with WayPoint Technologies
       </h1>
-
       <h3 className = "text-black text-xl my-8 "> Webfleet is Europe's leading cloud software for professional vehicle tracking and fleet management and made <span className = "font-bold"> primarily </span> in America </h3>
       <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-black-900 dark:text-black-100 my-8">
        Our Key Features
@@ -88,9 +105,12 @@ export default function Home() {
     </div>
   </div>
 </div>
+</div> 
 </section>
 <section>
+  <div className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
     <ImageGallery /> 
+  </div> 
 
 </section>
         
@@ -153,11 +173,12 @@ export default function Home() {
     </div>
   </div>
 
+
   
 
   
 </section>
-
+  
     <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-black-900 dark:text-black-100 py-12">
       What we offer 
     </h2>
@@ -208,9 +229,11 @@ export default function Home() {
           </p>
         </div>
       </div>
+  
 
     </section>
     <section className = "bg-white border-b py-8">
+      <div className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
       <div className = "container max-w-5xl mx-auto m-8">
         <h1 className = "w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"> Leader in transitional technology</h1>
       </div>
@@ -249,7 +272,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+    </div>
     </section>
     <section> 
 
