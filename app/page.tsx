@@ -271,17 +271,13 @@ export default function Home() {
 
       
     </section>
-    <section className="w-full bg-gray-500 min-h-screen flex flex-col justify-center items-center py-8 md:py-16 lg:py-20 text-white relative overflow-hidden">
+    <section className="bg-gray-500 flex flex-col justify-center items-center py-4 md:py-6 lg:py-8 text-white relative overflow-hidden">
   {/* Custom circle background */}
-  <div className="absolute inset-0 flex justify-center items-center">
-    <div className="bg-black rounded-full transform scale-150 md:scale-100"></div>
-  </div>
-
   <h1 className="text-6xl font-extrabold text-center mb-8 text-black relative z-10">
     Our Features
   </h1>
 
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl relative z-10">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-6xl relative z-10">
     {/* Box 1 */}
     <div className="bg-black rounded-full p-4 sm:p-6 text-center">
       <p className="text-4xl font-bold text-green-900 mb-4">
@@ -329,8 +325,6 @@ export default function Home() {
     </div>
   </div>
 </section>
-
-
 
 
 
