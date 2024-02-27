@@ -239,39 +239,7 @@ export default function Home() {
       </div>
     </div>
     </section>
-    <section> 
-
-    <div className="flex flex-wrap justify-center lg:justify-between max-w-xl mx-auto">
-      <div className="border p-4 lg:w-1/3 w-full mb-4 lg:mb-0">
-        <h2 className="text-xl font-bold mb-2 text-center">Emerging Technology </h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div className="border p-4 lg:w-1/3 w-full mb-4 lg:mb-0">
-        <h2 className="text-xl font-bold mb-2 text-center">Active location GPS</h2>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div className="border p-4 lg:w-1/3 w-full">
-        <h2 className="text-xl font-bold mb-2 text-center">Well founded Application </h2>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      </div>
-    </div>
-    </section> 
-
-
-    <section>
-    <h1 className=  "text-3xl md: text-4xl lg:text-5xl font-bold  text-center" > Our App Flow </h1> 
-      <ActiveSlider />
-    </section>
-
-
-    <section> 
-      <h1 className=  "text-3xl md: text-4xl lg:text-5xl font-bold mb-8 text-center p-4" > Contact us for a free consultation </h1> 
-      <h2 className = "text-xl md: text-xl lg:text-xl font-bold mb-8 text-center p-4"> We would love to speak with you and for you to understand our product </h2>
-
-
-      
-    </section>
-    <section className="bg-gray-500 flex flex-col justify-center items-center py-4 md:py-6 lg:py-8 text-white relative overflow-hidden">
+    <section className="bg-gray-500 flex flex-col justify-center items-center mt-8 mb-8 py-8 md:py-6 lg:py-8 text-white relative overflow-hidden">
   {/* Custom circle background */}
   <h1 className="text-6xl font-extrabold text-center mb-8 text-black relative z-10">
     Our Features
