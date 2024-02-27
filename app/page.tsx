@@ -14,6 +14,8 @@ import AnimatedChart from './components/Graphs';
 import ImageGallery from './components/imagegallery'
 import ImageDisplay from './components/ImageDisplay'
 import ActiveSlider from './components/ActiveSlider'
+import AnimatedNumbers from './components/AnimatedNumbers'
+
 
 
 
@@ -52,6 +54,31 @@ export default function Home() {
     // Clean up the event listener
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const targetCount = 100; // Target count value
+    const duration = 3000; // Duration of animation in milliseconds
+    const steps = 100; // Number of steps
+
+    const increment = targetCount / steps;
+    const interval = duration / steps;
+
+    let currentCount = 0;
+    const timer = setInterval(() => {
+      currentCount += increment;
+      if (currentCount >= targetCount) {
+        currentCount = targetCount;
+        clearInterval(timer);
+      }
+      setCount(currentCount);
+    }, interval);
+
+    // Cleanup function to clear the interval
+    return () => clearInterval(timer);
+  }, []);
+
 
   return(
   <>  
@@ -113,71 +140,7 @@ export default function Home() {
   </div> 
 
 </section>
-        
-
-
-<section className="w-full min-h-screen flex flex-col items-center justify-start py-8 md:py-16 lg:py-20 text-white bg-black">
-  <h1 className="text-6xl font-extrabold text-center sm:w-2/3 lg:w-1/2 xl:w-1/3 mb-8">
-    Our Features
-  </h1>
-
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 w-full sm:w-2/3 lg:w-1/2 xl:w-2/3">
-    {/* Box 1 */}
-    <div className="bg-black rounded-md p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">100%</p>
-      <p className="text-lg text-white">All of our products are manufactured in the United States</p>
-    </div>
-
-    {/* Box 2 */}
-    <div className="bg-black rounded-md p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">95%</p>
-      <p className="text-lg text-white">success rate with device</p>
-    </div>
-
-    {/* Box 3 */}
-    <div className="bg-black rounded-md p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">100000+</p>
-      <p className="text-lg text-white">Clientale messaging us</p>
-    </div>
-
-    {/* Box 4 */}
-    <div className="bg-black rounded-md p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">98%</p>
-      <p className="text-lg text-white">Improved longevity for our hardware devices</p>
-    </div>
-  </div>
-
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 w-full sm:w-2/3 lg:w-1/2 xl:w-2/3">
-    {/* Box 1 */}
-    <div className="bg-black rounded-md p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">28+</p>
-      <p className="text-lg text-white">Different devices for your needs</p>
-    </div>
-
-    {/* Box 2 */}
-    <div className="bg-black rounded-md p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">95%</p>
-      <p className="text-lg text-white">success rate with device</p>
-    </div>
-
-    {/* Box 3 */}
-    <div className="bg-black rounded-md p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">100000+</p>
-      <p className="text-lg text-white">Clientale messaging us</p>
-    </div>
-
-    {/* Box 4 */}
-    <div className="bg-black rounded-md p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">98%</p>
-      <p className="text-lg text-white">Improved longevity for our hardware devices</p>
-    </div>
-  </div>
-
-
   
-
-  
-</section>
   
     <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-black-900 dark:text-black-100 py-12">
       What we offer 
@@ -308,11 +271,71 @@ export default function Home() {
 
       
     </section>
-    <section className = "py-8"> 
-    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8">Learn to React</h2>
-      <ImageDisplay />
-    </section> 
+    <section className="w-full bg-gray-500 min-h-screen flex flex-col justify-center items-center py-8 md:py-16 lg:py-20 text-white relative overflow-hidden">
+  {/* Custom circle background */}
+  <div className="absolute inset-0 flex justify-center items-center">
+    <div className="bg-black rounded-full transform scale-150 md:scale-100"></div>
+  </div>
 
+  <h1 className="text-6xl font-extrabold text-center mb-8 text-black relative z-10">
+    Our Features
+  </h1>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl relative z-10">
+    {/* Box 1 */}
+    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">
+        <AnimatedNumbers start={0} end={100} /> %
+      </p>
+      <p className="text-lg text-white">All of our products are manufactured in the United States</p>
+    </div>
+
+    {/* Box 2 */}
+    <div className="bg-white rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">
+        <AnimatedNumbers start={0} end={95} /> %
+      </p>
+      <p className="text-lg text-black">Success rate with device</p>
+    </div>
+
+    {/* Box 3 */}
+    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">
+        <AnimatedNumbers start={500} end={10000} /> +
+      </p>
+      <p className="text-lg text-white">Clientele messaging us</p>
+    </div>
+
+    {/* Box 4 */}
+    <div className="bg-white rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">
+        <AnimatedNumbers start={0} end={28} /> +
+      </p>
+      <p className="text-lg text-black">Different devices for your needs</p>
+    </div>
+
+    {/* Box 5 */}
+    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">
+        <AnimatedNumbers start = {0} end = {95} /> %</p>
+      <p className="text-lg text-white">Success rate with device</p>
+    </div>
+
+    {/* Box 6 */}
+    <div className="bg-white rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-green-900 mb-4">
+        <AnimatedNumbers start = {0} end = {100000} /> +</p>
+      <p className="text-lg text-black">Clientele messaging us</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+  
 
 
 
