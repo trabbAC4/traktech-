@@ -10,17 +10,17 @@ import Image from 'next/image'
 
 export default function SlideShow() {
     const images = [
-		"/customerservice.jpg",
-		"/IFTA.jpg",
+		"/adobe.jpeg",
+		"/skyline.jpeg",
 		"/logging.jpg",
-		"/customerservice.jpg",
+		"/meeting.jpeg",
 		
 	];
 	
 	const differentheadings = [
 		{
 			title: "Revolutionize Fleet Management with WayPoint Technologies",
-			description: "Empowering your Business with Innovative Hardware and Software Solutions"
+			description: "At Waypoint Technologies, we ensure seamless tracking experiences with exceptional customer support"
 		}, 
 		{
 		title: "The Leaders in Tracking Technology",
@@ -31,8 +31,8 @@ export default function SlideShow() {
 			description: "Book with us and join the new age in tracking devices"
 		},
 		{
-			title: "We offer abundant technologies ",
-			description: "Join us now"
+			title: "With the most profound customer service",
+			description: "At Waypoint Technologies, we ensure seamless tracking experiences with exceptional customer support"
 		},
 
 	];
@@ -40,7 +40,7 @@ export default function SlideShow() {
 	//These are custom properties for zoom effect while slide-show
 	const zoomInProperties = {
 		scale: 1,
-		duration: 2000,
+		duration: 1000,
 		transitionDuration: 300,
 		infinite: true,
 		prevArrow: (
@@ -67,7 +67,8 @@ export default function SlideShow() {
           quality={100}
         />
         {differentheadings[index] && (
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left text-white">
+			
+          <div className="bg-clip-border absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-left text-white">
             {/* Adjust the top-1/2, left-1/2, and transform classes for vertical and horizontal centering */}
             <h1 className="text-4xl md:text-6xl font-bold mb-4">{differentheadings[index].title}</h1>
             <p className="text-xl md:text-2xl font-bold mb-4">{differentheadings[index].description}</p>

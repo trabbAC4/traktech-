@@ -9,19 +9,19 @@ export default function imagegallery() {
       link: "/More_Info",
       image:
         "/trucks.jpg",
-      comment: `Full Scalable modeling`,
+      comment: `ELD Logging`,
     },
     {
       link: "/More_Info",
       image:
          "/gps.jpg",
-      comment: `Efficient energy`,
+      comment: `IFTA Mileage Tracking`,
     },
     {
       link: "/More_Info",
       image:
         "/IFTA.jpg",
-      comment: `Real time tracking`,
+      comment: `Real time GPS Tracking`,
     },
   ];
   return (
