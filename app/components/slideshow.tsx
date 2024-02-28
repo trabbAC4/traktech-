@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 export default function SlideShow() {
     const images = [
-		"/adobe.jpeg",
+		"/trucking.jpeg",
 		"/skyline.jpeg",
 		"/logging.jpg",
 		"/meeting.jpeg",
