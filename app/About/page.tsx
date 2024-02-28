@@ -133,13 +133,13 @@ export default function About() {
     
 
 
-    <section className="bg-gray-500 px-4 py-8 md:py-16 lg:py-24">
-    <div className="max-w-4xl mx-auto text-center">
-    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Our Product handles</h1>
-  </div>
-  </section>
+    <section className="md:py-6 lg:py-8">
+        <div className="max-w-4xl mx-auto text-center">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-green mb-4">Our Product handles</h1>
+        </div>
+          <ImageDisplay /> 
+    </section>
 
-  <ImageDisplay /> 
 
  
 
@@ -154,8 +154,8 @@ export default function About() {
 
   <section className="bg-gray-500 px-4 py-8 md:py-16 lg:py-24">
     <div className="max-w-4xl mx-auto text-center">
-    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Achieve the new face of technology today</h1>
-    <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-200 leading-relaxed mb-8">Speak with our team and see which plan would be the best for you</h2>
+    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Start your next journey now </h1>
+    <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-200 leading-relaxed mb-8">Handle the new age of technology </h2>
     <div className="flex justify-center space-x-4">
       <Link href= "/More_Info"> 
       <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md">Request a demo</button>
