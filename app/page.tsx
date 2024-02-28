@@ -197,6 +197,9 @@ export default function Home() {
   
 
     </section>
+
+
+
     <section className = "bg-white border-b py-8">
       <div className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
       <div className = "container max-w-5xl mx-auto m-8">
@@ -319,20 +322,30 @@ export default function Home() {
         />
       </div>
     </section> 
-
-    <section>
-      <div className = "flex flex-wrap">
-        <div className = "w-5/6 sm: 1/2 p-6">
-          <h3 className = "text-3xl text-black-800 font-bold leading-none mb-3"> Achieve ultimate excellence </h3> 
-          <p className = "text-black-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+    <section className = "py-8">
+      <div className = "flex flex-col w-full"> 
+        <div>
+          <h3 className = "text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">See your devices around the world</h3>
+          <p className = "leading-normal mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12"> With the state of the art location tracking, our devices and software are more than capable of tracking the way</p>
         </div>
-      </div> 
+        <div className="flex justify-center pw-full px-8">
+          <Image 
+            src="/location.svg"
+            alt="Location"
+            width={600}
+            height={300}
+            className="h-auto md:max-w-1/2"
+          /> 
+      </div>
+
+
+      </div>
     </section>
 
 
     <section className="bg-gray-500 px-4 py-8 md:py-16 lg:py-24">
     <div className="max-w-4xl mx-auto text-center">
-    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Achieve the new face of technology today</h1>
+    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Find your way with WayPoint</h1>
     <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-200 leading-relaxed mb-8">Speak with our team and see which plan would be the best for you</h2>
     <div className="flex justify-center space-x-4">
       <Link href= "/More_Info"> 
