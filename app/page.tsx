@@ -142,9 +142,11 @@ export default function Home() {
 </section>
   
   
+ <div className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>  
     <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-black-900 dark:text-black-100 py-12">
       What we offer 
     </h2>
+  </div>
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-6">
       <div className="border border-gray-200 rounded-lg overflow-hidden dark:border-gray-800">
         <img
