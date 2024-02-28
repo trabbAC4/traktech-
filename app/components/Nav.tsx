@@ -22,7 +22,7 @@ export default function Nav() {
       
       {/* Menu items */}
       <div className="hidden lg:flex flex-grow justify-center">
-      <Link href="/More_Info" className="text-black text-lg mx-4 relative overflow-hidden">
+      <Link href="/About" className="text-black text-lg mx-4 relative overflow-hidden">
         <span className="relative z-10 hover:border-green-500 transition-all duration-500 ease-in-out border-b-2 border-transparent">About</span>
         <span className="absolute top-0 left-0 w-full h-full bg-green-500 transform translate-x-full transition-transform duration-500 ease-in-out group-hover:translate-x-0 z-0"></span>
       </Link>
