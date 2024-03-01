@@ -15,14 +15,15 @@ export default function Contact() {
     return (
       <section className="w-full h-screen flex flex-col items-center justify-center py-4 md:py-24 lg:py-32">
     <div className="grid grid-cols-2 gap-8">
-    <div className="flex flex-col items-center justify-center">
-      <h1 className="text-3xl font-bold dark:text-gray-50 mb-4 text-center">
-        Contact Us
-      </h1>
-      <p className="text-gray-500 font-light dark:text-gray-50 text-center">
-        Feel free to contact us for any inquiries. We would love to assist you.
-      </p>
-    </div>
+    <div className="flex flex-col items-center justify-start">
+  <h1 className="text-4xl font-bold dark:text-gray-50 mb-2 text-center">Contact Us</h1>
+  <p className="text-lg text-gray-500 font-light dark:text-gray-50 text-center mb-6">Feel free to contact us for any inquiries. We would love to assist you.</p>
+  <div className="text-center">
+    <h2 className="text-xl font-bold dark:text-gray-50 mb-2">Email</h2>
+    <p className="text-gray-500 dark:text-gray-50">example@example.com</p>
+  </div>
+  </div>
+
     <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-green-500">
       <h2 className="text-2xl font-bold dark:text-gray-50">
         Feel free to contact us for any inquiries. We would love to assist you 

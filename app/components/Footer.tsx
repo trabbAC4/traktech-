@@ -77,7 +77,9 @@ export default function Footer() {
         </Link>
       </li>
       <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-        Free Demo 
+        <Link href= "/More_Info"> Free Demo
+
+        </Link>  
       </li>
 
 

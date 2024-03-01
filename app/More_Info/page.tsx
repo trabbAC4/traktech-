@@ -87,7 +87,7 @@ export default function More_Info() {
   <div className="lg:w-1/2 relative"> 
     <div className = "absolute inset-0">
         <Image 
-            src= "/customerservice.jpg"
+            src= "/WaypointBanner.jpeg"
             alt= "Background Image"
             layout = "fill"
             objectFit=  "cover"

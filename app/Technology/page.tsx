@@ -15,17 +15,27 @@ export default function Technology() {
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-black">Definite Location Tracking</h1>
               <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"> Our revolutionary technology has accomplished the flow of exact and precise navigation  </p> 
             <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                <Link href="https://github.com/themesberg/landwind" className="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-black dark:border-gray-700 dark:hover:bg-green-700 text-white dark:focus:ring-gray-800"> Get Started 
-                </Link>
-          <a href="https://www.figma.com/community/file/1125744163617429490" className="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-white-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"> Book a Demo
-            </a>
+              <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+              <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+               <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </span>
+                <span className="relative">Book a free call!</span>
+            </Link>
+            <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+              <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+               <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </span>
+                <span className="relative">Get a free Demo!</span>
+            </Link>
           </div>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <Image 
               src= "/PhoneDemonstration2.png"
               alt=  "phone" 
-              width = {400}
+              width = {450}
               height = {300}
 
             /> 
@@ -34,22 +44,27 @@ export default function Technology() {
 
         </section>
 
-        <section className="flex flex-col justify-center items-center h-screen bg-white-500">
-          <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold"> Our Technology </h1>
-          <p></p>
-          </div>
-          <div className="relative w-1/2">
-            <Image
-              src="/PhoneDemonstration.png"
-              alt="Image"
-              width={200} // Adjust width as per your requirement
-              height={300} // Adjust height as per your requirement
-              layout="responsive"
-              objectFit="contain" // You can adjust objectFit based on your image's aspect ratio
-            />
-          </div>
-        </section>
+        <section className="flex flex-col justify-center items-center min-h-screen bg-white">
+  <div className="text-center mb-8">
+    <h1 className="text-4xl font-bold"> Our App</h1>
+  </div>
+  <div className="relative w-full md:w-3/4 lg:w-2/3">
+    <div className="bg-white rounded-lg shadow-lg p-2 md:p-4">
+      <Image
+        src="/PhoneDemonstration.png"
+        alt="Image"
+        width={400} // Adjust width as per your requirement
+        height={600} // Adjust height as per your requirement
+        layout="responsive"
+        objectFit="contain" // You can adjust objectFit based on your image's aspect ratio
+        className="mx-auto" // Center the image horizontally
+      />
+    </div>
+  </div>
+</section>
+
+
+
 
 
         <section className = "bg-gray-800 text-white">
@@ -100,7 +115,7 @@ export default function Technology() {
       <div className = "flex flex-wrap">
         <div className = "w-5/6 sm:w-1/2 p-6"> 
         <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
-          ELD Logging 
+          Efficient and Effective Transport 
         </h3> 
         <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
        </div> 
