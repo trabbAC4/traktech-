@@ -23,9 +23,9 @@ export default function Technology() {
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <Image 
-              src= "/image1app.jpeg"
+              src= "/PhoneDemonstration2.png"
               alt=  "phone" 
-              width = {300}
+              width = {400}
               height = {300}
 
             /> 
@@ -132,13 +132,27 @@ export default function Technology() {
         </div>
       </div>
 
-      <section>
-          <h1> GPS Tracking </h1> 
-      </section>
+      <section className = "py-8">
+      <div className = "flex flex-col w-full"> 
+        <div>
+          <h3 className = "text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">A platform that locates your device 24/7</h3>
+          <p className = "leading-normal mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12"> Our platform </p>
+        </div>
+        <div className="flex justify-center pw-full px-8">
+          <Image 
+            src="/website.svg"
+            alt="website"
+            width={600}
+            height={300}
+            className="h-auto md:max-w-1/2"
+          /> 
+      </div>
 
-      <section>
-          <h1> GPS Tracking </h1> 
-      </section>
+
+      </div>
+    </section>
+
+
 
 
       <section> 

@@ -141,61 +141,6 @@ export default function Home() {
 
 </section>
   
-  
- <div className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>  
-    <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-black-900 dark:text-black-100 py-12">
-      What we offer 
-    </h2>
-  </div>
-      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-6">
-      <div className="border border-gray-200 rounded-lg overflow-hidden dark:border-gray-800">
-        <img
-          alt="Product Image"
-          className="aspect-square object-cover w-full"
-          height={500}
-          src="/logging.jpg"
-          width={500}
-        />
-        <div className="animate-pulse p-4">
-          <h3 className="font-bold text-lg">ELD Logging</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            This is a description of the first product. It&apos;s a great product.
-          </p>
-        </div>
-      </div>
-      <div className="border border-gray-200 rounded-lg overflow-hidden dark:border-gray-800">
-        <img
-          alt="Product Image"
-          className="aspect-square object-cover w-full"
-          height={500}
-          src="/IFTA.jpg"
-          width={500}
-        />
-        <div className="animate-pulse p-4">
-          <h3 className="font-bold text-lg">IFTA Mileage Tracking</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            This is a description of the second product. It&apos;s an even better product.
-          </p>
-        </div>
-      </div>
-      <div className="border border-gray-200 rounded-lg overflow-hidden dark:border-gray-800">
-        <Image
-          alt="Product Image"
-          className="aspect-square object-cover w-full"
-          height={500}
-          src="/gps.jpg"
-          width={500}
-        />
-        <div className="animate-pulse p-4">
-          <h3 className="font-bold text-lg">Real Time GPS Tracking</h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            This is a description of the third product. It&apos;s the best product of them all.
-          </p>
-        </div>
-      </div>
-  
-
-    </section>
 
 
 

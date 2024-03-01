@@ -16,9 +16,19 @@ export default function About() {
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-black">Achieve the future of pinnacle design </h1>
               <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"> Our technology will deliver the most promising results and deliver the best gps navigation. Sign up for a free demo and learn more  </p> 
             <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                <Link href="https://github.com/themesberg/landwind" className="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-black dark:border-gray-700 dark:hover:bg-green-700 text-white dark:focus:ring-gray-800"> Get Started 
-                </Link>
-          <Link href="https://www.figma.com/community/file/1125744163617429490" className="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-white-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-white-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"> Book a Demo
+            <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+              <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+               <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </span>
+                <span className="relative">Book a free call!</span>
+            </Link>
+            <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+              <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+              <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </span>
+                  <span className="relative">Learn More</span>
             </Link>
           </div>
           </div>
@@ -47,54 +57,39 @@ export default function About() {
 
       <h3 className = "text-black text-xl my-8 "> We handle </h3>
       <div className="max-w-3xl mx-auto">
-  <div className="flex flex-wrap justify-center">
-  <ul className="list-none p-0 mx-4 my-2 md:mx-0 md:my-0 md:mr-4">
-  <li className="flex items-center mb-4">
-    <span className="mr-3 text-xl"><FaCalendarCheck /></span>
-    <span className="text-lg">GPS Technology</span>
-  </li>
-  <li className="flex items-center mb-4">
-    <span className="mr-3 text-xl"><FaCalendarCheck /></span>
-    <span className="text-lg">Wireless Devices</span>
-  </li>
-  <li className="flex items-center mb-4">
-    <span className="mr-3 text-xl"><FaCalendarCheck /></span>
-    <span className="text-lg">Chips</span>
-  </li>
-  <li className="flex items-center mb-4">
-    <span className="mr-3 text-xl"><FaCalendarCheck /></span>
-    <span className="text-lg">ELD Logging</span>
-  </li>
-  <li className="flex items-center mb-4">
-    <span className="mr-3 text-xl"><FaCalendarCheck /></span>
-    <span className="text-lg">Support Panel</span>
-  </li>
-</ul>
+    <div className="flex flex-wrap justify-between">
+      <ul className="list-none p-0 mx-4 my-2 md:mx-0 md:my-0 md:mr-4">
+        <li className="flex items-center mb-4">
+          <span className="mr-3 text-xl"><FaCalendarCheck /></span>
+          <span className="text-lg">Real Time GPS Technology</span>
+        </li>
+        <li className="flex items-center mb-4">
+          <span className="mr-3 text-xl"><FaCalendarCheck /></span>
+          <span className="text-lg">Route Optimization</span>
+        </li>
+        <li className="flex items-center mb-4">
+          <span className="mr-3 text-xl"><FaCalendarCheck /></span>
+          <span className="text-lg">IFTA </span>
+        </li>
+        
+      </ul>
 
-    <ul className="list-none p-0 mx-4 my-2 md:mx-0 md:my-0 md:ml-4">
-    <li className="flex items-center mb-4">
-    <span className="mr-3 text-xl"><FaCalendarCheck /></span>
-    <span className="text-lg">GPS Technology</span>
-  </li>
-  <li className="flex items-center mb-4">
-    <span className="mr-3 text-xl"><FaCalendarCheck /></span>
-    <span className="text-lg">Wireless Devices</span>
-  </li>
-  <li className="flex items-center mb-4">
-    <span className="mr-3 text-xl"><FaCalendarCheck /></span>
-    <span className="text-lg">Chips</span>
-  </li>
-  <li className="flex items-center mb-4">
-    <span className="mr-3 text-xl"><FaCalendarCheck /></span>
-    <span className="text-lg">ELD Logging</span>
-  </li>
-  <li className="flex items-center mb-4">
-    <span className="mr-3 text-xl"><FaCalendarCheck /></span>
-    <span className="text-lg">Support Panel</span>
-  </li>
-    </ul>
-  </div>
-</div> 
+      <ul className="list-none p-0 mx-4 my-2 md:mx-0 md:my-0 md:ml-4">
+        <li className="flex items-center mb-4">
+          <span className="mr-3 text-xl"><FaCalendarCheck /></span>
+          <span className="text-lg">Reliable fleets</span>
+        </li>
+        <li className="flex items-center mb-4">
+          <span className="mr-3 text-xl"><FaCalendarCheck /></span>
+          <span className="text-lg">ELD Logging</span>
+        </li>
+        <li className="flex items-center mb-4">
+          <span className="mr-3 text-xl"><FaCalendarCheck /></span>
+          <span className="text-lg">ELD Logging</span>
+        </li>
+      </ul>
+    </div>
+  </div> 
 </section>
 
 
@@ -105,7 +100,7 @@ export default function About() {
       <div className = "flex flex-wrap">
         <div className = "w-5/6 sm:w-1/2 p-6"> 
         <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
-          Achieve ultimate excellence 
+          Accurate Tracking 
         </h3> 
         <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
        </div> 
@@ -132,7 +127,7 @@ export default function About() {
         </div>
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 
           <div className = "align-middle"> 
-          <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> Placeholder text </h3> 
+          <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> Profound Technology </h3> 
           <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
           </div>
         </div>
@@ -145,22 +140,10 @@ export default function About() {
 
     <section className="md:py-6 lg:py-8">
         <div className="max-w-4xl mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-green mb-4">Our Product handles</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-green mb-4">Our Products</h1>
         </div>
           <ImageDisplay /> 
     </section>
-
-
- 
-
-  
-  <section>
-    <h1> Some stats </h1> 
-  </section> 
-  <section>
-    <h1> Our Testimonials </h1>
-  </section>
-
 
   <section className="bg-gray-500 px-4 py-8 md:py-16 lg:py-24">
     <div className="max-w-4xl mx-auto text-center">
