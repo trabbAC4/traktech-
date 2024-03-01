@@ -1,9 +1,6 @@
-import React, { useEffect } from "react";
-
-
+import React, { useEffect } from 'react';
 
 const Calender = ({ url }) => {
-
   useEffect(() => {
     const head = document.querySelector("head");
     const script = document.createElement("script");
@@ -18,11 +15,9 @@ const Calender = ({ url }) => {
     <div
       className="calendly-inline-widget"
       data-url={url}
-      style={{ minHeight: "800px", width: "100%" }}
+      style={{ minHeight: "800px", width: "100%", overflow: "auto" }}
     ></div>
   );
 };
 
-
-export default Calender; 
-
+export default Calender;
