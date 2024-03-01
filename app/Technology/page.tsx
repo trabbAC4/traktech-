@@ -131,12 +131,13 @@ export default function Technology() {
           </div>
         </div>
       </div>
+      </section>
 
       <section className = "py-8">
       <div className = "flex flex-col w-full"> 
         <div>
           <h3 className = "text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">A platform that locates your device 24/7</h3>
-          <p className = "leading-normal mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12"> Our platform </p>
+          <p className = "leading-normal mx-auto my-4 w-10/12 sm:w-7/12 lg:w-6/12"> Whether you're tracking assets, managing fleets, or ensuring safety, Waypoint Technologies has you covered. Our cutting-edge technology harnesses the latest in GPS innovation, guaranteeing accurate location data every time </p>
         </div>
         <div className="flex justify-center pw-full px-8">
           <Image 
@@ -152,17 +153,6 @@ export default function Technology() {
       </div>
     </section>
 
-
-
-
-      <section> 
-        <h1> Put in like a question and answer portal </h1> 
-      </section>
-
-
-
-
-    </section>
 
 
         </>
