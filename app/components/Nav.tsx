@@ -16,7 +16,7 @@ export default function Nav() {
       {/* Logo */}
       <div className="flex items-center">
         <Link href= "/">
-        <h1 className="text-black text-lg font-semibold">Waypoint Technologies</h1>
+        <Image src="/waypointlogo.jpeg" alt="Waypoint Technologies Logo" width={120} height={40} /> {/* Adjust width and height according to your logo size */}
         </Link>
       </div>
       

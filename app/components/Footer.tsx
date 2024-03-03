@@ -3,6 +3,8 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import {Link} from "@nextui-org/link";
+import Image from 'next/image'
+
 
 
 export default function Footer() {
@@ -11,11 +13,9 @@ export default function Footer() {
 			<div className="bg-gray-50 h-auto md:h-1/2 w-full flex flex-col md:flex-row justify-around items-start p-5 md:p-20">
   			<div className="p-5 ">
     		<ul>
-          <Link href= "/"> 
-      		<p className="text-gray-800 font-bold text-3xl pb-6">
-        WayPoint<span className="text-green-600">Technologies</span>
-         </p>
-         </Link>
+        <Link href= "/">
+        <Image src="/waypointlogo.jpeg" alt="Waypoint Technologies Logo" width={200} height={50} /> {/* Adjust width and height according to your logo size */}
+        </Link>
     </ul>
   </div>
   <div className="p-5">
