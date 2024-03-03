@@ -89,13 +89,13 @@ export default function Home() {
       <h1 className="text-black text-4xl md:text-center text-4xl sm:text-left text-2xl font-bold px-4">
           Track your company's vehicles and reduce your fleet management costs with WayPoint Technologies
       </h1>
-      <h3 className = "text-black text-xl my-8 "> Webfleet is Europe's leading cloud software for professional vehicle tracking and fleet management and made <span className = "font-bold"> primarily </span> in America </h3>
+      <h3 className = "text-black text-xl my-8 "> WayPoint Technologies is the leading cloud software for professional vehicle tracking and fleet management, made <span className = "font-bold"> primarily </span> in America </h3>
       <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-black-900 dark:text-black-100 my-8">
        Our Key Features
   </h2>
 <div className="flex flex-wrap justify-center">
   <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
-    <h2 className="text-lg font-bold mb-2 text-center">Cutting Edge Technology</h2>
+    <h2 className="text-lg font-bold mb-2 text-center">GPS Technology and real-time tracking</h2>
     <div className="text-center">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-12">
       <path d="M16.5 7.5h-9v9h9v-9Z" />
@@ -105,7 +105,7 @@ export default function Home() {
     </div>
   </div>
   <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
-    <h2 className="text-lg font-bold mb-2 text-center">User-friendly Software</h2>
+    <h2 className="text-lg font-bold mb-2 text-center">Fleet Management and Optimization</h2>
     <div className="text-center">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-12">
       <path fillRule="evenodd" d="M2.25 5.25a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3V15a3 3 0 0 1-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 0 1-.53 1.28h-9a.75.75 0 0 1-.53-1.28l.621-.622a2.25 2.25 0 0 0 .659-1.59V18h-3a3 3 0 0 1-3-3V5.25Zm1.5 0v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5Z" clipRule="evenodd" />
@@ -114,7 +114,7 @@ export default function Home() {
     </div>
   </div>
   <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
-    <h2 className="text-lg font-bold mb-2 text-center">Real-time Updates</h2>
+    <h2 className="text-lg font-bold mb-2 text-center">Workflow Management and quality of service</h2>
     <div className="text-center">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
       <path fillRule="evenodd" d="M4.755 10.059a7.5 7.5 0 0 1 12.548-3.364l1.903 1.903h-3.183a.75.75 0 1 0 0 1.5h4.992a.75.75 0 0 0 .75-.75V4.356a.75.75 0 0 0-1.5 0v3.18l-1.9-1.9A9 9 0 0 0 3.306 9.67a.75.75 0 1 0 1.45.388Zm15.408 3.352a.75.75 0 0 0-.919.53 7.5 7.5 0 0 1-12.548 3.364l-1.902-1.903h3.183a.75.75 0 0 0 0-1.5H2.984a.75.75 0 0 0-.75.75v4.992a.75.75 0 0 0 1.5 0v-3.18l1.9 1.9a9 9 0 0 0 15.059-4.035.75.75 0 0 0-.53-.918Z" clipRule="evenodd" />
@@ -123,7 +123,7 @@ export default function Home() {
     </div>
   </div>
   <div className="w-64 p-4 m-4 border rounded-lg flex flex-col items-center">
-    <h2 className="text-lg font-bold mb-2 text-center">Seamless Integration</h2>
+    <h2 className="text-lg font-bold mb-2 text-center">Seamless Integration in existing Software</h2>
     <div className="text-center">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
       <path d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .707A8.237 8.237 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886V4.533ZM12.75 20.636A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533v16.103Z" />
@@ -154,7 +154,7 @@ export default function Home() {
         <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
           Achieve ultimate excellence 
         </h3> 
-        <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+        <p className = "text-gray-600 mb-8"> Track the precise location of your vehicles with our cutting-edge fleet-tracking solution, whether they're parked or in motion, all in real-time on a dynamic map interface. Utilize advanced geolocation technology to swiftly pinpoint the nearest driver for rapid intervention, enhancing customer satisfaction and slashing road time. Harness the power of GPS geolocation to optimize cost-efficiency and boost productivity across your fleet operations. </p> 
         <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
         			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
@@ -189,7 +189,7 @@ export default function Home() {
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 
           <div className = "align-middle"> 
           <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> Contact a specialist  </h3> 
-          <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+          <p className = "text-gray-600 mb-8"> Streamline communication by sending vital information directly to your driver's device with seamless integration between our tracking device and your platform. Experience the ease of real-time location updates and instant results at your fingertips. Minimize administrative burdens with automated time recording, enabling precise tracking and enhancement of driving behaviors effortlessly. </p> 
           <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
         			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
@@ -205,7 +205,7 @@ export default function Home() {
     <section className="bg-gray-500 flex flex-col justify-center items-center mt-8 mb-8 py-8 md:py-6 lg:py-8 text-white relative overflow-hidden">
   {/* Custom circle background */}
   <h1 className="text-6xl font-extrabold text-center mb-8 text-black relative z-10">
-    Our Features
+    Our Impact 
   </h1>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-6xl relative z-10">
@@ -222,7 +222,7 @@ export default function Home() {
       <p className="text-4xl font-bold text-green-900 mb-4">
         <AnimatedNumbers start={0} end={95} /> %
       </p>
-      <p className="text-lg text-black">Success rate with device</p>
+      <p className="text-lg text-black">Software reliability</p>
     </div>
 
     {/* Box 3 */}
@@ -230,7 +230,7 @@ export default function Home() {
       <p className="text-4xl font-bold text-green-900 mb-4">
         <AnimatedNumbers start={500} end={10000} /> +
       </p>
-      <p className="text-lg text-white">Clientele messaging us</p>
+      <p className="text-lg text-white">Fleets and vehicles monitored worldwide</p>
     </div>
 
     {/* Box 4 */}
@@ -244,15 +244,14 @@ export default function Home() {
     {/* Box 5 */}
     <div className="bg-black rounded-full p-4 sm:p-6 text-center">
       <p className="text-4xl font-bold text-green-900 mb-4">
-        <AnimatedNumbers start = {0} end = {95} /> %</p>
-      <p className="text-lg text-white">Success rate with device</p>
-    </div>
-
+        <AnimatedNumbers start = {0} end = {90} /> %</p>
+      <p className="text-lg text-white">Accuracy rate </p> 
+    </div> 
     {/* Box 6 */}
     <div className="bg-white rounded-full p-4 sm:p-6 text-center">
       <p className="text-4xl font-bold text-green-900 mb-4">
         <AnimatedNumbers start = {0} end = {100000} /> +</p>
-      <p className="text-lg text-black">Clientele messaging us</p>
+      <p className="text-lg text-black">Satisfied Customers </p> 
     </div>
   </div>
 </section>

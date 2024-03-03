@@ -10,7 +10,7 @@ import { FaCalendarCheck } from "react-icons/fa";
 export default function About() {
     return(
         <>
-         <section className="bg-white border-900 relative overflow-hidden text-white">
+    <section className="bg-white border-900 relative overflow-hidden text-white">
     <div className="absolute inset-0 w-full h-full z-0">
         <Image src="/NavigationCity.jpeg" alt="Background Image" layout="fill" objectFit="cover" />
     </div>
@@ -38,24 +38,23 @@ export default function About() {
     </div>
     </section>
 
-<section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark">
+    <section className="pt-10 pb-8 lg:pt-[90px] lg:pb-[60px] dark:bg-dark">
+  <div className="-mx-4 flex flex-wrap">
+    <div className="w-full px-4">
+      <div className="mx-auto mb-8 max-w-[510px] text-center lg:mb-12">
+        <h2 className="text-dark dark:text-black mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]">
+          What We Offer
+        </h2>
+        <p className="text-body-color text-base dark:text-dark-6 text-left">
+          At WayPoint Technologies, our commitment to information security and privacy is unwavering. Through ongoing investments in engineering, proven technologies, processes, and talent, we ensure the delivery of top-tier telematics services. Continuous enhancement and innovation are central to our mission, positioning us as the premier partner for telematics solutions today and beyond.
+        </p>
+      </div>
+    </div>
+  </div> 
+
    <div className="container mx-auto">
       <div className="-mx-4 flex flex-wrap">
-         <div className="w-full px-4">
-            <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-               <h2
-                  className="text-dark dark:text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]"
-                  >
-                  What We Offer
-               </h2>
-               <p className="text-body-color text-base dark:text-dark-6">
-                At WayPoint Technologies, our commitment to information security and privacy is unwavering. Through ongoing investments in engineering, proven technologies, processes, and talent, we ensure the delivery of top-tier telematics services. Continuous enhancement and innovation are central to our mission, positioning us as the premier partner for telematics solutions today and beyond.
-               </p>
-            </div>
-         </div>
-      </div>
-      <div className="-mx-4 flex flex-wrap">
-      <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+    <div className="w-full px-4 md:w-1/2 lg:w-1/3">
     <div className="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10 relative">
         <div className="absolute inset-0 bg-primary rounded-[20px] overflow-hidden">
             <Image
@@ -180,7 +179,7 @@ export default function About() {
         <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
           Accurate Tracking 
         </h3> 
-        <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+        <p className = "text-gray-600 mb-8"> WayPoint Technologies stands as a global frontrunner in telematics solutions, specializing in fleet management, vehicle telematics, and connected car services. Renowned as a leading SaaS solution, WayPoint Technologies caters to a diverse clientele ranging from small businesses to large corporations, all seeking to enhance vehicle performance, fuel efficiency, driver support, and fleet optimization. Furthermore, our services extend to encompass various industries, including car insurance, rental and leasing companies, car importers, and other entities serving professionals and individuals alike. </p> 
        </div> 
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
@@ -206,26 +205,18 @@ export default function About() {
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 
           <div className = "align-middle"> 
           <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> Profound Technology </h3> 
-          <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+          <p className = "text-gray-600 mb-8"> At WayPoint Technologies, we provide a variety of services, including tracking devices monitored through our user-friendly software accessible on any device. Our specialties include precise geolocation, ELD logging, fleet management, and outstanding customer support. Our scalable solutions adapt to your changing needs, ensuring a smooth experience. As we expand, our technology evolves, offering the most streamlined solutions available. </p> 
           </div>
         </div>
       </div>
 
     </section>
 
-    
-
-
-    <section className="md:py-6 lg:py-8">
-        <div className="max-w-4xl mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-green mb-4">Our Products</h1>
-        </div>
-          <ImageDisplay /> 
-    </section>
   
     <section className="bg-white text-center">
       <h1 className="text-4xl font-bold mt-8">Access your software with multiple devices</h1>
-      <h2 className="text-2xl mt-4">Subheading</h2>
+      <h2 className="text-xl mt-4">Our advanced technology seamlessly integrates across multiple devices, providing users with unparalleled access to essential features such as geolocation services and route optimization. Whether you're on the go or in the office, our robust software delivers precise and up-to-date tracking information for your products. With cutting-edge capabilities, we ensure that you have the most accurate data at your fingertips, empowering you to make informed decisions and streamline operations effortlessly.
+      </h2>
       <img 
     src="/MultipleDevices.jpeg" 
     alt="Multiple Devices" 

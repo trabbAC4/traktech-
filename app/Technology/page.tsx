@@ -45,16 +45,16 @@ export default function Technology() {
         </section>
 
         <section className="flex flex-col justify-center items-center min-h-screen bg-white">
-  <div className="text-center mb-8">
-    <h1 className="text-4xl font-bold"> Our App</h1>
+  <div className="text-center mb-4 md:mb-8">
+    <h1 className="text-4xl font-bold">Our App</h1>
   </div>
   <div className="relative w-full md:w-3/4 lg:w-2/3">
-    <div className="bg-white rounded-lg shadow-lg p-2 md:p-4">
+    <div className="bg-white rounded-lg shadow-lg p-2 md:p-4 mx-4 md:mx-auto">
       <Image
         src="/PhoneDemonstration.png"
         alt="Image"
-        width={400} // Adjust width as per your requirement
-        height={600} // Adjust height as per your requirement
+        width={600} // Adjust width as per your requirement
+        height={800} // Adjust height as per your requirement
         layout="responsive"
         objectFit="contain" // You can adjust objectFit based on your image's aspect ratio
         className="mx-auto" // Center the image horizontally
@@ -62,6 +62,8 @@ export default function Technology() {
     </div>
   </div>
 </section>
+
+
 
     <section className = "bg-white border-b py-8">
       <div className = "container max-w-5xl mx-auto m-8">
