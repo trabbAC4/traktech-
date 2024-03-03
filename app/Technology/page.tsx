@@ -13,7 +13,7 @@ export default function Technology() {
         <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-black">Definite Location Tracking</h1>
-              <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"> Our revolutionary technology has accomplished the flow of exact and precise navigation  </p> 
+              <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"> Our groundbreaking technology represents the pinnacle of navigation precision, offering unparalleled accuracy in global tracking. Our futuristic app stands as the epitome of effectiveness and reliability, setting the standard for tracking devices worldwide. Setting up an account is effortless and streamlined, requiring just a few minutes to complete, ensuring a seamless user experience.  </p> 
             <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
               <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
               <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
@@ -62,16 +62,6 @@ export default function Technology() {
     </div>
   </div>
 </section>
-
-
-
-
-
-        <section className = "bg-gray-800 text-white">
-        <h1 className = "w-full text-5xl font-bold leading-tight text-center text-white-800"> Our App Flow </h1>
-          <ActiveSlider />
-
-        </section>
 
     <section className = "bg-white border-b py-8">
       <div className = "container max-w-5xl mx-auto m-8">

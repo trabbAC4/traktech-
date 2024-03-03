@@ -49,8 +49,7 @@ export default function About() {
                   What We Offer
                </h2>
                <p className="text-body-color text-base dark:text-dark-6">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+                At WayPoint Technologies, our commitment to information security and privacy is unwavering. Through ongoing investments in engineering, proven technologies, processes, and talent, we ensure the delivery of top-tier telematics services. Continuous enhancement and innovation are central to our mission, positioning us as the premier partner for telematics solutions today and beyond.
                </p>
             </div>
          </div>
@@ -152,7 +151,7 @@ export default function About() {
       <div className="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10 relative">
         <div className="absolute inset-0 bg-primary rounded-[20px] overflow-hidden">
             <Image
-                src="/DeviceSecurity.jpg"
+                src="/AccurateTracking.jpg"
                 alt="Background Image"
                 layout="fill"
                 objectFit="cover"
@@ -161,7 +160,7 @@ export default function About() {
 
         <div className="relative z-10 mt-16">
             <h4 className="text-dark dark:text-white mb-[14px] text-2xl font-semibold">
-                Device Security 
+                Accurate Tracking 
             </h4>
         </div>
     </div>
@@ -223,6 +222,17 @@ export default function About() {
         </div>
           <ImageDisplay /> 
     </section>
+  
+    <section className="bg-white text-center">
+      <h1 className="text-4xl font-bold mt-8">Access your software with multiple devices</h1>
+      <h2 className="text-2xl mt-4">Subheading</h2>
+      <img 
+    src="/MultipleDevices.jpeg" 
+    alt="Multiple Devices" 
+    className="mx-auto mt-8 w-full max-w-screen-lg"
+      />
+    </section>
+
 
   <section className="bg-gray-500 px-4 py-8 md:py-16 lg:py-24">
     <div className="max-w-4xl mx-auto text-center">
