@@ -1,7 +1,6 @@
 'use client'
 import Footer from '../components/Footer'
 import Navbar from '../components/Nav'
-import Survey from '../components/Survey'
 import ImageDisplay from '../components/ImageDisplay'
 import Image from 'next/image'
 
@@ -49,13 +48,13 @@ export default function More_Info() {
         />
       </div>
       <div className="mb-4 w-full">
-        <textarea
+      <textarea
           id="message"
           name="message"
           placeholder="Message"
-          rows="4"
-          className="border border-gray-400 rounded-md px-4 py-2 w-full focus:outline-none focus:border-blue-500 transition-all duration-300"
-        ></textarea>
+          className="border border-gray-400 rounded-md px-4 py-2 w-full h-32 focus:outline-none focus:border-blue-500 transition-all duration-300"
+      ></textarea>
+
       </div>
       <div className="mb-4 w-full flex justify-between">
         <input

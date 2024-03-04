@@ -1,9 +1,12 @@
 'use client'
 import {useState, useEffect, useRef} from 'react';
 
-
-export default function AnimatedNumbers({start = 0, end}) {
-    const [value, setValue] = useState(null)
+interface AnimatedNumbersProps {
+    start?:number;
+    end: number;
+}
+export default function AnimatedNumbers({start = 0, end}: AnimatedNumbersProps) {
+    const [value, setValue] = useState(start)
     const ref = useRef(start)
 
     const counter = end / 200;
@@ -21,10 +24,12 @@ export default function AnimatedNumbers({start = 0, end}) {
     useEffect(() => {
         let isMounted = true;
         if (isMounted) {
-            Count();
+          Count();
         }
-        return () => (isMounted = false);
-    }, [end] );
+        return () => {
+          isMounted = false;
+        };
+      }, [end]);
 
 
 

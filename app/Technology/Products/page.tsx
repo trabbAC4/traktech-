@@ -236,7 +236,7 @@ export default function Product() {
         </div>
         <div className="flex justify-center pw-full px-8">
           <Image 
-            src="/tech.svg"
+            src=  "/Tech.svg"
             alt="tech"
             width={600}
             height={300}

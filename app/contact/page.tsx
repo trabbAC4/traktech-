@@ -122,11 +122,11 @@ export default function Contact() {
             />
           </div>
           <div className="mb-6">
-            <textarea
-              rows="6"
-              placeholder="Your Message"
-            className="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none"
-            ></textarea>
+          <textarea
+               placeholder="Your Message"
+            className="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none h-32" // Set the height using CSS class
+         ></textarea>
+
           </div>
           <div>
             <button

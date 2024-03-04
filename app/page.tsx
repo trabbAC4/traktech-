@@ -1,7 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import Survey from './components/Survey';
 //import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "next-ui-org/react";
 import Footer from './components/Footer'
 import Navbar from './components/Nav'
@@ -87,7 +86,7 @@ export default function Home() {
       <section className="bg-white rounded-lg p-6 shadow-md text-center my-8">
       <div className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
       <h1 className="text-black text-4xl md:text-center text-4xl sm:text-left text-2xl font-bold px-4">
-          Track your company's vehicles and reduce your fleet management costs with WayPoint Technologies
+          Track your company&apos;s vehicles and reduce your fleet management costs with WayPoint Technologies
       </h1>
       <h3 className = "text-black text-xl my-8 "> WayPoint Technologies is the leading cloud software for professional vehicle tracking and fleet management, made <span className = "font-bold"> primarily </span> in America </h3>
       <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-black-900 dark:text-black-100 my-8">
@@ -142,7 +141,7 @@ export default function Home() {
         <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
           Achieve ultimate excellence 
         </h3> 
-        <p className = "text-gray-600 mb-8"> Track the precise location of your vehicles with our cutting-edge fleet-tracking solution, whether they're parked or in motion, all in real-time on a dynamic map interface. Utilize advanced geolocation technology to swiftly pinpoint the nearest driver for rapid intervention, enhancing customer satisfaction and slashing road time. Harness the power of GPS geolocation to optimize cost-efficiency and boost productivity across your fleet operations. </p> 
+        <p className = "text-gray-600 mb-8"> Track the precise location of your vehicles with our cutting-edge fleet-tracking solution, whether they&apos;re parked or in motion, all in real-time on a dynamic map interface. Utilize advanced geolocation technology to swiftly pinpoint the nearest driver for rapid intervention, enhancing customer satisfaction and slashing road time. Harness the power of GPS geolocation to optimize cost-efficiency and boost productivity across your fleet operations. </p> 
         <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
         			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
@@ -177,7 +176,7 @@ export default function Home() {
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 
           <div className = "align-middle"> 
           <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> Contact a specialist  </h3> 
-          <p className = "text-gray-600 mb-8"> Streamline communication by sending vital information directly to your driver's device with seamless integration between our tracking device and your platform. Experience the ease of real-time location updates and instant results at your fingertips. Minimize administrative burdens with automated time recording, enabling precise tracking and enhancement of driving behaviors effortlessly. </p> 
+          <p className = "text-gray-600 mb-8"> Streamline communication by sending vital information directly to your driver&apos;s device with seamless integration between our tracking device and your platform. Experience the ease of real-time location updates and instant results at your fingertips. Minimize administrative burdens with automated time recording, enabling precise tracking and enhancement of driving behaviors effortlessly. </p> 
           <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
         			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">

@@ -229,7 +229,7 @@ export default function About() {
   
     <section className="bg-white text-center">
       <h1 className="text-4xl font-bold mt-8">Access your software with multiple devices</h1>
-      <h2 className="text-xl mt-4">Our advanced technology seamlessly integrates across multiple devices, providing users with unparalleled access to essential features such as geolocation services and route optimization. Whether you're on the go or in the office, our robust software delivers precise and up-to-date tracking information for your products. With cutting-edge capabilities, we ensure that you have the most accurate data at your fingertips, empowering you to make informed decisions and streamline operations effortlessly.
+      <h2 className="text-xl mt-4">Our advanced technology seamlessly integrates across multiple devices, providing users with unparalleled access to essential features such as geolocation services and route optimization. Whether you&apos;re on the go or in the office, our robust software delivers precise and up-to-date tracking information for your products. With cutting-edge capabilities, we ensure that you have the most accurate data at your fingertips, empowering you to make informed decisions and streamline operations effortlessly.
       </h2>
       <img 
     src="/MultipleDevices.jpeg" 
