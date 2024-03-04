@@ -74,7 +74,7 @@ export default function Technology() {
         <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
           ELD Logging 
         </h3> 
-        <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+        <p className = "text-gray-600 mb-8"> ELD Logging, an integral component of modern fleet management, ensures meticulous tracking of vehicle activity. At WayPoint Technologies, our ELD Logging system stands out for its precision and thorough monitoring capabilities. We pride ourselves on delivering accurate data that enables seamless compliance with regulatory standards while optimizing operational efficiency. Moreover, our solution is highly scalable, catering to the tracking needs of multiple fleets, regardless of size or complexity. With WayPoint Technologies, rest assured that your fleet management endeavors are backed by reliable and adaptable ELD Logging solutions. </p> 
        </div> 
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
@@ -100,16 +100,16 @@ export default function Technology() {
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 
           <div className = "align-middle"> 
           <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> GPS Navigation  </h3> 
-          <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+          <p className = "text-gray-600 mb-8"> Our scalable GPS navigation system is designed to accurately monitor devices across the globe, ensuring precise tracking and location data anywhere in the world. At WayPoint Technologies, we take pride in our cutting-edge technology that provides real-time insights into vehicle movements and locations. Moreover, our system offers route optimization capabilities, enabling businesses to plan and execute the most efficient routes for their fleets. Whether you're operating locally or globally, trust WayPoint Technologies to provide a scalable GPS navigation solution that enhances operational efficiency and maximizes productivity. </p> 
           </div>
         </div>
       </div>
       <div className = "flex flex-wrap">
         <div className = "w-5/6 sm:w-1/2 p-6"> 
         <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
-          Efficient and Effective Transport 
+          Fleet Management 
         </h3> 
-        <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+        <p className = "text-gray-600 mb-8"> At WayPoint Technologies, our fleet management solution offers a comprehensive approach to optimizing vehicle operations and enhancing overall efficiency. With our advanced technology, businesses can streamline their fleet management processes, from vehicle tracking to maintenance scheduling. Our system meticulously tracks every aspect of fleet activity, ensuring accuracy and reliability in all tracking data. By providing real-time insights into vehicle locations, performance metrics, and driver behavior, we empower businesses to make informed decisions and improve operational efficiency. Trust WayPoint Technologies for a fleet management solution that is efficient, reliable, and carefully tracked to deliver accurate results at every turn. </p> 
        </div> 
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
@@ -133,8 +133,8 @@ export default function Technology() {
         </div>
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 
           <div className = "align-middle"> 
-          <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> Placeholder text </h3> 
-          <p className = "text-gray-600 mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+          <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> Enhanced Geolocation </h3> 
+          <p className = "text-gray-600 mb-8"> At WayPoint Technologies, our geolocation services are second to none, delivering excellent and accurate results for your vehicle monitoring needs. Our software harnesses advanced technology to provide real-time tracking and precise location data, ensuring that you always have a clear understanding of your fleet's whereabouts. With a simple and intuitive interface, our software makes it easy to visualize the location of your devices at any given time. Whether you're managing a single vehicle or an entire fleet, trust WayPoint Technologies to provide reliable geolocation solutions that offer peace of mind and unparalleled visibility into your operations. </p> 
           </div>
         </div>
       </div>
