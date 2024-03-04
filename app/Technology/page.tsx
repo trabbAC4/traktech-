@@ -79,9 +79,9 @@ export default function Technology() {
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
           alt="Product Image"
-          className="w-full sm:h-64 mx-auto"
+          className="w-full mx-auto"
           height={300}
-          src="/gps.jpg"
+          src="/TrucksDriving.jpeg"
           width={300}
         />
        </div> 
@@ -91,9 +91,9 @@ export default function Technology() {
         <div className = "w-full sm:w-1/2 p-6 mt-6">
         <Image
           alt="Product Image"
-          className="w-full sm:h-64 mx-auto"
+          className="w-full mx-auto"
           height={300}
-          src="/gps.jpg"
+          src="/gpslocation.jpeg"
           width={300}
         />
         </div>
@@ -114,9 +114,9 @@ export default function Technology() {
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
           alt="Product Image"
-          className="w-full sm:h-64 mx-auto"
+          className="w-full mx-auto"
           height={300}
-          src="/gps.jpg"
+          src="/FleetManage.jpeg"
           width={300}
         />
        </div> 
@@ -125,9 +125,9 @@ export default function Technology() {
         <div className = "w-full sm:w-1/2 p-6 mt-6">
         <Image
           alt="Product Image"
-          className="w-full sm:h-64 mx-auto"
+          className="w-full mx-auto"
           height={300}
-          src="/gps.jpg"
+          src="/Geolocation.jpeg"
           width={300}
         />
         </div>
