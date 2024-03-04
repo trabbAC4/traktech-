@@ -154,10 +154,10 @@ export default function Home() {
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
           alt="Product Image"
-          className="w-full sm:h-64 mx-auto"
-          height={300}
-          src="/gps.jpg"
-          width={300}
+          className="w-full mx-auto"
+          height={400}
+          src="/fleettrucks.jpg"
+          width={400}
         />
        </div> 
       </div>
@@ -168,9 +168,9 @@ export default function Home() {
         <div className = "w-full sm:w-1/2 p-6 mt-6">
         <Image
           alt="Product Image"
-          className="w-full sm:h-64 mx-auto"
+          className="w-full mx-auto"
           height={300}
-          src="/gps.jpg"
+          src="/customerphone.jpg"
           width={300}
         />
         </div>
