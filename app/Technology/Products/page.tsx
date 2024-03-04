@@ -4,6 +4,10 @@
 import Image from 'next/image'
 import {useEffect, useState} from 'react';
 import {Link} from "@nextui-org/link";
+import ImageDisplay from '../../components/ImageDisplay';
+import ActiveSlider from '../../components/ActiveSlider';
+
+
 
 
 
@@ -54,6 +58,63 @@ export default function Product() {
         </div>
 
         </section>
+
+        <section className="bg-white">
+          <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Over 28+ Devices</h1>
+          <p className="w-full mx-auto max-w-xl text-xl text-center text-gray-600">
+            Explore our diverse range of over 28 meticulously crafted devices, each meticulously designed to cater to your unique fleet management needs. From precise geolocation trackers to advanced GPS navigation systems, our solutions are tailored to optimize vehicle tracking, asset management, and personnel monitoring. Whatever your operational requirements may be, rest assured we have the perfect solution to enhance your fleet management endeavors.
+          </p>
+          <ImageDisplay  />
+      </section>
+
+
+        <section className = "bg-white border-b py-8">
+      <div className = "container max-w-5xl mx-auto m-8">
+        <h1 className = "w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"> Leader in transitional technology</h1>
+      </div>
+      <div className = "flex flex-wrap">
+        <div className = "w-5/6 sm:w-1/2 p-6"> 
+        <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
+          Fast and Seamless
+        </h3> 
+        <p className = "text-gray-600 mb-8"> WayPoint Technologies stands as a global frontrunner in telematics solutions, specializing in fleet management, vehicle telematics, and connected car services. Renowned as a leading SaaS solution, WayPoint Technologies caters to a diverse clientele ranging from small businesses to large corporations, all seeking to enhance vehicle performance, fuel efficiency, driver support, and fleet optimization. Furthermore, our services extend to encompass various industries, including car insurance, rental and leasing companies, car importers, and other entities serving professionals and individuals alike. </p> 
+       </div> 
+       <div className = "w-full sm:w-1/2 p-6"> 
+        <Image
+          alt="Product Image"
+          className="w-full sm:h-64 mx-auto"
+          height={300}
+          src="/gps.jpg"
+          width={300}
+        />
+       </div> 
+      </div>
+
+      <div className = "flex flex-wrap flex-col-reverse sm:flex-row"> 
+        <div className = "w-full sm:w-1/2 p-6 mt-6">
+        <Image
+          alt="Product Image"
+          className="w-full sm:h-64 mx-auto"
+          height={300}
+          src="/gps.jpg"
+          width={300}
+        />
+        </div>
+        <div className = "w-full sm:w-1/2 p-6 mt-6"> 
+          <div className = "align-middle"> 
+          <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> We are always here to help  </h3> 
+          <p className = "text-gray-600 mb-8"> At WayPoint Technologies, we provide a variety of services, including tracking devices monitored through our user-friendly software accessible on any device. Our specialties include precise geolocation, ELD logging, fleet management, and outstanding customer support. Our scalable solutions adapt to your changing needs, ensuring a smooth experience. As we expand, our technology evolves, offering the most streamlined solutions available. </p> 
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+
         <section className="bg-gray-2 dark:bg-dark pt-20 pb-10 lg:pt-[120px] lg:pb-20">
    <div className="container mx-auto">
       <div className="flex flex-wrap -mx-4">
@@ -153,6 +214,27 @@ export default function Product() {
       </div>
    </div>
 </section>
+  <section className = "py-4">
+      <div className = "flex flex-col w-full"> 
+        <div>
+          <h3 className = "text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">Ensure the best service </h3>
+          <p className = "leading-normal mx-auto my-4 w-10/12 sm:w-7/12 lg:w-6/12"> Whether you're tracking assets, managing fleets, or ensuring safety, Waypoint Technologies has you covered. Our cutting-edge technology harnesses the latest in GPS innovation, guaranteeing accurate location data every time </p>
+        </div>
+        <div className="flex justify-center pw-full px-8">
+          <Image 
+            src="/website.svg"
+            alt="website"
+            width={600}
+            height={300}
+            className="h-auto md:max-w-1/2"
+          /> 
+      </div>
+
+
+      </div>
+    </section>
+
+
           
           
         
