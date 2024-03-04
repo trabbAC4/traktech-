@@ -22,19 +22,17 @@ export default function Nav() {
       
       {/* Menu items */}
       <div className="hidden lg:flex flex-grow justify-center">
-      <Link href="/About" className="text-black text-lg mx-4 relative overflow-hidden">
-        <span className="relative z-10 hover:border-green-500 transition-all duration-500 ease-in-out border-b-2 border-transparent">About</span>
-        <span className="absolute top-0 left-0 w-full h-full bg-green-500 transform translate-x-full transition-transform duration-500 ease-in-out group-hover:translate-x-0 z-0"></span>
+      <Link href="/About" className="text-black text-lg mx-4 relative overflow-hidden hover:text-green-500">
+      <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">About</span>
       </Link>
-      <Link href="/Contact" className="text-black text-lg mx-4 relative overflow-hidden">
-        <span className="relative z-10 hover:border-green-500 transition-all duration-500 ease-in-out border-b-2 border-transparent">Contact</span>
-        <span className="absolute top-0 left-0 w-full h-full bg-green-500 transform translate-x-full transition-transform duration-500 ease-in-out group-hover:translate-x-0 z-0"></span>
+      <Link href="/Contact" className="text-black text-lg mx-4 relative overflow-hidden hover:text-green-500">
+      <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">Contact</span>
+      </Link>
+      <Link href="/Technology" className="text-black text-lg mx-4 relative overflow-hidden hover:text-green-500">
+      <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">Technology</span>
       </Link>
 
-      <Link href="/Technology" className="text-black text-lg mx-4 relative overflow-hidden">
-        <span className="relative z-10 hover:border-green-500 transition-all duration-500 ease-in-out border-b-2 border-transparent">Technology</span>
-        <span className="absolute top-0 left-0 w-full h-full bg-green-500 transform translate-x-full transition-transform duration-500 ease-in-out group-hover:translate-x-0 z-0"></span>
-      </Link>
+
       </div>
 
       {/* Free Demo Button and Dropdown */}
