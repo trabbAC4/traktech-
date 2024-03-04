@@ -8,19 +8,19 @@ export default function imagegallery() {
     {
       link: "/More_Info",
       image:
-        "/trucks.jpg",
+        "/ELD.jpeg",
       comment: `ELD Logging`,
     },
     {
       link: "/More_Info",
       image:
-         "/gps.jpg",
+         "/Mileagetracking.jpg",
       comment: `IFTA Mileage Tracking`,
     },
     {
       link: "/More_Info",
       image:
-        "/IFTA.jpg",
+        "/Navigation.jpg",
       comment: `Real time GPS Tracking`,
     },
   ];
@@ -47,7 +47,7 @@ export default function imagegallery() {
                       <Image
                         width={400}
                         height={400}
-                        className="max-h-80 rounded-2xl w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
+                        className="max-h-60 rounded-2xl w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
                         src={x.image}
                         alt=""
                       />
