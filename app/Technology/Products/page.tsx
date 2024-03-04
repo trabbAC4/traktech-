@@ -33,38 +33,39 @@ export default function Product() {
     return(
 
         <>
-            <section className = "bg-white border-900">
-              <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-               <div className="mr-auto place-self-center lg:col-span-7">
-                <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-black">Definite Location Tracking</h1>
-              <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"> Our revolutionary technology has accomplished the flow of exact and precise navigation  </p> 
+           <section className="bg-white border-900 relative overflow-hidden text-white">
+    <div className="absolute inset-0 w-full h-full z-0">
+        <Image src="/Sustainable.jpg" alt="Background Image" layout="fill" objectFit="cover" />
+    </div>
+    <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28 relative z-10">
+        <div className="mr-auto place-self-center lg:col-span-7">
+            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-white">Sustainable and Efficient</h1>
+            <p className="max-w-2xl mb-6 font-light text-white-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white-400">Our revolutionary technology not only ensures precise navigation but also champions sustainability and effectiveness. By optimizing routes with meticulous detail, we not only cut costs but also minimize environmental impact, promoting sustainable practices. Moreover, our scalable system efficiently handles large fleet volumes, paving the way for business success and growth. </p>
             <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                <Link href="https://github.com/themesberg/landwind" className="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 text-black dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"> Book a call 
-            </Link>
-          <Link href="https://www.figma.com/community/file/1125744163617429490" className="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"> Get a demo 
-
-            </Link>
-          </div>
-          </div>
-          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <Image 
-              src= "/image1app.jpeg"
-              alt=  "phone" 
-              width = {300}
-              height = {300}
-
-            /> 
-          </div>
+                <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+                    <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+                    <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </span>
+                    <span className="relative">Book a free call!</span>
+                </Link>
+                <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+                    <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+                    <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </span>
+                    <span className="relative">Learn More</span>
+                </Link>
+            </div>
         </div>
-
-        </section>
+    </div>
+    </section>
 
         <section className="bg-white">
           <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Over 28+ Devices</h1>
           <p className="w-full mx-auto max-w-xl text-xl text-center text-gray-600">
-            Explore our diverse range of over 28 meticulously crafted devices, each meticulously designed to cater to your unique fleet management needs. From precise geolocation trackers to advanced GPS navigation systems, our solutions are tailored to optimize vehicle tracking, asset management, and personnel monitoring. Whatever your operational requirements may be, rest assured we have the perfect solution to enhance your fleet management endeavors.
+            Explore our diverse range of over 28 devices, each meticulously designed to cater to your unique fleet management needs. From precise geolocation trackers to advanced GPS navigation systems, our solutions are tailored to optimize vehicle tracking, asset management, and personnel monitoring. Whatever your operational requirements may be, rest assured we have the perfect solution to enhance your fleet management endeavors.
           </p>
-          <ImageDisplay  />
       </section>
 
 
@@ -84,7 +85,7 @@ export default function Product() {
           alt="Product Image"
           className="w-full sm:h-64 mx-auto"
           height={300}
-          src="/gps.jpg"
+          src="/seamless.svg"
           width={300}
         />
        </div> 
@@ -96,7 +97,7 @@ export default function Product() {
           alt="Product Image"
           className="w-full sm:h-64 mx-auto"
           height={300}
-          src="/gps.jpg"
+          src="/help.svg"
           width={300}
         />
         </div>
@@ -122,11 +123,15 @@ export default function Product() {
             <div
                className="mb-10 overflow-hidden duration-300 bg-white rounded-lg dark:bg-dark-2 shadow-1 hover:shadow-3 dark:shadow-card dark:hover:shadow-3"
                >
-               <img
-                  src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-01.jpg"
-                  alt="image"
-                  className="w-full"
-                  />
+                 <Image 
+                  src ="/Geolocation.jpeg"
+                  alt= "geolocation"
+                  className = "w-full"
+                  height = {300}
+                  width = {300}
+
+                /> 
+
                <div className="p-8 text-center sm:p-9 md:p-7 xl:p-9">
                   <h3>
                      <a
@@ -141,12 +146,13 @@ export default function Product() {
                      >
                        Monitor your vehicles effectively and with care. See what devices are active and what are not in your user portal with worldwide coverage.
                   </p>
-                  <a
-                     href="javascript:void(0)"
-                     className="inline-block py-2 text-base font-medium transition border rounded-full text-body-color hover:border-primary hover:bg-primary border-gray-3 px-7 hover:text-white dark:border-dark-3 dark:text-dark-6"
-                     >
-                  Learn More 
-                  </a>
+                  <Link href="/MoreInfo" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+        			      <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+       				      <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+          			    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            		    </span>
+                	    <span className="relative">Learn More</span>
+                  </Link>
                </div>
             </div>
          </div>
@@ -154,11 +160,14 @@ export default function Product() {
             <div
                className="mb-10 overflow-hidden duration-300 bg-white rounded-lg dark:bg-dark-2 shadow-1 hover:shadow-3 dark:shadow-card dark:hover:shadow-3"
                >
-               <img
-                  src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-02.jpg"
-                  alt="image"
-                  className="w-full"
-                  />
+               <Image 
+                  src ="/FleetManage.jpeg"
+                  alt= "geolocation"
+                  className = "w-full h-72"
+                  height = {300}
+                  width = {300}
+                  
+                /> 
                <div className="p-8 text-center sm:p-9 md:p-7 xl:p-9">
                   <h3>
                      <a
@@ -171,12 +180,13 @@ export default function Product() {
                   <p className="text-base leading-relaxed text-body-color mb-7">
                       Ensure that your fleet runs efficiently, effectively, and within budget. Monitor your vehicles and visually see where they are at all times.
                   </p>
-                  <a
-                     href="javascript:void(0)"
-                     className="inline-block py-2 text-base font-medium transition border rounded-full text-body-color hover:border-primary hover:bg-primary border-gray-3 px-7 hover:text-white dark:border-dark-3 dark:text-dark-6"
-                     >
-                  Learn More 
-                  </a>
+                  <Link href="/MoreInfo" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+        			      <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+       				      <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+          			    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            		    </span>
+                	    <span className="relative">Learn More</span>
+                  </Link>
                </div>
             </div>
          </div>
@@ -184,11 +194,14 @@ export default function Product() {
             <div
                className="mb-10 overflow-hidden duration-300 bg-white rounded-lg dark:bg-dark-2 shadow-1 hover:shadow-3 dark:shadow-card dark:hover:shadow-3"
                >
-               <img
-                  src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-03.jpg"
-                  alt="image"
-                  className="w-full"
-                  />
+               <Image 
+                  src ="/Monitoring.jpg"
+                  alt= "geolocation"
+                  className = "w-full"
+                  height = {300}
+                  width = {300}
+                  
+                /> 
                <div className="p-8 text-center sm:p-9 md:p-7 xl:p-9">
                   <h3>
                      <a
@@ -202,12 +215,13 @@ export default function Product() {
                   Tracking all your fleet information should be effortless. From monitoring vehicle statuses to optimizing routes, our interface provides users with comprehensive insights.
 
                   </p>
-                  <a
-                     href="javascript:void(0)"
-                     className="inline-block py-2 text-base font-medium transition border rounded-full text-body-color hover:border-primary hover:bg-primary border-gray-3 px-7 hover:text-white dark:border-dark-3 dark:text-dark-6"
-                     >
-                  View Details
-                  </a>
+                  <Link href="/MoreInfo" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+        			      <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+       				      <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+          			    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            		    </span>
+                	    <span className="relative">Learn More</span>
+                  </Link>
                </div>
             </div>
          </div>
@@ -217,13 +231,13 @@ export default function Product() {
   <section className = "py-4">
       <div className = "flex flex-col w-full"> 
         <div>
-          <h3 className = "text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">Ensure the best service </h3>
-          <p className = "leading-normal mx-auto my-4 w-10/12 sm:w-7/12 lg:w-6/12"> Whether you're tracking assets, managing fleets, or ensuring safety, Waypoint Technologies has you covered. Our cutting-edge technology harnesses the latest in GPS innovation, guaranteeing accurate location data every time </p>
+          <h3 className = "text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto"> Maximize your investment in an emerging product  </h3>
+          <p className = "leading-normal mx-auto my-4 w-10/12 sm:w-7/12 lg:w-6/12"> We proudly present our technology as the epitome of robustness and advancement within the device tracking industry. Our cutting-edge solutions surpass all others, offering unparalleled accuracy, efficiency, and reliability. With a steadfast commitment to continuous improvement, we prioritize strong customer support and user-friendly software, ensuring that our clients not only maximize their investment but also experience seamless navigation towards their business objectives. </p>
         </div>
         <div className="flex justify-center pw-full px-8">
           <Image 
-            src="/website.svg"
-            alt="website"
+            src="/tech.svg"
+            alt="tech"
             width={600}
             height={300}
             className="h-auto md:max-w-1/2"
