@@ -1,12 +1,14 @@
 'use client'
 import React, { useEffect } from "react";
-import Calender from '../components/Calender'
+import {InlineWidget} from "react-calendly"
 
 
 export default function BookNow() {
     return( 
         <>
-            <Calender url="https://calendly.com/waypointtechnologies" />
+        <div>
+        <InlineWidget url = "https://calendly.com/waypointtechnologies" /> 
+        </div>
         </>  
     )
 } 
