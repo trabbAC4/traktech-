@@ -184,9 +184,9 @@ export default function About() {
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
           alt="Product Image"
-          className="w-full sm:h-64 mx-auto"
+          className="w-full h-80 mx-auto"
           height={300}
-          src="/gps.jpg"
+          src="/Vehicles.png"
           width={300}
         />
        </div> 
@@ -196,9 +196,9 @@ export default function About() {
         <div className = "w-full sm:w-1/2 p-6 mt-6">
         <Image
           alt="Product Image"
-          className="w-full sm:h-64 mx-auto"
+          className="w-full h-64 mx-auto"
           height={300}
-          src="/gps.jpg"
+          src= "/Monitoring.jpg"
           width={300}
         />
         </div>
