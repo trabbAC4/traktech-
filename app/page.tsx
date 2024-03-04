@@ -139,16 +139,21 @@ export default function Home() {
       <div className = "flex flex-wrap">
         <div className = "w-5/6 sm:w-1/2 p-6"> 
         <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
-          Achieve ultimate excellence 
+          Achieve Ultimate Excellence 
         </h3> 
-        <p className = "text-gray-600 mb-8"> Track the precise location of your vehicles with our cutting-edge fleet-tracking solution, whether they&apos;re parked or in motion, all in real-time on a dynamic map interface. Utilize advanced geolocation technology to swiftly pinpoint the nearest driver for rapid intervention, enhancing customer satisfaction and slashing road time. Harness the power of GPS geolocation to optimize cost-efficiency and boost productivity across your fleet operations. </p> 
-        <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-        			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
-       				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
-          			<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-            		</span>
-                	<span className="relative">Request a Demo</span>
-       </Link>
+        <p className="text-gray-600 mt-12 mb-12 text-lg lg:text-xl leading-relaxed">
+         Track the precise location of your vehicles with our cutting-edge fleet-tracking solution, whether they&apos;re parked or in motion, all in real-time on a dynamic map interface. Utilize advanced geolocation technology to swiftly pinpoint the nearest driver for rapid intervention, enhancing customer satisfaction and slashing road time. Harness the power of GPS geolocation to optimize cost-efficiency and boost productivity across your fleet operations.
+        </p>
+
+        <div className="flex justify-center">
+        <Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-16 mt-12 py-4 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+          <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+          <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+          </span>
+          <span className="relative">Request a Demo</span>
+        </Link>
+      </div>
        </div> 
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
@@ -167,7 +172,7 @@ export default function Home() {
         <div className = "w-full sm:w-1/2 p-6 mt-6">
         <Image
           alt="Product Image"
-          className="w-full mx-auto"
+          className="w-full mx-auto "
           height={300}
           src="/customerphone.jpg"
           width={300}
@@ -175,21 +180,22 @@ export default function Home() {
         </div>
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 
           <div className = "align-middle"> 
-          <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> Contact a specialist  </h3> 
-          <p className = "text-gray-600 mb-8"> Streamline communication by sending vital information directly to your driver&apos;s device with seamless integration between our tracking device and your platform. Experience the ease of real-time location updates and instant results at your fingertips. Minimize administrative burdens with automated time recording, enabling precise tracking and enhancement of driving behaviors effortlessly. </p> 
-          <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-        			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
-       				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
-          			<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-            		</span>
-                	<span className="relative">Book a Call </span>
-         </Link>
+          <h3 className = "text-3xl text-gray-800 font-bold leading-none  mb-3"> Contact a specialist  </h3> 
+          <p className="text-gray-600 mt-12 mb-12 text-lg lg:text-xl"> Streamline communication by sending vital information directly to your driver&apos;s device with seamless integration between our tracking device and your platform. Experience the ease of real-time location updates and instant results at your fingertips. Minimize administrative burdens with automated time recording, enabling precise tracking and enhancement of driving behaviors effortlessly. </p> 
+         <Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+          <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+         <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+        </span>
+        <span className="relative">Book a Call </span>
+      </Link>
          </div>
         </div>
       </div>
     </div>
     </section>
-    <section className="bg-gray-500 flex flex-col justify-center items-center mt-8 mb-8 py-8 md:py-6 lg:py-8 text-white relative overflow-hidden">
+
+  <section className="flex flex-col justify-center items-center mt-12 mb-12 py-8 md:py-6 lg:py-8 text-white relative overflow-hidden">
   {/* Custom circle background */}
   <h1 className="text-6xl font-extrabold text-center mb-8 text-black relative z-10">
     Our Impact 
@@ -205,11 +211,11 @@ export default function Home() {
     </div>
 
     {/* Box 2 */}
-    <div className="bg-white rounded-full p-4 sm:p-6 text-center">
+    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
       <p className="text-4xl font-bold text-green-900 mb-4">
         <AnimatedNumbers start={0} end={95} /> %
       </p>
-      <p className="text-lg text-black">Software reliability</p>
+      <p className="text-lg text-white">Software reliability</p>
     </div>
 
     {/* Box 3 */}
@@ -221,11 +227,11 @@ export default function Home() {
     </div>
 
     {/* Box 4 */}
-    <div className="bg-white rounded-full p-4 sm:p-6 text-center">
+    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
       <p className="text-4xl font-bold text-green-900 mb-4">
         <AnimatedNumbers start={0} end={28} /> +
       </p>
-      <p className="text-lg text-black">Different devices for your needs</p>
+      <p className="text-lg text-white">Different devices for your needs</p>
     </div>
 
     {/* Box 5 */}
@@ -235,10 +241,10 @@ export default function Home() {
       <p className="text-lg text-white">Accuracy rate </p> 
     </div> 
     {/* Box 6 */}
-    <div className="bg-white rounded-full p-4 sm:p-6 text-center">
+    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
       <p className="text-4xl font-bold text-green-900 mb-4">
         <AnimatedNumbers start = {0} end = {100000} /> +</p>
-      <p className="text-lg text-black">Satisfied Customers </p> 
+      <p className="text-lg text-white">Satisfied Customers </p> 
     </div>
   </div>
 </section>
