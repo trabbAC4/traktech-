@@ -146,7 +146,7 @@ export default function Home() {
         </p>
 
         <div className="flex justify-center">
-        <Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-16 mt-12 py-4 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+        <Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-16 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
           <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
           <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
@@ -155,40 +155,41 @@ export default function Home() {
         </Link>
       </div>
        </div> 
-       <div className = "w-full sm:w-1/2 p-6"> 
+       <div className = "w-full lg:w-1/2 sm:w-1/2 p-6"> 
         <Image
           alt="Product Image"
-          className="w-full mx-auto"
+          className="w-full mx-auto rounded-lg"
           height={400}
-          src="/fleettrucks.jpg"
+          src="/GroupTrucks.jpg"
           width={400}
         />
        </div> 
       </div>
 
 
-
       <div className = "flex flex-wrap flex-col-reverse sm:flex-row"> 
-        <div className = "w-full sm:w-1/2 p-6 mt-6">
+        <div className = "w-full lg:w-1/2 sm:w-1/2 p-6 mt-6">
         <Image
           alt="Product Image"
-          className="w-full mx-auto "
+          className="w-full h-full object-cover rounded-lg"
           height={300}
-          src="/customerphone.jpg"
+          src= "/customerphone.jpg"
           width={300}
         />
         </div>
-        <div className = "w-full sm:w-1/2 p-6 mt-6"> 
+        <div className = "w-full lg:w-1/2 sm:w-1/2 p-6 mt-6"> 
           <div className = "align-middle"> 
           <h3 className = "text-3xl text-gray-800 font-bold leading-none  mb-3"> Contact a specialist  </h3> 
           <p className="text-gray-600 mt-12 mb-12 text-lg lg:text-xl"> Streamline communication by sending vital information directly to your driver&apos;s device with seamless integration between our tracking device and your platform. Experience the ease of real-time location updates and instant results at your fingertips. Minimize administrative burdens with automated time recording, enabling precise tracking and enhancement of driving behaviors effortlessly. </p> 
-         <Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+          <div className = "flex justify-center"> 
+          <Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
           <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
          <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </span>
         <span className="relative">Book a Call </span>
       </Link>
+      </div> 
          </div>
         </div>
       </div>
@@ -198,51 +199,51 @@ export default function Home() {
   <section className="flex flex-col justify-center items-center mt-12 mb-12 py-8 md:py-6 lg:py-8 text-white relative overflow-hidden">
   {/* Custom circle background */}
   <h1 className="text-6xl font-extrabold text-center mb-8 text-black relative z-10">
-    Our Impact 
+    Our <span className = "text-green"> Impact </span> 
   </h1>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-6xl relative z-10">
     {/* Box 1 */}
-    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">
+    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={0} end={100} /> %
       </p>
       <p className="text-lg text-white">All of our products are manufactured in the United States</p>
     </div>
 
     {/* Box 2 */}
-    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">
+    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={0} end={95} /> %
       </p>
       <p className="text-lg text-white">Software reliability</p>
     </div>
 
     {/* Box 3 */}
-    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">
+    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={500} end={10000} /> +
       </p>
       <p className="text-lg text-white">Fleets and vehicles monitored worldwide</p>
     </div>
 
     {/* Box 4 */}
-    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">
+    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={0} end={28} /> +
       </p>
       <p className="text-lg text-white">Different devices for your needs</p>
     </div>
 
     {/* Box 5 */}
-    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">
+    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start = {0} end = {90} /> %</p>
       <p className="text-lg text-white">Accuracy rate </p> 
     </div> 
     {/* Box 6 */}
-    <div className="bg-black rounded-full p-4 sm:p-6 text-center">
-      <p className="text-4xl font-bold text-green-900 mb-4">
+    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start = {0} end = {100000} /> +</p>
       <p className="text-lg text-white">Satisfied Customers </p> 
     </div>
@@ -293,7 +294,7 @@ export default function Home() {
     </section>
 
 
-    <section className="bg-gray-500 px-4 py-8 md:py-16 lg:py-24">
+    <section className="bg-emerald-950 px-4 py-8 md:py-16 lg:py-24">
     <div className="max-w-4xl mx-auto text-center">
     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Find your way with WayPoint</h1>
     <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-200 leading-relaxed mb-8">Speak with our team and see which plan would be the best for you</h2>
@@ -303,14 +304,14 @@ export default function Home() {
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           			<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             		</span>
-                	<span className="relative">Request a Demo</span>
+                	<span className="relative text-white">Request a Demo</span>
       </Link>
       <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
         			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           			<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             		</span>
-                	<span className="relative">Contact Us</span>
+                	<span className="relative text-white">Contact Us</span>
       </Link>
     </div>
   </div>
