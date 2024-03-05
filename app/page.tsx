@@ -14,8 +14,12 @@ import ImageGallery from './components/imagegallery'
 import ImageDisplay from './components/ImageDisplay'
 import ActiveSlider from './components/ActiveSlider'
 import AnimatedNumbers from './components/AnimatedNumbers'
-
-
+import { FaFlagUsa } from "react-icons/fa";
+import { RiComputerLine } from "react-icons/ri";
+import { LiaTruckSolid } from "react-icons/lia";
+import { HiMiniDevicePhoneMobile } from "react-icons/hi2";
+import { TbGps } from "react-icons/tb";
+import { FaUserCheck } from "react-icons/fa6";
 
 
 
@@ -160,7 +164,7 @@ export default function Home() {
           alt="Product Image"
           className="w-full mx-auto rounded-lg"
           height={400}
-          src="/GroupTrucks.jpg"
+          src="/grouptrucks.jpg"
           width={400}
         />
        </div> 
@@ -205,14 +209,16 @@ export default function Home() {
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-6xl relative z-10">
     {/* Box 1 */}
     <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+     <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <FaFlagUsa /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
-        <AnimatedNumbers start={0} end={100} /> %
+        <AnimatedNumbers  start={0} end={100} /> %
       </p>
-      <p className="text-lg text-white">All of our products are manufactured in the United States</p>
+      <p className="text-lg text-white">Products are manufactured in the United States</p>
     </div>
 
     {/* Box 2 */}
     <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+      <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <RiComputerLine /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={0} end={95} /> %
       </p>
@@ -221,6 +227,7 @@ export default function Home() {
 
     {/* Box 3 */}
     <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+    <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <LiaTruckSolid /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={500} end={10000} /> +
       </p>
@@ -229,6 +236,7 @@ export default function Home() {
 
     {/* Box 4 */}
     <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+    <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <HiMiniDevicePhoneMobile /></p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={0} end={28} /> +
       </p>
@@ -237,12 +245,14 @@ export default function Home() {
 
     {/* Box 5 */}
     <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+    <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <TbGps /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start = {0} end = {90} /> %</p>
       <p className="text-lg text-white">Accuracy rate </p> 
     </div> 
     {/* Box 6 */}
     <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+    <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <FaUserCheck /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start = {0} end = {100000} /> +</p>
       <p className="text-lg text-white">Satisfied Customers </p> 
