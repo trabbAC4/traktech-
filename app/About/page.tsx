@@ -42,7 +42,7 @@ export default function About() {
   <div className="-mx-4 flex flex-wrap">
     <div className="w-full px-4">
       <div className="mx-auto mb-8 max-w-[510px] text-center lg:mb-12">
-        <h2 className="text-dark dark:text-black mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]">
+        <h2 className="dark:text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]">
           What We Offer
         </h2>
         <p className="text-body-color text-base dark:text-dark-6 text-left">
