@@ -191,9 +191,8 @@ export default function About() {
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
           alt="Product Image"
-          className="w-full h-80 mx-auto"
-          height={300}
-          src="/Vehicles.png"
+          height={500}
+          src="/location.jpg"
           width={300}
         />
        </div> 
@@ -239,7 +238,7 @@ export default function About() {
     </section>
 
 
-  <section className="bg-gray-500 px-4 py-8 md:py-16 lg:py-24">
+  <section className="bg-emerald-950 px-4 py-8 md:py-16 lg:py-24">
     <div className="max-w-4xl mx-auto text-center">
     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Start your next journey now </h1>
     <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-200 leading-relaxed mb-8">Handle the new age of technology </h2>

@@ -176,9 +176,9 @@ export default function Home() {
         <Image
           alt="Product Image"
           className="w-full h-full object-cover rounded-lg"
-          height={300}
+          height={400}
           src= "/customerphone.jpg"
-          width={300}
+          width={400}
         />
         </div>
         <div className = "w-full lg:w-1/2 sm:w-1/2 p-6 mt-6"> 
