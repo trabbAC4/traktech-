@@ -4,7 +4,7 @@
 import Image from 'next/image'
 import {useEffect, useState} from 'react';
 import {Link} from "@nextui-org/link";
-import ImageDisplay from '../../components/ImageDisplay';
+//import ImageDisplay from '../../components/ImageDisplay';
 import ActiveSlider from '../../components/ActiveSlider';
 
 

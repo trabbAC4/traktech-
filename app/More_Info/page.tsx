@@ -1,7 +1,7 @@
 'use client'
 import Footer from '../components/Footer'
 import Navbar from '../components/Nav'
-import ImageDisplay from '../components/ImageDisplay'
+//import ImageDisplay from '../components/ImageDisplay'
 import Image from 'next/image'
 import { Link } from "@nextui-org/link";
 import {Input, Textarea} from "@nextui-org/react";
