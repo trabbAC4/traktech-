@@ -11,7 +11,7 @@ import { Link } from "@nextui-org/link";
 import SlideShow from './components/slideshow';
 import AnimatedChart from './components/Graphs';
 import ImageGallery from './components/imagegallery'
-import ImageDisplay from './components/ImageDisplay'
+//import ImageDisplay from './components/ImageDisplay'
 import ActiveSlider from './components/ActiveSlider'
 import AnimatedNumbers from './components/AnimatedNumbers'
 import { FaFlagUsa } from "react-icons/fa";
