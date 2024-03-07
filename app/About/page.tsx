@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Link } from "@nextui-org/link";
-import ImageDisplay from '../components/ImageDisplay'; 
+//import ImageDisplay from '../components/ImageDisplay'; 
 import { FaCalendarCheck } from "react-icons/fa";
 
 
