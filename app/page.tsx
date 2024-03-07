@@ -41,54 +41,33 @@ import { Card, CardContent } from "@/components/ui/card"
 
 
 export default function Home() {
-  const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
 
-    window.addEventListener('scroll', handleScroll);
 
-    // Clean up the event listener
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
-  const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    const targetCount = 100; // Target count value
-    const duration = 3000; // Duration of animation in milliseconds
-    const steps = 100; // Number of steps
-
-    const increment = targetCount / steps;
-    const interval = duration / steps;
-
-    let currentCount = 0;
-    const timer = setInterval(() => {
-      currentCount += increment;
-      if (currentCount >= targetCount) {
-        currentCount = targetCount;
-        clearInterval(timer);
-      }
-      setCount(currentCount);
-    }, interval);
-
-    // Cleanup function to clear the interval
-    return () => clearInterval(timer);
-  }, []);
 
 
   return(
   <>  
-      <SlideShow />
+
+    <div className="relative"> {/* This div is used to position the video and text relative to each other */}
+    <video 
+      src="\landing_page_video.mp4" // Assuming the video is in the public folder
+      //type="video/mp4" // Include the MIME type
+      autoPlay // if you want it to autoplay
+      muted // if you want it to autoplay in modern browsers
+      loop // for looping the video
+    />
+
+<div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center"> {/* This div is for the text overlay */}
+        <p className="text-white text-xl font-bold"></p>
+      </div>
+    </div>
+
       <main className = "scroll-smooth">
       <section className="bg-white rounded-lg p-6 shadow-md text-center my-8">
-      <div className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+      <div className={`transition-opacity duration-1000 `}>
       <h1 className="text-black text-4xl md:text-center text-4xl sm:text-left text-2xl font-bold px-4">
           Track your company&apos;s vehicles and reduce your fleet management costs with WayPoint Technologies
       </h1>
@@ -126,7 +105,7 @@ export default function Home() {
 </div> 
 </section>
 <section>
-  <div className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+  <div className={`transition-opacity duration-1000 `}>
     <ImageGallery /> 
   </div> 
 
@@ -136,7 +115,7 @@ export default function Home() {
 
 
     <section className = "bg-white border-b py-8">
-      <div className={`transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+      <div className={`transition-opacity duration-1000 `}>
       <div className = "container max-w-5xl mx-auto m-8">
         <h1 className = "w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"> Leader in transitional technology</h1>
       </div>
@@ -217,7 +196,7 @@ export default function Home() {
     </div>
 
     {/* Box 2 */}
-    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+    <div className="bg-emerald-900 rounded-full p-4 sm:p-6 text-center">
       <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <RiComputerLine /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={0} end={95} /> %
@@ -226,7 +205,7 @@ export default function Home() {
     </div>
 
     {/* Box 3 */}
-    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+    <div className="bg-emerald-800 rounded-full p-4 sm:p-6 text-center">
     <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <LiaTruckSolid /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={500} end={10000} /> +
@@ -235,7 +214,7 @@ export default function Home() {
     </div>
 
     {/* Box 4 */}
-    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+    <div className="bg-emerald-700 rounded-full p-4 sm:p-6 text-center">
     <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <HiMiniDevicePhoneMobile /></p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={0} end={28} /> +

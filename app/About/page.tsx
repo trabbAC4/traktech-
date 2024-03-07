@@ -65,8 +65,12 @@ export default function About() {
             />
         </div>
 
-        <div className="relative z-10 mt-16">
-            <h4 className="text-dark dark:text-white mb-[14px] text-2xl font-semibold">
+        <div className="relative z-10 mt-16" style={{ 
+     //background: 'rgba(0, 0, 0, 0.5)', // semi-transparent black background
+     padding: '10px', // padding so the background extends beyond the text
+     borderRadius: '5px' // rounded corners if preferred
+}}>
+    <h4 className="text-white mb-[14px] text-2xl font-semibold">
                 Successful delivery
             </h4>
         </div>
@@ -85,8 +89,12 @@ export default function About() {
             />
         </div>
 
-        <div className="relative z-10 mt-16">
-            <h4 className="text-dark dark:text-white mb-[14px] text-2xl font-semibold">
+        <div className="relative z-10 mt-16" style={{ 
+    // background: 'rgba(0, 0, 0, 0.5)', // semi-transparent black background
+     padding: '10px', // padding so the background extends beyond the text
+     borderRadius: '5px' // rounded corners if preferred
+}}>
+    <h4 className="text-white mb-[14px] text-2xl font-semibold">
                 Advanced Technology
             </h4>
         </div>
@@ -103,8 +111,12 @@ export default function About() {
             />
         </div>
 
-        <div className="relative z-10 mt-16">
-            <h4 className="text-dark dark:text-white mb-[14px] text-2xl font-semibold">
+        <div className="relative z-10 mt-16" style={{ 
+    // background: 'rgba(0, 0, 0, 0.5)', // semi-transparent black background
+     padding: '10px', // padding so the background extends beyond the text
+     borderRadius: '5px' // rounded corners if preferred
+}}>
+    <h4 className="text-white mb-[14px] text-2xl font-semibold">
                 Device Security 
             </h4>
         </div>
@@ -121,8 +133,12 @@ export default function About() {
             />
         </div>
 
-        <div className="relative z-10 mt-16">
-            <h4 className="text-dark dark:text-white mb-[14px] text-2xl font-semibold">
+        <div className="relative z-10 mt-16" style={{ 
+     //background: 'rgba(0, 0, 0, 0.5)', // semi-transparent black background
+     padding: '10px', // padding so the background extends beyond the text
+     borderRadius: '5px' // rounded corners if preferred
+}}>
+    <h4 className="text-white mb-[14px] text-2xl font-semibold">
                 Customer Support 
             </h4>
         </div>
@@ -139,8 +155,12 @@ export default function About() {
             />
         </div>
 
-        <div className="relative z-10 mt-16">
-            <h4 className="text-dark dark:text-white mb-[14px] text-2xl font-semibold">
+        <div className="relative z-10 mt-16" style={{ 
+     //background: 'rgba(0, 0, 0, 0.5)', // semi-transparent black background
+     padding: '10px', // padding so the background extends beyond the text
+     borderRadius: '5px' // rounded corners if preferred
+}}>
+    <h4 className="text-white mb-[14px] text-2xl font-semibold">
                 WorldWide Coverage
             </h4>
         </div>
@@ -157,8 +177,12 @@ export default function About() {
             />
         </div>
 
-        <div className="relative z-10 mt-16">
-            <h4 className="text-dark dark:text-white mb-[14px] text-2xl font-semibold">
+        <div className="relative z-10 mt-16" style={{ 
+     //background: 'rgba(0, 0, 0, 0.5)', // semi-transparent black background
+     padding: '10px', // padding so the background extends beyond the text
+     borderRadius: '5px' // rounded corners if preferred
+}}>
+    <h4 className="text-white mb-[14px] text-2xl font-semibold">
                 Accurate Tracking 
             </h4>
         </div>
