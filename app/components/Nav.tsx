@@ -25,7 +25,7 @@ export default function Nav() {
       <Link href="/About" className="text-black text-lg mx-4 relative overflow-hidden hover:text-green-500">
       <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">About</span>
       </Link>
-      <Link href="/Contact" className="text-black text-lg mx-4 relative overflow-hidden hover:text-green-500">
+      <Link href="/contact" className="text-black text-lg mx-4 relative overflow-hidden hover:text-green-500">
       <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">Contact</span>
       </Link>
       <Link href="/Technology" className="text-black text-lg mx-4 relative overflow-hidden hover:text-green-500">
