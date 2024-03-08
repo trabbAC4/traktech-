@@ -60,10 +60,33 @@ export default function Home() {
       loop // for looping the video
     />
 
-<div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center"> {/* This div is for the text overlay */}
-        <p className="text-white text-xl font-bold"></p>
-      </div>
-    </div>
+<div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-start" style={{ paddingTop: '10vh' }}> {/* Inline styles to position text at the top with padding */}
+  <h1 style={{ color: 'white', fontSize: '48px', fontWeight: 'bold', textAlign: 'center', marginBottom: '20px', maxWidth: '80%', margin: '0 auto' }}> {/* Larger text for main heading */}
+    Revolutionize Fleet Management with WayPoint Technologies
+  </h1>
+  <p style={{ color: 'white', fontSize: '18px', textAlign: 'center', maxWidth: '80%', margin: '0 auto 20px' }}> {/* Smaller text for subheading */}
+    Unlock the future of tracking technology with our precise ELD Logging and efficient fleet management services. Join us for a free consultation.
+  </p>
+  <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '20px' }}> {/* Inline styles for button container */}
+			<Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+				<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+				<span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+				<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+				</span>
+				<span className="relative">Book a call</span>
+			</Link>
+			<Link href="/More_Info" className="shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+				<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+				<span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+				<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+				</span>
+				<span className="relative">Schedule a Demo</span>
+			</Link>
+			</div>
+        </div>  
+          </div>
+      
+    
 
       <main className = "scroll-smooth">
       <section className="bg-white rounded-lg p-6 shadow-md text-center my-8">
