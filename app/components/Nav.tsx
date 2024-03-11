@@ -12,7 +12,7 @@ export default function Nav() {
     const [showDropdown, setShowDropdown] = useState(false);
     return( 
     <> 
-      <nav className="bg-white p-4 flex items-center justify-between">
+      <nav style={{ backgroundColor: '#6d596e' }} className="p-4 flex items-center justify-between">
       {/* Logo */}
       <div className="flex items-center">
         <Link href= "/">
@@ -22,13 +22,13 @@ export default function Nav() {
       
       {/* Menu items */}
       <div className="hidden lg:flex flex-grow justify-center">
-      <Link href="/About" className="text-black text-lg mx-4 relative overflow-hidden hover:text-green-500">
+      <Link href="/About" style={{ color: '#fce2a8' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
       <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">About</span>
       </Link>
-      <Link href="/contact" className="text-black text-lg mx-4 relative overflow-hidden hover:text-green-500">
+      <Link href="/contact" style={{ color: '#fce2a8' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
       <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">Contact</span>
       </Link>
-      <Link href="/Technology" className="text-black text-lg mx-4 relative overflow-hidden hover:text-green-500">
+      <Link href="/Technology" style={{ color: '#fce2a8' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
       <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">Technology</span>
       </Link>
 
@@ -52,10 +52,11 @@ export default function Nav() {
             </svg>
           </button>
           {showDropdown && (
-            <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-10">
-            <Link href= "/About" className="block px-4 py-2 text-black hover:bg-gray-100">About</Link>
-            <Link href="/Contact" className="block px-4 py-2 text-black hover:bg-gray-100">Contact</Link>
-            <Link href="/Technology" className="block px-4 py-2 text-black hover:bg-gray-100">Technology</Link>
+            <div className="absolute right-0 mt-2 w-48  rounded-md shadow-lg z-10"
+            style={{ backgroundColor: '#6d596e' }}>
+            <Link href= "/About" style={{ color: '#fce2a8' }} className="block px-4 py-2 text-black hover:bg-gray-100">About</Link>
+            <Link href="/Contact" style={{ color: '#fce2a8' }} className="block px-4 py-2 text-black hover:bg-gray-100">Contact</Link>
+            <Link href="/Technology" style={{ color: '#fce2a8' }} className="block px-4 py-2 text-black hover:bg-gray-100">Technology</Link>
             </div>
           
           )}

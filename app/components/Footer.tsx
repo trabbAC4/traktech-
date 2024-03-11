@@ -10,7 +10,8 @@ import Image from 'next/image'
 export default function Footer() {
     return (
       <>
-			<div className="bg-gray-50 h-auto md:h-1/2 w-full flex flex-col md:flex-row justify-around items-start p-5 md:p-20">
+			<div className=" h-auto md:h-1/2 w-full flex flex-col md:flex-row justify-around items-start p-5 md:p-20"
+      style={{ backgroundColor: '#6d596e' }}>
   			<div className="p-5 ">
     		<ul>
         <Link href= "/">
@@ -21,26 +22,26 @@ export default function Footer() {
   <div className="p-5">
     <ul>
       <Link href = "/Technology"> 
-      <p className="text-green-800 font-bold text-2xl pb-4">Product</p>
+      <a className="font-bold text-2xl pb-4" style={{ color: '#fce2a8' }}>Product</a>
       </Link> 
 
-      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+      <li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer" style={{ color: '#e67728' }}>
         <Link href= "/Technology"> 
          Our App 
          </Link>
       </li>
 
-      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+      <li className="text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer" style={{ color: '#e67728' }}>
         <Link href= "/Technology/Products">
           GPS Tracking
         </Link>  
       </li>
-      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+      <li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer" style={{ color: '#e67728' }}>
         <Link href = "/Technology/Products"> 
           ELD Logging
         </Link>   
       </li>
-      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+      <li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer" style={{ color: '#e67728' }}>
         <Link href= "https://netfleet.us/track/index.php">
           Login Portal
         </Link> 
@@ -50,13 +51,13 @@ export default function Footer() {
   </div>
   <div className="p-5">
     <ul>
-      <p className="text-green-800 font-bold text-2xl pb-4">Company</p>
+      <p className="font-bold text-2xl pb-4" style={{ color: '#fce2a8' }}>Company</p>
       <Link href = "/About"> 
-      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+      <li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer" style={{ color: '#e67728' }}>
         About
       </li>
       </Link> 
-      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+      <li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer" style={{ color: '#e67728' }}>
       <Link href= "/Technology/Products"> 
         Products
       </Link>
@@ -65,18 +66,18 @@ export default function Footer() {
   </div>
   <div className="p-5">
     <ul>
-      <p className="text-green-800 font-bold text-2xl pb-4">Support</p>
-      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+      <p className=" font-bold text-2xl pb-4" style={{ color: '#fce2a8' }}>Support</p>
+      <li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer" style={{ color: '#e67728' }}>
         <Link href= "/Contact"> 
         Contact
         </Link>
       </li>
-      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+      <li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer" style={{ color: '#e67728' }}>
         <Link href= "/Technology/Products"> 
         Technical Support 
         </Link>
       </li>
-      <li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+      <li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer" style={{ color: '#e67728' }}>
         <Link href= "/More_Info"> Free Demo
 
         </Link>  

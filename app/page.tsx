@@ -54,7 +54,7 @@ export default function Home() {
 
 <div className="relative"> {/* This div is used to position the video and text relative to each other */}
   <video 
-    src="\landing_page_video.mp4" // Assuming the video is in the public folder
+    src="\landing_page_video.mp4" //  in the public folder
     autoPlay // if you want it to autoplay
     muted // if you want it to autoplay in modern browsers
     loop // for looping the video
@@ -318,7 +318,7 @@ export default function Home() {
     </section>
 
 
-    <section className="bg-emerald-950 px-4 py-8 md:py-16 lg:py-24">
+    <section className=" px-4 py-8 md:py-16 lg:py-24" style={{ backgroundColor: '#89b7b5' }}>
     <div className="max-w-4xl mx-auto text-center">
     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Find your way with WayPoint</h1>
     <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-200 leading-relaxed mb-8">Speak with our team and see which plan would be the best for you</h2>

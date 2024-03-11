@@ -37,6 +37,7 @@ export default function Technology() {
               alt=  "phone" 
               width = {450}
               height = {300}
+              layout="responsive"
 
             /> 
           </div>
@@ -90,6 +91,7 @@ export default function Technology() {
           height={500}
           src="/techpg1.jpg"
           width={500}
+          layout="responsive"
         />
        </div> 
       </div>
@@ -102,6 +104,7 @@ export default function Technology() {
           height={300}
           src="/techpg2.jpg"
           width={300}
+          layout="responsive"
         />
         </div>
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 
@@ -140,6 +143,7 @@ export default function Technology() {
           height={300}
           src="/FleetManage.jpeg"
           width={300}
+          layout="responsive"
         />
        </div> 
       </div>
@@ -151,6 +155,7 @@ export default function Technology() {
           height={300}
           src="/Geolocation.jpeg"
           width={300}
+          layout="responsive"
         />
         </div>
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 
@@ -182,6 +187,7 @@ export default function Technology() {
             width={600}
             height={300}
             className="h-auto md:max-w-1/2"
+            layout="responsive"
           /> 
       </div>
 
