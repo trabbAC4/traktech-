@@ -87,9 +87,9 @@ export default function Technology() {
         <Image
           alt="Product Image"
           className="w-full mx-auto"
-          height={300}
-          src="/TrucksDriving.jpeg"
-          width={300}
+          height={500}
+          src="/techpg1.jpg"
+          width={500}
         />
        </div> 
       </div>
@@ -100,7 +100,7 @@ export default function Technology() {
           alt="Product Image"
           className="w-full mx-auto"
           height={300}
-          src="/gpslocation.jpeg"
+          src="/techpg2.jpg"
           width={300}
         />
         </div>

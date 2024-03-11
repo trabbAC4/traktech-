@@ -94,7 +94,7 @@ export default function More_Info() {
   <div className="lg:w-1/2 relative"> 
     <div className = "absolute inset-0">
         <Image 
-            src= "/FreeDemo.jpeg"
+            src= "/FreeDemo.jpg"
             alt= "Background Image"
             layout = "fill"
             objectFit=  "cover"
