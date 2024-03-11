@@ -222,7 +222,7 @@ export default function Home() {
 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-6xl relative z-10">
     {/* Box 1 */}
-    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
      <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <FaFlagUsa /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers  start={0} end={100} /> %
@@ -231,7 +231,7 @@ export default function Home() {
     </div>
 
     {/* Box 2 */}
-    <div className="bg-emerald-900 rounded-full p-4 sm:p-6 text-center">
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
       <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <RiComputerLine /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={0} end={95} /> %
@@ -240,7 +240,7 @@ export default function Home() {
     </div>
 
     {/* Box 3 */}
-    <div className="bg-emerald-800 rounded-full p-4 sm:p-6 text-center">
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
     <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <LiaTruckSolid /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={500} end={10000} /> +
@@ -249,7 +249,7 @@ export default function Home() {
     </div>
 
     {/* Box 4 */}
-    <div className="bg-emerald-700 rounded-full p-4 sm:p-6 text-center">
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
     <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <HiMiniDevicePhoneMobile /></p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={0} end={28} /> +
@@ -258,14 +258,14 @@ export default function Home() {
     </div>
 
     {/* Box 5 */}
-    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
     <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <TbGps /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start = {0} end = {90} /> %</p>
       <p className="text-lg text-white">Accuracy rate </p> 
     </div> 
     {/* Box 6 */}
-    <div className="bg-emerald-950 rounded-full p-4 sm:p-6 text-center">
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
     <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <FaUserCheck /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start = {0} end = {100000} /> +</p>
