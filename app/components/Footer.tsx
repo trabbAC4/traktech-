@@ -73,7 +73,7 @@ export default function Footer() {
         </Link>
       </li>
       <li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer" style={{ color: '#e67728' }}>
-        <Link href= "/Technology/Products"> 
+        <Link href= "/contact"> 
         Technical Support 
         </Link>
       </li>
