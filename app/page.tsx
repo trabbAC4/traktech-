@@ -54,6 +54,13 @@ export default function Home() {
 
 <div className="relative"> {/* This div is used to position the video and text relative to each other */}
   <video 
+    style={{
+      width: '100vw',
+      height: '100vh',
+      objectFit: 'cover',
+      objectPosition: 'center'
+    }}
+    playsInline
     src="\landing_page_video.mp4" //  in the public folder
     autoPlay // if you want it to autoplay
     muted // if you want it to autoplay in modern browsers
