@@ -16,14 +16,14 @@ export default function Technology() {
               <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"> Our groundbreaking technology represents the pinnacle of navigation precision, offering unparalleled accuracy in global tracking. Our futuristic app stands as the epitome of effectiveness and reliability, setting the standard for tracking devices worldwide. Setting up an account is effortless and streamlined, requiring just a few minutes to complete, ensuring a seamless user experience.  </p> 
             <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
               <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-              <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+              <span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
                <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </span>
                 <span className="relative">Book a free call!</span>
             </Link>
             <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-              <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+              <span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
                <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </span>
@@ -77,7 +77,7 @@ export default function Technology() {
         </h3> 
         <p className = "text-gray-600 mb-8"> ELD Logging, an integral component of modern fleet management, ensures meticulous tracking of vehicle activity. At WayPoint Technologies, our ELD Logging system stands out for its precision and thorough monitoring capabilities. We pride ourselves on delivering accurate data that enables seamless compliance with regulatory standards while optimizing operational efficiency. Moreover, our solution is highly scalable, catering to the tracking needs of multiple fleets, regardless of size or complexity. With WayPoint Technologies, rest assured that your fleet management endeavors are backed by reliable and adaptable ELD Logging solutions. </p> 
         <Link href="/MoreInfo" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-        			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+        			<span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           			<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             		</span>
@@ -112,7 +112,7 @@ export default function Technology() {
           <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> GPS Navigation  </h3> 
           <p className = "text-gray-600 mb-8"> Our scalable GPS navigation system is designed to accurately monitor devices across the globe, ensuring precise tracking and location data anywhere in the world. At WayPoint Technologies, we take pride in our cutting-edge technology that provides real-time insights into vehicle movements and locations. Moreover, our system offers route optimization capabilities, enabling businesses to plan and execute the most efficient routes for their fleets. Whether you&apos;re operating locally or globally, trust WayPoint Technologies to provide a scalable GPS navigation solution that enhances operational efficiency and maximizes productivity. </p> 
           <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-        			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+        			<span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           			<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             		</span>
@@ -128,7 +128,7 @@ export default function Technology() {
         </h3> 
         <p className = "text-gray-600 mb-8"> At WayPoint Technologies, our fleet management solution offers a comprehensive approach to optimizing vehicle operations and enhancing overall efficiency. With our advanced technology, businesses can streamline their fleet management processes, from vehicle tracking to maintenance scheduling. Our system meticulously tracks every aspect of fleet activity, ensuring accuracy and reliability in all tracking data. By providing real-time insights into vehicle locations, performance metrics, and driver behavior, we empower businesses to make informed decisions and improve operational efficiency. Trust WayPoint Technologies for a fleet management solution that is efficient, reliable, and carefully tracked to deliver accurate results at every turn. </p> 
         <Link href="/MoreInfo" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-        			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+        			<span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           			<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             		</span>
@@ -163,7 +163,7 @@ export default function Technology() {
           <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> Enhanced Geolocation </h3> 
           <p className = "text-gray-600 mb-8"> At WayPoint Technologies, our geolocation services are second to none, delivering excellent and accurate results for your vehicle monitoring needs. Our software harnesses advanced technology to provide real-time tracking and precise location data, ensuring that you always have a clear understanding of your fleet&apos;s whereabouts. With a simple and intuitive interface, our software makes it easy to visualize the location of your devices at any given time. Whether you&apos;re managing a single vehicle or an entire fleet, trust WayPoint Technologies to provide reliable geolocation solutions that offer peace of mind and unparalleled visibility into your operations. </p> 
           <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-        			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+        			<span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           			<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             		</span>

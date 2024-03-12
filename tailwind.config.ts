@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         'emeraldgreen': '#022c22',
+        'purp': '#6d596e',
+        'amber': '#fce2a8'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

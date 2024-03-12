@@ -81,14 +81,14 @@ export default function Home() {
     </span>
     <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginTop: '2vh' }}> {/* Adjusted gap and margin */}
       <Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-4 py-1 sm:px-6 sm:py-1 overflow-hidden text-sm sm:text-sm font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-        <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+        <span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
         <span className="absolute right-0 flex items-center justify-start w-6 h-6 sm:w-5 sm:h-5 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           <svg className="w-4 h-4 sm:w-2 sm:h-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </span>
         <span className="relative">Book a call</span>
       </Link>
       <Link href="/More_Info" className="shadow-2xl relative inline-flex items-center px-4 py-1 sm:px-6 sm:py-1 overflow-hidden text-sm sm:text-sm font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-        <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+        <span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
         <span className="absolute right-0 flex items-center justify-start w-6 h-6 sm:w-5 sm:h-5 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           <svg className="w-4 h-4 sm:w-2 sm:h-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </span>
@@ -165,7 +165,7 @@ export default function Home() {
 
         <div className="flex justify-center">
         <Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-16 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-          <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+          <span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
           <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
           </span>
@@ -201,7 +201,7 @@ export default function Home() {
           <p className="text-gray-600 mt-12 mb-12 text-lg lg:text-xl"> Streamline communication by sending vital information directly to your driver&apos;s device with seamless integration between our tracking device and your platform. Experience the ease of real-time location updates and instant results at your fingertips. Minimize administrative burdens with automated time recording, enabling precise tracking and enhancement of driving behaviors effortlessly. </p> 
           <div className = "flex justify-center"> 
           <Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-          <span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+          <span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
          <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </span>
@@ -324,14 +324,14 @@ export default function Home() {
     <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-200 leading-relaxed mb-8">Speak with our team and see which plan would be the best for you</h2>
     <div className="flex justify-center space-x-4">
     <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-        			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+        			<span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           			<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             		</span>
                 	<span className="relative text-white">Request a Demo</span>
       </Link>
       <Link href="/contact" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
-        			<span className="absolute left-0 block w-full h-0 transition-all bg-green-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+        			<span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           			<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             		</span>
