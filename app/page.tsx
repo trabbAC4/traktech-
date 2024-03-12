@@ -67,34 +67,28 @@ export default function Home() {
     loop // for looping the video
   />
 
+<div className="absolute inset-0" style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}></div> 
+
   <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-top justify-top" style={{ paddingTop: '5vh' }}> {/* Adjusted padding for better positioning */}
-  <span style={{
-      backgroundColor: 'rgba(0, 0, 0, 0.3)', /* Semi-transparent grey background */
-      padding: '10px', /* Padding around the text */
-      borderRadius: '5px' /* Optional: rounded corners */
-  }}>
+
     <h1 style={{ color: 'white', fontSize: '4vw', fontWeight: 'bold', textAlign: 'center', marginBottom: '2vh', maxWidth: '90%', margin: '0 auto' }}> {/* Responsive font size and adjusted margins */}
       Revolutionize Fleet Management with WayPoint Technologies
     </h1>
-    </span>
-    <span style={{
-      backgroundColor: 'rgba(0, 0, 0, 0.3)', /* Semi-transparent grey background */
-      padding: '10px', /* Padding around the text */
-      borderRadius: '5px' /* Optional: rounded corners */
-  }}>
+
+
     <p style={{ color: 'white', fontSize: '2vw', textAlign: 'center', maxWidth: '90%', margin: '0 auto 2vh', textShadow: '2px 2px 8px rgba(0, 0, 0, 0.5)' }}> {/* Responsive font size and adjusted margins */}
       Unlock the future of tracking technology with our precise ELD Logging and efficient fleet management services. Join us for a free consultation.
     </p>
-    </span>
+
     <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginTop: '2vh' }}> {/* Adjusted gap and margin */}
-      <Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-4 py-1 sm:px-6 sm:py-1 overflow-hidden text-sm sm:text-sm font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+      <Link href="/BookNow" className="shadow-2xl relative inline-flex items-center px-4 py-1 sm:px-6 sm:py-1 overflow-hidden text-sm sm:text-sm font-medium text-white border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
         <span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
         <span className="absolute right-0 flex items-center justify-start w-6 h-6 sm:w-5 sm:h-5 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           <svg className="w-4 h-4 sm:w-2 sm:h-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </span>
         <span className="relative">Book a call</span>
       </Link>
-      <Link href="/More_Info" className="shadow-2xl relative inline-flex items-center px-4 py-1 sm:px-6 sm:py-1 overflow-hidden text-sm sm:text-sm font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+      <Link href="/More_Info" className="shadow-2xl relative inline-flex items-center px-4 py-1 sm:px-6 sm:py-1 overflow-hidden text-sm sm:text-sm font-medium text-white border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
         <span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
         <span className="absolute right-0 flex items-center justify-start w-6 h-6 sm:w-5 sm:h-5 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           <svg className="w-4 h-4 sm:w-2 sm:h-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
