@@ -264,7 +264,8 @@ export default function About() {
     </section>
 
 
-  <section className="bg-emerald-950 px-4 py-8 md:py-16 lg:py-24">
+  <section className=" px-4 py-8 md:py-16 lg:py-24" 
+  style={{ backgroundColor: '#89b7b5' }}>
     <div className="max-w-4xl mx-auto text-center">
     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Start your next journey now </h1>
     <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-200 leading-relaxed mb-8">Handle the new age of technology </h2>
