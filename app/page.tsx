@@ -54,7 +54,7 @@ export default function Home() {
   
       <Head>
         <title>WayPoint Technologies</title>
-        <meta name="description" content="Unlock the future of tracking technology with our precise ELD Logging and efficient fleet management services." />
+        <meta name="description" content="Unlock the future of tracking technology with Waypoint Technologies!" />
         
       </Head>
 
