@@ -60,7 +60,7 @@ export default function Home() {
     loop // for looping the video
   />
 
-  <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center" style={{ paddingTop: '5vh' }}> {/* Adjusted padding for better positioning */}
+  <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-top justify-top" style={{ paddingTop: '5vh' }}> {/* Adjusted padding for better positioning */}
   <span style={{
       backgroundColor: 'rgba(0, 0, 0, 0.3)', /* Semi-transparent grey background */
       padding: '10px', /* Padding around the text */
@@ -222,7 +222,7 @@ export default function Home() {
 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-6xl relative z-10">
     {/* Box 1 */}
-    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#89b7b5' }}>
      <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <FaFlagUsa /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers  start={0} end={100} /> %
@@ -231,7 +231,7 @@ export default function Home() {
     </div>
 
     {/* Box 2 */}
-    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#89b7b5' }}>
       <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <RiComputerLine /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={0} end={95} /> %
@@ -240,7 +240,7 @@ export default function Home() {
     </div>
 
     {/* Box 3 */}
-    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#89b7b5' }}>
     <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <LiaTruckSolid /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={500} end={10000} /> +
@@ -249,7 +249,7 @@ export default function Home() {
     </div>
 
     {/* Box 4 */}
-    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#89b7b5' }}>
     <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <HiMiniDevicePhoneMobile /></p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start={0} end={28} /> +
@@ -258,14 +258,14 @@ export default function Home() {
     </div>
 
     {/* Box 5 */}
-    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#89b7b5' }}>
     <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <TbGps /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start = {0} end = {90} /> %</p>
       <p className="text-lg text-white">Accuracy rate </p> 
     </div> 
     {/* Box 6 */}
-    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#a8cab1' }}>
+    <div className="rounded-full p-4 sm:p-6 text-center" style={{ backgroundColor: '#89b7b5' }}>
     <p className="text-4xl font-bold text-white-900 mb-4 flex justify-center"> <FaUserCheck /> </p>
       <p className="text-4xl font-bold text-white-900 mb-4">
         <AnimatedNumbers start = {0} end = {100000} /> +</p>
