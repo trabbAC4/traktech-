@@ -68,7 +68,7 @@ export default function Footer() {
     <ul>
       <p className=" font-bold text-2xl pb-4" style={{ color: '#fce2a8' }}>Support</p>
       <li className=" text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer" style={{ color: '#e67728' }}>
-        <Link href= "/Contact"> 
+        <Link href= "/contact"> 
         Contact
         </Link>
       </li>
