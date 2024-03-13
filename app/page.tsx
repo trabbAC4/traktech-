@@ -20,7 +20,7 @@ import { LiaTruckSolid } from "react-icons/lia";
 import { HiMiniDevicePhoneMobile } from "react-icons/hi2";
 import { TbGps } from "react-icons/tb";
 import { FaUserCheck } from "react-icons/fa6";
-import { Metadata } from 'next'
+
 
 
 
