@@ -218,6 +218,7 @@ export default function About() {
           height={500}
           src="/location.jpg"
           width={700}
+          className="rounded-lg"
         />
        </div> 
       </div>
@@ -226,12 +227,13 @@ export default function About() {
         <div className = "w-full sm:w-1/2 p-6 mt-6">
         <Image
           alt="Product Image"
-          className="w-full h-64 mx-auto"
+          className="w-full h-64 mx-auto rounded-lg"
           height={400}
           src= "/Monitoring.jpg"
           layout="responsive"
           width={400}
           objectFit="contain"
+        
         />
         </div>
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 

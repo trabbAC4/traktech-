@@ -83,10 +83,11 @@ export default function Product() {
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
           alt="Product Image"
-          className="w-full sm:h-64 mx-auto"
+          className="w-full sm:h-64 mx-auto rounded-lg"
           height={300}
           src="/seamless.svg"
           width={300}
+          
         />
        </div> 
       </div>
@@ -95,7 +96,7 @@ export default function Product() {
         <div className = "w-full sm:w-1/2 p-6 mt-6">
         <Image
           alt="Product Image"
-          className="w-full sm:h-64 mx-auto"
+          className="w-full sm:h-64 mx-auto rounded-lg"
           height={300}
           src="/help.svg"
           width={300}
@@ -126,7 +127,7 @@ export default function Product() {
                  <Image 
                   src ="/Geolocation.jpeg"
                   alt= "geolocation"
-                  className = "w-full"
+                  className = "w-full rounded-lg"
                   height = {300}
                   width = {300}
 
@@ -163,7 +164,7 @@ export default function Product() {
                <Image 
                   src ="/FleetManage.jpeg"
                   alt= "geolocation"
-                  className = "w-full h-72"
+                  className = "w-full h-72 rounded-lg"
                   height = {300}
                   width = {300}
                   
@@ -197,7 +198,7 @@ export default function Product() {
                <Image 
                   src ="/Monitoring.jpg"
                   alt= "geolocation"
-                  className = "w-full"
+                  className = "w-full rounded-lg"
                   height = {300}
                   width = {300}
                   

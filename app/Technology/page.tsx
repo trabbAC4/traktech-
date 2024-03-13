@@ -38,6 +38,7 @@ export default function Technology() {
               width = {450}
               height = {300}
               layout="responsive"
+              className="rounded-lg"
 
             /> 
           </div>
@@ -58,7 +59,7 @@ export default function Technology() {
         height={800} // Adjust height as per your requirement
         layout="responsive"
         objectFit="contain" // You can adjust objectFit based on your image's aspect ratio
-        className="mx-auto" // Center the image horizontally
+        className="mx-auto rounded-lg" // Center the image horizontally
       />
     </div>
   </div>
@@ -87,7 +88,7 @@ export default function Technology() {
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
           alt="Product Image"
-          className="w-full mx-auto"
+          className="w-full mx-auto rounded-lg"
           height={500}
           src="/techpg1.jpg"
           width={500}
@@ -100,7 +101,7 @@ export default function Technology() {
         <div className = "w-full sm:w-1/2 p-6 mt-6">
         <Image
           alt="Product Image"
-          className="w-full mx-auto"
+          className="w-full mx-auto rounded-lg"
           height={300}
           src="/techpg2.jpg"
           width={300}
@@ -139,7 +140,7 @@ export default function Technology() {
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
           alt="Product Image"
-          className="w-full mx-auto"
+          className="w-full mx-auto rounded-lg"
           height={300}
           src="/FleetManage.jpeg"
           width={300}
@@ -151,7 +152,7 @@ export default function Technology() {
         <div className = "w-full sm:w-1/2 p-6 mt-6">
         <Image
           alt="Product Image"
-          className="w-full mx-auto"
+          className="w-full mx-auto rounded-lg "
           height={300}
           src="/Geolocation.jpeg"
           width={300}

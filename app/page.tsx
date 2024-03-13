@@ -20,22 +20,7 @@ import { LiaTruckSolid } from "react-icons/lia";
 import { HiMiniDevicePhoneMobile } from "react-icons/hi2";
 import { TbGps } from "react-icons/tb";
 import { FaUserCheck } from "react-icons/fa6";
-import Head from 'next/head';
-
-
-
-
-
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
-import { Card, CardContent } from "@/components/ui/card"
-
-
+import { Metadata } from 'next'
 
 
 
@@ -43,22 +28,9 @@ import { Card, CardContent } from "@/components/ui/card"
 export default function Home() {
 
 
-
-
-
-
-
-
   return(
   <>  
   
-      <Head>
-        <title>WayPoint Technologies</title>
-        <meta name="description" content="Unlock the future of tracking technology with Waypoint Technologies!" />
-        
-      </Head>
-
-
 <div className="relative"> {/* This div is used to position the video and text relative to each other */}
   <video 
     style={{
