@@ -97,50 +97,15 @@ export default function Contact() {
                </div>
             </div>
          </div>
-         <div className="w-full px-4 lg:w-1/2 xl:w-5/12 border border-black">
-            <div className="relative p-8 bg-white rounded-lg shadow-lg dark:bg-dark-2 sm:p-12">
-            <form>
-              <div className="mb-6">
-              <input
-              type="text"
-              placeholder="Your Name"
-              className="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
-              />
-            </div>
-            <div className="mb-6">
-              <input
-              type="email"
-              placeholder="Your Email"
-              className="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
-            />
-            </div>
-          <div className="mb-6">
-            <input
-              type="text"
-              placeholder="Your Phone"
-              className="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
-            />
-          </div>
-          <div className="mb-6">
-          <textarea
-               placeholder="Your Message"
-            className="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none h-32" // Set the height using CSS class
-         ></textarea>
-
-          </div>
-          <div>
-            <button
-            type="submit"
-            className="w-full p-3 text-white transition border rounded border-black bg-black hover:bg-opacity-90"
-          >
-            Send Message
-          </button>
-        </div>
-      </form>
-    </div>
+         <div className="w-full px-4 lg:w-1/2 xl:w-5/12 ">
+            <iframe 
+      src="https://forms.monday.com/forms/embed/b2da63e3e343c3eb94ce623ae976d095?r=use1" 
+      width="750" 
+      height="1000" 
+      style={{ border: "0", boxShadow: "5px 5px 56px 0px rgba(0,0,0,0.15)" }}  // Converted the style string to an object
+    ></iframe>    </div>
 
          </div>
-        </div>
         </div>
       </section>
 
