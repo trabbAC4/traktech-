@@ -13,6 +13,8 @@ export default function Contact() {
   const [message, setMessage] = useState("");
 
     return (
+      <>
+
       <section className = "relative z-10 overflow-hidden bg-white dark:bg-dark py-20 lg:py-[120px]">
         <div className = "container mx-auto">
           <div className=  "flex flex-wrap -mx-4 lg:justify-between">
@@ -96,19 +98,27 @@ export default function Contact() {
                   </div>
                </div>
             </div>
-         </div>
-         <div className="w-full px-4 lg:w-1/2 xl:w-5/12 ">
-            <iframe 
-      src="https://forms.monday.com/forms/embed/b2da63e3e343c3eb94ce623ae976d095?r=use1" 
-      width="750" 
-      height="1000" 
-      style={{ border: "0", boxShadow: "5px 5px 56px 0px rgba(0,0,0,0.15)" }}  // Converted the style string to an object
-    ></iframe>    </div>
-
-         </div>
+            </div>
+            <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
+              <iframe 
+                src="https://forms.monday.com/forms/embed/b2da63e3e343c3eb94ce623ae976d095?r=use1"
+                style={{
+                  width: '100%', 
+                  height: '130vh', 
+                  border: "0", 
+                  boxShadow: "5px 5px 56px 0px rgba(0,0,0,0.15)", 
+                  maxWidth: "750px"
+                }}
+                title="Contact Form"
+              />
+            </div>
+          </div>
         </div>
       </section>
-
+    </>
+  );
+}
+      
 //       <section className="w-full h-screen flex flex-col items-center justify-center py-4 md:py-24 lg:py-32">
 //     <div className="grid grid-cols-2 gap-8">
 //     <div className="flex flex-col items-center justify-start">
@@ -193,5 +203,3 @@ export default function Contact() {
 // </section>
 
     
-	)
-}
