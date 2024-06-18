@@ -78,7 +78,7 @@ export default function Product() {
         <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
           Fast and Seamless
         </h3> 
-        <p className = "text-gray-600 mb-8"> WayPoint Technologies stands as a global frontrunner in telematics solutions, specializing in fleet management, vehicle telematics, and connected car services. Renowned as a leading SaaS solution, WayPoint Technologies caters to a diverse clientele ranging from small businesses to large corporations, all seeking to enhance vehicle performance, fuel efficiency, driver support, and fleet optimization. Furthermore, our services extend to encompass various industries, including car insurance, rental and leasing companies, car importers, and other entities serving professionals and individuals alike. </p> 
+        <p className = "text-gray-600 mb-8"> Navito stands as a global frontrunner in telematics solutions, specializing in fleet management, vehicle telematics, and connected car services. Renowned as a leading SaaS solution, Navito caters to a diverse clientele ranging from small businesses to large corporations, all seeking to enhance vehicle performance, fuel efficiency, driver support, and fleet optimization. Furthermore, our services extend to encompass various industries, including car insurance, rental and leasing companies, car importers, and other entities serving professionals and individuals alike. </p> 
        </div> 
        <div className = "w-full sm:w-1/2 p-6"> 
         <Image
@@ -105,7 +105,7 @@ export default function Product() {
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 
           <div className = "align-middle"> 
           <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> We are always here to help  </h3> 
-          <p className = "text-gray-600 mb-8"> At WayPoint Technologies, we provide a variety of services, including tracking devices monitored through our user-friendly software accessible on any device. Our specialties include precise geolocation, ELD logging, fleet management, and outstanding customer support. Our scalable solutions adapt to your changing needs, ensuring a smooth experience. As we expand, our technology evolves, offering the most streamlined solutions available. </p> 
+          <p className = "text-gray-600 mb-8"> At Navito, we provide a variety of services, including tracking devices monitored through our user-friendly software accessible on any device. Our specialties include precise geolocation, ELD logging, fleet management, and outstanding customer support. Our scalable solutions adapt to your changing needs, ensuring a smooth experience. As we expand, our technology evolves, offering the most streamlined solutions available. </p> 
           </div>
         </div>
       </div>

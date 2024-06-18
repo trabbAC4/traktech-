@@ -28,7 +28,7 @@ export default function Contact() {
                <p
                   className="text-base leading-relaxed text-body-color dark:text-dark-6 mb-9"
                   >
-                  At Waypoint Technologies, we pride ourselves on delivering unparalleled customer service alongside cutting-edge technology and user-friendly interfaces.
+                  At Navito, we pride ourselves on delivering unparalleled customer service alongside cutting-edge technology and user-friendly interfaces.
                </p>
                <div className="mb-8 flex w-full max-w-[370px]">
                   <div
@@ -93,7 +93,7 @@ export default function Contact() {
                         Email Address
                      </h4>
                      <p className="text-base text-body-color dark:text-dark-6">
-                        sales@waypointtechnologies.co
+                        sales@navito.com
                      </p>
                   </div>
                </div>

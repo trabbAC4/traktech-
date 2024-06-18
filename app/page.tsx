@@ -51,7 +51,7 @@ export default function Home() {
   <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-top justify-top" style={{ paddingTop: '5vh' }}> {/* Adjusted padding for better positioning */}
 
     <h1 style={{ color: 'white', fontSize: '4vw', fontWeight: 'bold', textAlign: 'center', marginBottom: '2vh', maxWidth: '90%', margin: '0 auto' }}> {/* Responsive font size and adjusted margins */}
-      Revolutionize Fleet Management with WayPoint Technologies
+      Revolutionize Fleet Management with Navito
     </h1>
 
 
@@ -84,9 +84,9 @@ export default function Home() {
       <section className="bg-white rounded-lg p-6 shadow-md text-center my-8">
       <div className={`transition-opacity duration-1000 `}>
       <h1 className="text-black text-4xl md:text-center text-4xl sm:text-left text-2xl font-bold px-4">
-          Track your company&apos;s vehicles and reduce your fleet management costs with WayPoint Technologies
+          Track your company&apos;s vehicles and reduce your fleet management costs with Navito
       </h1>
-      <h3 className = "text-black text-xl my-8 "> WayPoint Technologies is the leading cloud software for professional vehicle tracking and fleet management, made <span className = "font-bold"> primarily </span> in America </h3>
+      <h3 className = "text-black text-xl my-8 "> Navito is the leading cloud software for professional vehicle tracking and fleet management, made <span className = "font-bold"> primarily </span> in America </h3>
       <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center text-black-900 dark:text-black-100 my-8">
        Our Key Features
   </h2>
@@ -300,7 +300,7 @@ export default function Home() {
 
     <section className=" px-4 py-8 md:py-16 lg:py-24" style={{ backgroundColor: '#89b7b5' }}>
     <div className="max-w-4xl mx-auto text-center">
-    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Find your way with WayPoint</h1>
+    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Find your way with Navito!</h1>
     <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-200 leading-relaxed mb-8">Speak with our team and see which plan would be the best for you</h2>
     <div className="flex justify-center space-x-4">
     <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">

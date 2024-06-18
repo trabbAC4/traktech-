@@ -46,7 +46,7 @@ export default function About() {
           What We Offer
         </h2>
         <p className="text-body-color text-base dark:text-dark-6 text-left">
-          At WayPoint Technologies, our commitment to information security and privacy is unwavering. Through ongoing investments in engineering, proven technologies, processes, and talent, we ensure the delivery of top-tier telematics services. Continuous enhancement and innovation are central to our mission, positioning us as the premier partner for telematics solutions today and beyond.
+          At Navito, our commitment to information security and privacy is unwavering. Through ongoing investments in engineering, proven technologies, processes, and talent, we ensure the delivery of top-tier telematics services. Continuous enhancement and innovation are central to our mission, positioning us as the premier partner for telematics solutions today and beyond.
         </p>
       </div>
     </div>
@@ -203,7 +203,7 @@ export default function About() {
         <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3">
           Accurate Tracking 
         </h3> 
-        <p className = "text-gray-600 mb-8"> WayPoint Technologies stands as a global frontrunner in tracking solutions, specializing in fleet management, vehicle telematics, and connected car services. Renowned as a leading SaaS solution, WayPoint Technologies caters to a diverse clientele ranging from small businesses to large corporations, all seeking to enhance vehicle performance, fuel efficiency, driver support, and fleet optimization. Furthermore, our services extend to encompass various industries, including car insurance, rental and leasing companies, car importers, and other entities serving professionals and individuals alike. </p> 
+        <p className = "text-gray-600 mb-8"> Navito stands as a global frontrunner in tracking solutions, specializing in fleet management, vehicle telematics, and connected car services. Renowned as a leading SaaS solution, Navito caters to a diverse clientele ranging from small businesses to large corporations, all seeking to enhance vehicle performance, fuel efficiency, driver support, and fleet optimization. Furthermore, our services extend to encompass various industries, including car insurance, rental and leasing companies, car importers, and other entities serving professionals and individuals alike. </p> 
         <Link href="/MoreInfo" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
         			<span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
@@ -239,7 +239,7 @@ export default function About() {
         <div className = "w-full sm:w-1/2 p-6 mt-6"> 
           <div className = "align-middle"> 
           <h3 className = "text-3xl text-gray-800 font-bold leading-none mb-3"> Profound Technology </h3> 
-          <p className = "text-gray-600 mb-8"> At WayPoint Technologies, we provide a variety of services, including tracking devices monitored through our user-friendly software accessible on any device. Our specialties include precise geolocation, ELD logging, fleet management, and outstanding customer support. Our scalable solutions adapt to your changing needs, ensuring a smooth experience. As we expand, our technology evolves, offering the most streamlined solutions available. </p> 
+          <p className = "text-gray-600 mb-8"> At Navito, we provide a variety of services, including tracking devices monitored through our user-friendly software accessible on any device. Our specialties include precise geolocation, ELD logging, fleet management, and outstanding customer support. Our scalable solutions adapt to your changing needs, ensuring a smooth experience. As we expand, our technology evolves, offering the most streamlined solutions available. </p> 
           <Link href="/BookNow" className=" shadow-2xl relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
         			<span className="absolute left-0 block w-full h-0 transition-all bg-purp opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
        				 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">

@@ -13,12 +13,18 @@ export default function Nav() {
     return( 
     <> 
       <nav style={{ backgroundColor: '#6d596e' }} className="p-4 flex items-center justify-between">
-      {/* Logo */}
-      <div className="flex items-center">
-        <Link href= "/">
-        <Image src="/waylogo.png"  alt="Waypoint Technologies Logo" className= "rounded-2xl" width={240} height={80} /> {/* Adjust width and height according to your logo size */}
-        </Link>
-      </div>
+        {/* Logo */}
+        <div className="logo-container flex items-center">
+          <Link href="/">
+            <Image 
+              src="/navlogo.png"  
+              alt="Waypoint Technologies Logo" 
+              className="logo-image rounded-2xl" 
+              width={100} // Adjust width
+              height={100} // Adjust height
+            />
+          </Link>
+        </div>
       
       {/* Menu items */}
       <div className="hidden lg:flex flex-grow justify-center">

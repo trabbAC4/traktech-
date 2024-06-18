@@ -15,7 +15,13 @@ export default function Footer() {
   			<div className="p-5 ">
     		<ul>
         <Link href= "/">
-        <Image src="/waylogo.png" alt="Waypoint Technologies Logo" className = "rounded-2xl" width={400} height={100} /> {/* Adjust width and height according to your logo size */}
+        <Image 
+              src="/navlogo.png"  
+              alt="Waypoint Technologies Logo" 
+              className="logo-image rounded-2xl" 
+              width={160} // Adjust width
+              height={100} // Adjust height
+            /> {/* Adjust width and height according to your logo size */}
         </Link>
     </ul>
   </div>
