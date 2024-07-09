@@ -7,8 +7,8 @@ import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: ' WayPoint Technologies ',
-  description: 'Revolutionize fleet managment with Waypoint Technologies!'
+  title: ' Navito Technologies ',
+  description: 'Revolutionize fleet managment with Navito!'
 }
 
 export default function RootLayout({
