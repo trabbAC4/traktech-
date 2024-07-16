@@ -20,8 +20,8 @@ export default function Nav() {
               src="/logo_white.png"  
               alt="Navito Logo" 
               className="logo-image" 
-              width={120} // Adjust width
-              height={250} // Adjust height
+              width={110} // Adjust width
+              height={110} // Adjust height
             />
           </Link>
         </div>
