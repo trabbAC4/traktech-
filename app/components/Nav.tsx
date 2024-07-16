@@ -12,29 +12,29 @@ export default function Nav() {
     const [showDropdown, setShowDropdown] = useState(false);
     return( 
     <> 
-      <nav style={{ backgroundColor: '#6d596e' }} className="p-4 flex items-center justify-between">
+      <nav style={{ backgroundColor: '#ff5c00', }} className="p-4 flex items-center justify-between h-40">
         {/* Logo */}
-        <div className="logo-container flex items-center">
+        <div className="logo-container flex items-center ml-4">
           <Link href="/">
             <Image 
-              src="/navlogo.png"  
-              alt="Waypoint Technologies Logo" 
-              className="logo-image rounded-2xl" 
-              width={100} // Adjust width
-              height={100} // Adjust height
+              src="/logo_white.png"  
+              alt="Navito Logo" 
+              className="logo-image" 
+              width={120} // Adjust width
+              height={250} // Adjust height
             />
           </Link>
         </div>
       
       {/* Menu items */}
       <div className="hidden lg:flex flex-grow justify-center">
-      <Link href="/About" style={{ color: '#fce2a8' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
+      <Link href="/About" style={{ color: '#F8F6F0' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
       <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">About</span>
       </Link>
-      <Link href="/contact" style={{ color: '#fce2a8' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
+      <Link href="/contact" style={{ color: '#F8F6F0' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
       <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">Contact</span>
       </Link>
-      <Link href="/Technology" style={{ color: '#fce2a8' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
+      <Link href="/Technology" style={{ color: '#F8F6F0' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
       <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">Technology</span>
       </Link>
 
@@ -43,7 +43,7 @@ export default function Nav() {
 
       {/* Free Demo Button and Dropdown */}
       <div className="flex lg:flex items-center">
-      <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-gray-50">
+      <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-black">
         <span className="absolute left-0 block w-full h-0 transition-all bg-amber opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
         <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
