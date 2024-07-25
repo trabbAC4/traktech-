@@ -1,87 +1,100 @@
-'use client'
-import React, {useState}  from 'react';
-import {usePathname} from "next/navigation";
-import { Link } from "@nextui-org/link";
-import Image from "next/image";
-import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
+'use client';
 
+import React from 'react';
+import { cn } from "@/lib/utils";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu";
+import classnames from 'classnames';
 
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Button} from "@nextui-org/react";
+const solutions: { title: string; href: string; description: string }[] = [
+  {
+    title: "Trucking",
+    href: "/home",
+    description: "Explore our tracking solutions for the Trucking Industry!",
+  },
+  {
+    title: "Shipping",
+    href: "/home",
+    description: "Explore our tracking solutions for the Shipping Industry!",
+  },
+];
 
-export default function Nav() {
-    const [showDropdown, setShowDropdown] = useState(false);
-    return( 
-    <> 
-      <nav style={{ backgroundColor: '#ff5c00', }} className="p-4 flex items-center justify-between h-40">
-        {/* Logo */}
-        <div className="logo-container flex items-center ml-4">
-          <Link href="/">
-            <Image 
-              src="/logo_white.png"  
-              alt="Navito Logo" 
-              className="logo-image" 
-              width={110} // Adjust width
-              height={110} // Adjust height
-            />
-          </Link>
-        </div>
-      
-      {/* Menu items */}
-      <div className="hidden lg:flex flex-grow justify-center">
-      <Link href="/About" style={{ color: '#F8F6F0' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
-      <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">About</span>
-      </Link>
-      <Link href="/contact" style={{ color: '#F8F6F0' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
-      <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">Contact</span>
-      </Link>
-      <Link href="/Technology" style={{ color: '#F8F6F0' }} className=" text-lg mx-4 relative overflow-hidden hover:text-green-500">
-      <span className="relative z-10 transition-all duration-500 ease-in-out border-b-2 border-transparent">Technology</span>
-      </Link>
-
-
-      </div>
-
-      {/* Free Demo Button and Dropdown */}
-      <div className="flex lg:flex items-center">
-      <Link href="/More_Info" className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-black-600 border-2 border-black-600 rounded-full hover:text-white group hover:bg-black">
-        <span className="absolute left-0 block w-full h-0 transition-all bg-amber opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
-        <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-            </span>
-                <span className="relative">Free Demo</span>
-      </Link>
-        {/* Dropdown */}
-        <div className="relative lg:hidden">
-          <button className="text-black px-4 py-2" onClick={() => setShowDropdown(!showDropdown)}>
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          {showDropdown && (
-            <div className="absolute right-0 mt-2 w-48  rounded-md shadow-lg z-10"
-            style={{ backgroundColor: '#6d596e' }}>
-            <Link href= "/About" style={{ color: '#fce2a8' }} className="block px-4 py-2 text-black hover:bg-gray-100">About</Link>
-            <Link href="/Contact" style={{ color: '#fce2a8' }} className="block px-4 py-2 text-black hover:bg-gray-100">Contact</Link>
-            <Link href="/Technology" style={{ color: '#fce2a8' }} className="block px-4 py-2 text-black hover:bg-gray-100">Technology</Link>
-            </div>
-          
+const ListItem = React.forwardRef<
+  React.ElementRef<"a">,
+  React.ComponentPropsWithoutRef<"a">
+>(({ className, title, children, ...props }, ref) => {
+  return (
+    <li>
+      <NavigationMenuLink asChild>
+        <a
+          ref={ref}
+          className={cn(
+            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            className
           )}
-        </div>
-        
+          {...props}
+        >
+          <div className="text-md font-bold leading-none underline">{title}</div>
+          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+            {children}
+          </p>
+        </a>
+      </NavigationMenuLink>
+    </li>
+  );
+});
+ListItem.displayName = "ListItem";
+
+const Nav: React.FC = () => {
+  return (
+    <header className="flex justify-between items-center p-4">
+      
+        {/* Logo */}
+        <a href="/">
+      <img src="/logo.png" alt="Navito Logo" className="h-16 w-auto mr-4" />
+    </a>
+    <div className="flex-grow flex justify-center">
+        <NavigationMenu>
+          <NavigationMenuList className="flex space-x-4 items-center">
+            <NavigationMenuItem>
+              <NavigationMenuTrigger>Solutions</NavigationMenuTrigger>
+              <NavigationMenuContent>
+                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                  {solutions.map((solution) => (
+                    <ListItem
+                      key={solution.title}
+                      title={solution.title}
+                      href={solution.href}
+                    >
+                      {solution.description}
+                    </ListItem>
+                  ))}
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink href="/about">About</NavigationMenuLink>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink href="/contact">Contact</NavigationMenuLink>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <NavigationMenuLink href="/technology">Technology</NavigationMenuLink>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
       </div>
-    </nav>
-</>
+      <a href="/free-demo" className="btn-free-demo">
+      Free Demo
+    </a>
+    </header>
+  );
+};
 
-    )
-}
-
-
-
-
-
-
-      
-      
-      
-      
-
+export default Nav;
